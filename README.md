@@ -71,6 +71,45 @@ Hay 3 aspectos importantes a tener en cuenta para elegir una foto:
  
 3. Conocer el propósito: Antes de elegir una fotografía es importante que sepas el objetivo de tu publicación. Ej: Una nueva plaza fue inaugurada en un barrio. Mi objetivo de comunicación es brindar más seguridad al barrio, más zonas de recreación para la familia, etc. Al traducir esto en imágenes se podría apelar a gente disfrutando del espacio verde, o una foto de la plaza con sus nueva y segura iluminación.
  
+## Ejemplo
+
+### Macri: “Vamos a gobernar para todos”
+
+Mauricio Macri agradeció hoy el respaldo que le dio la ciudadanía para consagrarlo como nuevo Presidente de la Nación, ratificó que gobernará “para todos” y recalcó que trabajará desde el primer día “para poner el país en marcha”.
+
+“Quiero darle las gracias a todos los argentinos por la confianza y por haber creído que podemos y merecemos vivir mejor y que lo vamos a hacer juntos”, dijo el presidente electo durante una conferencia de prensa.
+
+Macri señaló que ese agradecimiento es extensivo también a los argentinos que votaron por Daniel Scioli y subrayó que a partir de ahora “la idea es gobernar para todos, porque es mucho más lo que nos une que lo que nos separa”.
+
+“Ya probamos demasiados años enfrentados”, advirtió durante el encuentro con la prensa esta mañana en la Usina del Arte, en el barrio de la Boca.
+
+Macri estuvo acompañado por la gobernadora electa de Buenos Aires, María Eugenia Vidal; el jefe de Gobierno porteño electo, Horacio Rodríguez Larreta, y por el jefe de la campaña presidencial de Cambiemos, Marcos Peña.
+
+#### Sobre el llamado de Cristina Fernández de Kirchner
+
+Confirmó que ayer recibió un llamado telefónico de la presidenta Cristina Fernández de Kirchner, con quien se reunirá mañana para comenzar a organizar la transición de cara al traspaso de mando el próximo 10 de diciembre.
+
+“Me llamó para felicitarme y me dijo que estaba contenta porque habíamos tenido el primer balotaje de la historia y que tuvimos una jornada de paz. Y me deseó la mejor de las suertes”
+Mauricio Macri.
+
+“Yo la felicité por el día de elecciones y por cómo había transcurrido todo y me pidió si mañana a las 19 podíamos estar en Olivos para tener la primera conversación, y allí estaremos”, agregó.
+
+Macri indicó que “en el curso de la semana vamos a trabajar activamente para definir lo antes posible el gabinete económico”, que tendrá seis ministros para las siguientes carteras: Hacienda y Finanzas, Trabajo, Energía, Producción, Transporte y Agricultura, Ganadería y Pesca.
+En ese sentido manifestó el deseo de que “esta alegría que hay hoy nos ayude rápidamente a poner el país en marcha” y apuntó que “necesitamos corregir las cosas que se venían haciendo mal”.
+Mencionó entre ellas “el cepo, no dar información y no tener un Banco Central independiente”.
+
+#### El impuesto a las ganancias
+
+Consultado sobre el Impuesto a las Ganancias señaló que en consonancia con lo que sostuvo durante la campaña electoral “vamos a ajustar el mínimo no imponible” para ”terminar con esa estafa que sufrieron los trabajadores de la mano de la inflación”.
+
+Reiteró que va a declarar la emergencia en materia de seguridad y que impulsará la “profesionalización” de las fuerzas de seguridad con el objetivo de que recuperen “el control territorial como prioridad absoluta”.
+
+Macri sostuvo que frente a “aquellos que cometieron actos que violan la Ley, la Justicia va a tener toda la libertad que corresponde para ir a fondo y que no haya ninguna impunidad”.
+
+Agregó que, del mismo modo, “la Justicia tendrá total independencia para continuar con su tarea”.
+
+Ratificó, asimismo, su compromiso contra la violencia de género, “una causa que nos ha movilizado a todos” a partir de la iniciativa“Ni una menos”.
+
 
 ***
 
