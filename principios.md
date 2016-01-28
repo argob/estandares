@@ -33,5 +33,6 @@ Planificamos nuestro trabajo sobre los servicios en iteraciones pequeñas para s
 
 ####Referencias
 
-[GOV.UK Design Principles](https://www.gov.uk/design-principles)
-[U.S. Digital Services Playbook](https://playbook.cio.gov/)
+* [GOV.UK Design Principles](https://www.gov.uk/design-principles)
+
+* [U.S. Digital Services Playbook](https://playbook.cio.gov/)
