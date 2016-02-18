@@ -397,7 +397,7 @@ El uso de palabras simples garantiza que somos comprendidos por el mayor número
 |---|---|
 |Oportunidades de empleo|Ofertas de trabajo|
 |El sufragio|El voto|
-|El sufragio|El voto|
+
 
 
 - Evitemos presentar ideas por su negación.
