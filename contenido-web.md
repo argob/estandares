@@ -450,10 +450,15 @@ El uso de palabras simples garantiza que somos comprendidos por el mayor número
 |Click|Clic
 |E-Mail|Dirección de correo electrónico|
 |Link|Enlace|
+|internet|Internet|
 |Ciento cincuenta mil beneficiarios|150.000 beneficiarios
 |15/3|15 de marzo|
 |El Ministro afirmó...|El ministro afirmó|
-
+|El estado (nacional)|El Estado (Nacional)|
+|El gobierno (nacional)|El Gobierno (Nacional)|
+|La provincia de Salta|La Provincia de Salta|
+|Argentina es un país...|La (República) Argentina es un país...|
+|El poder ejecutivo/legislativo/judicial|El Poder Ejecutivo/Legislativo/Judicial|
 
 ## Uso de imágenes
 
