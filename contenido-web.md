@@ -36,7 +36,7 @@ Para tomar decisiones
 - Soy extranjero y quiero estudiar en la Argentina.
 
 ## ¿Cómo leemos un contenido en pantalla?
-El experto en usabilidad Jakob Nielsen afirma que los usuarios leerán un contenido web si este cumple con una serie de principios[^1]. Dos de ellos refieren específicamente a la claridad del texto:
+El experto en usabilidad Jakob Nielsen afirma que los usuarios leerán un contenido web si este cumple con una serie de principios. Dos de ellos refieren específicamente a la claridad del texto:
 - Legibilidad: 
      - Palabras sencillas y breves.
      - Oraciones simples (estructura sujeto + verbo + complemento) y cortas.
@@ -519,6 +519,3 @@ Aquí ofrecemos un cuestionario de autoevaluación.
 - ¿Redactamos desde el punto de vista del lector?
 
 - ¿Podríamos haber presentado la información de otra forma aún más breve? 
-
-
-[^1]: Nielsen J. (2015, 15 de noviembre). *Legibility, Readability, and Comprehension: Making Users Read Your Words.* Recuperado de https://www.nngroup.com/articles/legibility-readability-comprehension/
