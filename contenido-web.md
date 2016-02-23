@@ -36,7 +36,7 @@ Para tomar decisiones
 - Soy extranjero y quiero estudiar en la Argentina.
 
 ## ¿Cómo leemos un contenido en pantalla?
-El experto en usabilidad Jakob Nielsen afirma que los usuarios leerán un contenido web si este cumple con una serie de principios. Dos de ellos refieren específicamente a la claridad del texto:
+El experto en usabilidad Jakob Nielsen afirma que los usuarios leerán un contenido web si este cumple con una serie de principios[^1]. Dos de ellos refieren específicamente a la claridad del texto:
 - Legibilidad: 
      - Palabras sencillas y breves.
      - Oraciones simples (estructura sujeto + verbo + complemento) y cortas.
@@ -48,9 +48,9 @@ El experto en usabilidad Jakob Nielsen afirma que los usuarios leerán un conten
   - El lector no tiene que recordar lo que leyó en un párrafo anterior para comprender párrafos posteriores.
   - A veces las imágenes y las infografías pueden explicar una idea compleja mejor que un texto.
 
-Asimismo, Nielsen observó que los usuarios leen poco más del 20% del texto de una página web. Esto nos obliga a ser breves y concisos cuando publicamos información y a redactar textos atractivos.
+Asimismo, Nielsen observó que los usuarios leen poco más del 20% del texto de una página web[^2]. Esto nos obliga a ser breves y concisos cuando publicamos información y a redactar textos atractivos.
 
-Por otro lado, cada vez más se utilizan dispositivos móviles para leer información en la web. La compañía Google informó los siguientes datos sobre la Argentina, correspondientes a 2015:
+Por otro lado, cada vez más se utilizan dispositivos móviles para leer información en la web. La compañía Google informó los siguientes datos sobre la Argentina, correspondientes a 2015[^3]:
 - 72% de la población (29 millones de personas) estaba conectada a la Red;
 - 43% usa celulares inteligentes para interactuar con Internet (unos 13 millones de personas);
 - 17% se conecta solo desde móviles con una pantalla de 4 pulgadas;
@@ -84,7 +84,7 @@ En general, podemos clasificar los contenidos del siguiente modo:
 
 **Un error común en las páginas gubernamentales es que suelen privilegiar lo que la institución es o hace, en lugar de informar lo que los usuarios necesitan**. Por eso,  la Comisión Europea recomienda lo siguiente: 
 
-«Usted puede tener presente objetivos institucionales en la escritura de su texto, pero  estos deben asociarse a alguna necesidad factible o de interés de su público objetivo. Su texto debe ser útil y utilizable, no simplemente una información en el vacío. **¿Qué quiere que sus usuarios hagan después de haber leído el texto?**» (El subrayado es nuestro).
+«Usted puede tener presente objetivos institucionales en la escritura de su texto, pero  estos deben asociarse a alguna necesidad factible o de interés de su público objetivo. Su texto debe ser útil y utilizable, no simplemente una información en el vacío. **¿Qué quiere que sus usuarios hagan después de haber leído el texto?**»[^4] (El subrayado es nuestro).
 
 Los contenidos que **no** debemos publicar son:  
 - los que ya se encuentran publicados en otros sitios oficiales;
@@ -397,7 +397,7 @@ El uso de palabras simples garantiza que somos comprendidos por el mayor número
 |---|---|
 |Oportunidades de empleo|Ofertas de trabajo|
 |El sufragio|El voto|
-
+|El sufragio|El voto|
 
 
 - Evitemos presentar ideas por su negación.
@@ -450,15 +450,10 @@ El uso de palabras simples garantiza que somos comprendidos por el mayor número
 |Click|Clic
 |E-Mail|Dirección de correo electrónico|
 |Link|Enlace|
-|internet|Internet|
 |Ciento cincuenta mil beneficiarios|150.000 beneficiarios
 |15/3|15 de marzo|
 |El Ministro afirmó...|El ministro afirmó|
-|El estado (nacional)|El Estado (Nacional)|
-|El gobierno (nacional)|El Gobierno (Nacional)|
-|La provincia de Salta|La Provincia de Salta|
-|Argentina es un país...|La (República) Argentina es un país...|
-|El poder ejecutivo/legislativo/judicial|El Poder Ejecutivo/Legislativo/Judicial|
+
 
 ## Uso de imágenes
 
@@ -466,7 +461,7 @@ El uso de palabras simples garantiza que somos comprendidos por el mayor número
 Las imágenes -sean fotos o ilustraciones- nos permiten darle apoyo documental al texto escrito. Cuando se trata de íconos y símbolos ampliamente reconocidos, nos ayudan a organizar visualmente la información. Privilegiemos su uso con fines informativos y evitemos utilizarlas para darle solo valor estético o visual.
 
 
-Expertos como Nikolajeva y Scott señalan que las imágenes que acompañan un texto funcionan de tres maneras:
+Expertos como Nikolajeva y Scott[^5] señalan que las imágenes que acompañan un texto funcionan de tres maneras:
 
 - Cooperante: La imagen y el texto escrito se complementan mutuamente.
 - Operante: La imagen agrega información que no estaba contenida en el texto, pero que se vincula con ella.
@@ -519,3 +514,17 @@ Aquí ofrecemos un cuestionario de autoevaluación.
 - ¿Redactamos desde el punto de vista del lector?
 
 - ¿Podríamos haber presentado la información de otra forma aún más breve? 
+
+[^1]: Nielsen J. (2015, 15 de noviembre). *Legibility, Readability, and Comprehension: Making Users Read Your Words*. Recuperado de https://www.nngroup.com/articles/legibility-readability-comprehension/ 
+[^2]: Nielsen J. (2008, 6 de mayo). *How Little Do Users Read?* Recuperado de https://www.nngroup.com/articles/how-little-do-users-read/
+[^3]: Dergabaderián, C.. (2015, 8 de octubre). Lo dice Google: el uso de smartphones cambió los hábitos de consumo de los argentinos. *IProfesional.com*. Recuperado de http://www.iprofesional.com/notas/220773-Lo-dice-Google- el-uso-de-smartphones-cambi-los-hbitos-de-consumo-de-los-argentinos-
+[^4]: Comision Europea (2008, 6 de mayo). *Basic principles of web writing*. Recuperado el 21 de enero de 2015 de http://ec.europa.eu/ipg/content/tips/communicating_en.htm#section_1
+[^5]: Nikolajeva, M. y Scott, C. (2001). *How Pictures Work*. Nueva York: Routledge. 
+
+
+
+
+
+
+
+
