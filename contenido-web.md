@@ -226,11 +226,11 @@ NO|SÍ|
 |gestiones ante las autoridades del Estado | involucradas en tu denuncia, mantendremos  
 |miembro contra el que se ha hecho la | tu identidad confidencial, a menos que nos
 |denuncia, lo harán respetando la elección|indiques lo contrario.
-|que Ud. haya hecho en relación con la divulgación|
-|de su identidad. Cuando Ud. no haya indicado| 
-|su elección, los servicios de la Comisión |
-|van a suponer que usted ha optado por |
-|un tratamiento confidencial.|
+|que Ud. haya hecho en relación con la|
+|divulgación de su identidad. Cuando Ud. no| 
+|haya indicado su elección, los servicios de la|
+|Comisión van a suponer que usted ha optado|
+|por un tratamiento confidencial.|
 
 
 #### Incluyamos solo información relevante
@@ -326,7 +326,7 @@ Si no queda más remedio que usar jerga porque cualquier otro término perdería
 
 - Recursos para mejorar la legibilidad
 
-aaa|bbb
+Recursos|Usos
 ---|---
 |**Negritas**|Resaltan las palabras clave de un párrafo. Aconsejamos un uso máximo de 2 resaltados por párrafo, para evitar que el texto resulte ilegible o sature visualmente. Nunca se usan en el título o la bajada/copete. 
 |*Bastardilla, cursiva o itálica*|Siempre las utilizamos para destacar vocablos en otros idiomas, como *smartphone* o *startup*.
@@ -345,8 +345,7 @@ Ejemplo:
 
 |NO|SÍ|
 ---|---
-Para más información sobre el Plan Belgrano,|Vea _toda la información sobre el Plan Belgrano_.
- _haga clic aquí_.|
+Para más información sobre el Plan Belgrano, *haga clic aquí*.|Vea toda la información sobre el Plan Belgrano.|
 
 
 - Siglas
@@ -397,7 +396,7 @@ El uso de palabras simples garantiza que somos comprendidos por el mayor número
 |---|---|
 |Oportunidades de empleo|Ofertas de trabajo|
 |El sufragio|El voto|
-
+|El sufragio|El voto|
 
 
 - Evitemos presentar ideas por su negación.
@@ -440,6 +439,8 @@ El uso de palabras simples garantiza que somos comprendidos por el mayor número
 |Deberá retirar el formulario. Una vez|Retirá el formulario. Completa*lo* y 
 |completado el mismo, deberá presentarlo|presenta*lo* en la oficina de atención. 
 |en las oficinas de atención.|
+ 
+
  
 
 
@@ -519,3 +520,19 @@ Aquí ofrecemos un cuestionario de autoevaluación.
 - ¿Redactamos desde el punto de vista del lector?
 
 - ¿Podríamos haber presentado la información de otra forma aún más breve? 
+
+
+### Legibilidad
+
+El índice de legibilidad es un instrumento para que evaluemos si nuestro texto es fácil de leer y comprender, es decir, adecuado a los parámetros buscados en este manual de estilo. La escala Inflesz es una de las utilizadas para medir legibilidad en el idioma castellano.
+
+#### Escala Inflesz 
+|Puntos|Grado|Tipo de publicación|
+|---|---|---|
+|>80|Muy fácil|Educación Básica, historietas infantiles|
+|65-80|Bastante fácil|Educación básica, literatura juvenil, *best sellers* | 
+|55-65|Normal| Educación media básica, prensa general|
+|40-55|Difícil|Educación media superior, divulgación científica, prensa especializada|
+|0-40|Muy difícil| Especialización (universitaria, científica)|
+
+En la página [**SEPARAR EN SILABAS**](http://www.separarensilabas.com/) tenemos una aplicación para calcular automáticamente el índice. Es muy sencillo de usar: copiamos y pegamos el texto que se busca analiza en el cuadro indicado y hacemos clic en SEPARAR SILABAS; abajo aparecerá el análisis completo del fragmento y el número obtenido para cotejar en la escala Inflesz. Aparecen también otros números relativos a diversos índices de legibilidad: no les prestemos atención pues siguen su propia lógica de cálculo. Si la publicación para analizar es muy extensa, se recomienda un muestreo de 100 palabras aprox. 
