@@ -397,7 +397,6 @@ El uso de palabras simples garantiza que somos comprendidos por el mayor número
 |---|---|
 |Oportunidades de empleo|Ofertas de trabajo|
 |El sufragio|El voto|
-|El sufragio|El voto|
 
 
 - Evitemos presentar ideas por su negación.
@@ -453,7 +452,11 @@ El uso de palabras simples garantiza que somos comprendidos por el mayor número
 |Ciento cincuenta mil beneficiarios|150.000 beneficiarios
 |15/3|15 de marzo|
 |El Ministro afirmó...|El ministro afirmó|
-
+|El estado (nacional)|El Estado (Nacional)|
+|El gobierno (nacional)|El Gobierno (Nacional)|
+|La provincia de Salta|La Provincia de Salta|
+|Argentina es un país...|La (República) Argentina es un país...|
+|El poder ejecutivo/legislativo/judicial|El Poder Ejecutivo/Legislativo/Judicial|
 
 ## Uso de imágenes
 
@@ -473,12 +476,18 @@ Nuestras imágenes deben encuadrarse en la primera o segunda modalidad; nunca en
 ### Aspectos técnicos
 Hay 4 aspectos importantes a tener en cuenta al elegir una foto:
 - Calidad
+
 No solo en cuanto a sus valores estéticos, sino también respecto de su resolución y tamaño. Recomendamos fotografías con un mínimo de 72 dpi y que, al adecuarla al tamaño 960 x 640, no se rompa evidenciando los pixeles.
 - Imagen memorable y cercana
+
 Sugerimos buscar fotografías de ciudadanos/as (si contamos con los derechos), de la Ciudad, Provincia o Nación y sus diversos escenarios, de eventos pasados relacionados con el contenido nuevo, entre otras opciones. Como ejemplo, para ilustrar el día mundial de VIH se pueden reutilizar las fotografías sacadas el año anterior con este mismo fin comunicacional (las imágenes de bancos suelen estar tomadas en el extranjero y no representan al ciudadano argentino).
+
 - Conocer el propósito
+
 Antes de elegir una fotografía es importante que sepamos el objetivo de nuestra publicación. Ejemplo: una nueva plaza fue inaugurada en un barrio. Nuestro objetivo de comunicación es brindar más seguridad al barrio, más zonas de recreación para la familia, etc. Al traducir esto en imágenes se podría apelar a gente disfrutando del espacio verde o a una foto de la plaza con su nueva y segura iluminación.
+
 - Que sea de dominio o uso público
+
 La mayoría de los organismos oficiales ofrecen imágenes de libre disponibilidad en las redes. Los buscadores y algunos bancos de fotos permiten buscar imágenes con licencia Creative Commons.
 
 
