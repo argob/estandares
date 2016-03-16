@@ -326,7 +326,7 @@ Si no queda más remedio que usar jerga porque cualquier otro término perdería
 
 - Recursos para mejorar la legibilidad
 
-aaa|bbb
+Recursos|Usos
 ---|---
 |**Negritas**|Resaltan las palabras clave de un párrafo. Aconsejamos un uso máximo de 2 resaltados por párrafo, para evitar que el texto resulte ilegible o sature visualmente. Nunca se usan en el título o la bajada/copete. 
 |*Bastardilla, cursiva o itálica*|Siempre las utilizamos para destacar vocablos en otros idiomas, como *smartphone* o *startup*.
