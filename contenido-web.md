@@ -514,3 +514,20 @@ Aquí ofrecemos un cuestionario de autoevaluación.
 - ¿Redactamos desde el punto de vista del lector?
 
 - ¿Podríamos haber presentado la información de otra forma aún más breve? 
+
+
+### Legibilidad
+
+
+El índice de legibilidad es un instrumento para que evaluemos si nuestro texto es fácil de leer y comprender, es decir, adecuado a los parámetros buscados en este manual de estilo. La escala Inflesz es una de las utilizadas para medir legibilidad en el idioma castellano.
+
+#### Escala Inflesz 
+|Puntos|Grado|Tipo de publicación|
+|---|---|---|
+|>80|Muy fácil|Educación Básica, historietas infantiles|
+|65-80|Bastante fácil|Educación básica, literatura juvenil, *best sellers* | 
+|55-65|Normal| Educación media básica, prensa general|
+|40-55|Difícil|Educación media superior, divulgación científica, prensa especializada|
+|0-40|Muy difícil| Especialización (universitaria, científica)|
+
+En la página [**SEPARAR EN SILABAS**](http://www.separarensilabas.com/) tenemos una aplicación para calcular automáticamente el índice. Es muy sencillo de usar: copiamos y pegamos el texto que se busca analiza en el cuadro indicado y hacemos clic en SEPARAR SILABAS; abajo aparecerá el análisis completo del fragmento y el número obtenido para cotejar en la escala Inflesz. Aparecen también otros números relativos a diversos índices de legibilidad: no les prestemos atención pues siguen su propia lógica de cálculo. Si la publicación para analizar es muy extensa, se recomienda un muestreo de 100 palabras aprox. 
