@@ -1,4 +1,4 @@
-# Lenguaje claro
+# Guía de estilo para contenidos web
 
 ## Consideraciones iniciales
 
