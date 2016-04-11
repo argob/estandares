@@ -156,6 +156,7 @@ El esquema tripartito de título, encabezado y cuerpo, nos permite redactar de m
 - Presenta de manera clara de qué trata el contenido (su tema).
 - Lo redactamos en formato frase con la primera letra en mayúscula, a excepción de los nombres propios.
 - No lleva signos de admiración, interrogación ni punto final.
+
 #### Encabezado o resumen
 - Desarrolla aspectos clave del contenido y complementa el título.
 #### Cuerpo del texto
