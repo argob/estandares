@@ -302,16 +302,16 @@ Respuesta:
         },
         "results": [
             {
-                userId: 1,
-                id: 1,
-                title: "sunt aut facere repellat provident occaecati",
-                body: "quia et suscipit suscipit recusandae consequuntur expedita."
+                "userId": 1,
+                "id": 1,
+                "title": "sunt aut facere repellat provident occaecati",
+                "body": "quia et suscipit suscipit recusandae consequuntur expedita."
             },
             {
-                userId: 2,
-                id: 2,
-                title: "qui est esse",
-                body: "est rerum tempore vitae sequi sint nihil reprehenderit dolor."
+                "userId": 2,
+                "id": 2,
+                "title": "qui est esse",
+                "body": "est rerum tempore vitae sequi sint nihil reprehenderit dolor."
             }
         ]
     }
@@ -323,10 +323,10 @@ Ejemplo: http://ejemplo.gob/api/v1/articulos/[id].json
 Respuesta:
 
     {
-        userId: 1,
-        id: 1,
-        title: "sunt aut facere repellat provident occaecati excepturi optio",
-        body: "quia et suscipit suscipit recusandae consequuntur expedita."
+        "userId": 1,
+        "id": 1,
+        "title": "sunt aut facere repellat provident occaecati excepturi optio",
+        "body": "quia et suscipit suscipit recusandae consequuntur expedita."
     }
 
 ### **POST /articulos/[id]/****comentarios**
@@ -337,18 +337,18 @@ Respuesta:
 
     [
         {
-            postId: 1,
-            id: 1,
-            name: "id labore ex et quam laborum",
-            email: "[pedro@ejemplo.com](mailto:Eliseo@gardner.biz)",
-            body: "laudantium enim quasi est quidem magnam voluptate ipsam eos."
+            "postId": 1,
+            "id": 1,
+            "name": "id labore ex et quam laborum",
+            "email": "[pedro@ejemplo.com](mailto:Eliseo@gardner.biz)",
+            "body": "laudantium enim quasi est quidem magnam voluptate ipsam eos."
         },
         {
-            postId: 1,
-            id: 2,
-            name: "quo vero reiciendis velit similique earum",
-            email: "[juan@ejemplo.com](mailto:Jayne_Kuhic@sydney.com)",
-            body: "est natus enim nihil est dolore omnis voluptatem numquam et"
+            "postId": 1,
+            "id": 2,
+            "name": "quo vero reiciendis velit similique earum",
+            "email": "[juan@ejemplo.com](mailto:Jayne_Kuhic@sydney.com)",
+            "body": "est natus enim nihil est dolore omnis voluptatem numquam et"
         }
     ]
 
