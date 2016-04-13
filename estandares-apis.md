@@ -418,3 +418,4 @@ Estas son algunas de las herramientas que recomendamos usar:
 
 * [Aglio](https://github.com/danielgtaylor/aglio)
 
+Basado en [White House Web API Standards](https://github.com/WhiteHouse/api-standards)
