@@ -6,5 +6,7 @@
 
 * [Guía de estilo para contenido web](contenido-web.md)
 
+* [Estándares de APIs](estandares-apis.md)
+
 --
 Nos inspiramos en [GOV.UK Design Principles](https://www.gov.uk/design-principles) y [U.S. Digital Services Playbook](https://playbook.cio.gov/).
