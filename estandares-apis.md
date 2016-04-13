@@ -30,7 +30,7 @@ Las APIs deben cumplir con los estándares establecidos en este documento.
 
 Estos lineamientos tienen como objetivo apoyar una verdadera API RESTful. Excepciones a tener en cuenta:
 
-* Poner el número de versión de la API en la URL. No acepte ninguna petición que no especifique el número de versión ([más info](#heading=h.pzcm6sookdh)).
+* Poner el número de versión de la API en la URL. No acepte ninguna petición que no especifique el número de versión ([más info](#versiones)).
 
 * No traducir al español lo que DEBE estar en inglés.
 
@@ -48,11 +48,11 @@ De ninguna forma se debe traducir lo que DEBE estar en inglés. A continuación 
 
 ### **Ejemplo válido**
 
-* http://www.ejemplo.gob/api/v1/articulos.json?**year=2016&sort=desc**
+* http://www.ejemplo.gob/api/v1/articulos.json?year=2016&sort=desc
 
 ### **Ejemplo NO válido**
 
-* http://www.ejemplo.gob/api/v1/articulos.json?**anio=2016&orden=desc**
+* http://www.ejemplo.gob/api/v1/articulos.json?anio=2016&orden=desc
 
 ## **RESTful URLs**
 
@@ -280,11 +280,11 @@ La información sobre los límites de registros y totales disponibles DEBEN ser 
 
 ## **Ejemplos de Peticiones y Respuestas**
 
-* GET /articulos
+* [GET /articulos](#get-articulos)
 
-* GET /articulos/[id]
+* [GET /articulos/[id]](#get-articulosid)
 
-* POST /articulos/[id]/comentarios
+* [POST /articulos/[id]/comentarios](#post-articulosidcomentarios)
 
 ### **GET /articulos**
 
@@ -364,7 +364,7 @@ Nota: Si el parámetro ‘mock’ está incluido en una solicitud para el entorn
 
 ### **Siempre usar HTTPS**
 
-Cualquier API que se cree DEBE usar *[HTTPS encryptio*n](https://en.wikipedia.org/wiki/HTTPS) (TLS/SSL). HTTPS provee:
+Cualquier API que se cree DEBE usar *[HTTPS encryption](https://en.wikipedia.org/wiki/HTTPS)* (TLS/SSL). HTTPS provee:
 
 * **Seguridad**. El contenido de las peticiones están encriptadas a través de Internet.
 
@@ -374,7 +374,7 @@ Cualquier API que se cree DEBE usar *[HTTPS encryptio*n](https://en.wikipedia.or
 
 * **Compatibilidad**. Más amplia compatibilidad del lado del cliente. Para solicitudes CORS a la API para trabajar en los sitios web HTTPS - para no ser bloqueado en forma de contenido mixto - esas peticiones deben ser a través de HTTPS.
 
-HTTPS DEBE estar configurado aplicando las mejores prácticas, incluyendo cifrado que soporte *[forward secrec*y](https://en.wikipedia.org/wiki/Forward_secrecy) y Seguridad de transporte HTTP estricta ([HTTP Strict Transport Security](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security)).
+HTTPS DEBE estar configurado aplicando las mejores prácticas, incluyendo cifrado que soporte *[forward secrecy](https://en.wikipedia.org/wiki/Forward_secrecy)* y Seguridad de transporte HTTP estricta ([HTTP Strict Transport Security](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security)).
 
 Para APIs existentes que corren sobre HTTP, el primer paso es agregar soporte HTTPS y actualizar la documentación aclarando que es la configuración por defecto, usarlo en los ejemplos, etc.
 
