@@ -4,17 +4,39 @@
 
 Dirección Nacional de Servicios Digitales
 
-Versión: 0.1 
+Versión: 1.0
 
+## Índice
 
+* [Objetivos](#objetivos)
+* [Requisitos](#requisitos)
+* [Lineamientos](#lineamientos)
+* [Idioma](#idioma)
+* [RESTful URLs](#restful-urls)
+* [Verbos HTTP](#verbox-http)
+* [Soporte JSON](#soporte-json)
+* [Respuestas](#respuestas)
+* [Formato de fecha](#formato-de-fecha)
+* [Manejo de errores](#manejo-de-errores)
+* [Usar UTF-8](#usar-utf-8)
+* [Versiones](#versiones)
+* [Límite de registros](#limite-de-registros)
+* [Ejemplos de Peticiones y Respuestas](#ejemplos-de-peticiones-y-respuestas)
+* [Datos de prueba](#datos-de-prueba)
+* [Seguridad](#seguridad)
+* [Siempre usar HTTPS](#siempre-usar-https)
+* [Claves API](#claves-api)
+* [CORS](#cors)
+* [Documentación](#documentacion)
+* [Referencias](#referencias)
 
-### Objetivo
+## Objetivo
 
 El presente documento tiene como objetivo definir las pautas elementales a ser consideradas al momento de diseñar, desarrollar e implementar toda APIs ya sea realizado por empleados del Estado o personal tercerizado, con el fin de ser utilizados por ciudadanos.
 
 Con los siguientes estándares, se busca homogeneizar la experiencia entre los diversos activos del estado, para facilitar la comprensión y utilización, primando la Usabilidad, Accesibilidad y Experiencia.
 
-# **Requisitos**
+## Requisitos
 
 Las APIs deben cumplir con los estándares establecidos en este documento.
 
@@ -26,7 +48,7 @@ Las APIs deben cumplir con los estándares establecidos en este documento.
 
   * Homogeneización
 
-# **Lineamientos**
+## Lineamientos
 
 Estos lineamientos tienen como objetivo apoyar una verdadera API RESTful. Excepciones a tener en cuenta:
 
@@ -42,7 +64,7 @@ Estos lineamientos tienen como objetivo apoyar una verdadera API RESTful. Excepc
 
   * [Aglio](https://github.com/danielgtaylor/aglio)
 
-## **Idioma**
+## Idioma
 
 De ninguna forma se debe traducir lo que DEBE estar en inglés. A continuación se detallan algunos ejemplos:
 
@@ -54,9 +76,9 @@ De ninguna forma se debe traducir lo que DEBE estar en inglés. A continuación 
 
 * http://www.ejemplo.gob/api/v1/articulos.json?anio=2016&orden=desc
 
-## **RESTful URLs**
+## RESTful URLs
 
-### **Lineamientos generales**
+### Lineamientos generales
 
 * Una URL identifica un recurso.
 
@@ -74,7 +96,7 @@ De ninguna forma se debe traducir lo que DEBE estar en inglés. A continuación 
 
 * El formato DEBE ser: api/v2/resource/{id}.json
 
-### **Ejemplos válidos de URLs**
+### Ejemplos válidos de URLs
 
 * Lista de artículos:
 
@@ -104,7 +126,7 @@ De ninguna forma se debe traducir lo que DEBE estar en inglés. A continuación 
 
   * POST http://ejemplo.gob/api/v1/articulos/1234/comentarios
 
-### **Ejemplos NO válidos de URLs**
+### Ejemplos NO válidos de URLs
 
 * Sustantivos singulares:
 
@@ -120,20 +142,20 @@ De ninguna forma se debe traducir lo que DEBE estar en inglés. A continuación 
 
   * http://www.ejemplo.gob/articulos/2016/desc
 
-## **Verbos HTTP**
+## Verbos HTTP
 
 Los verbos HTTP, o métodos, se deben utilizar en el cumplimiento de sus definiciones de la norma 1.1 / HTTP. Acá un ejemplo de cómo deben ser los verbos HTTP para crear, leer, actualizar y eliminar las operaciones en un contexto particular:
 
 <table>
   <tr>
-    <td>HTTP METHOD</td>
+    <td>Método HTTP</td>
     <td>POST</td>
     <td>GET</td>
     <td>PUT</td>
     <td>DELETE</td>
   </tr>
   <tr>
-    <td>CRUD OP</td>
+    <td>Operación</td>
     <td>CREATE</td>
     <td>READ</td>
     <td>UPDATE</td>
@@ -156,7 +178,7 @@ Los verbos HTTP, o métodos, se deben utilizar en el cumplimiento de sus definic
 </table>
 
 
-## **Soporte JSON**
+## Soporte JSON
 
 * Las respuestas DEBEN ser un objeto JSON (no un array). Usar un array para retornar resultados limita la capacidad de incluir metadata sobre resultados, y limita la capacidad de las API’s para agregar *top-level keys* en el futuro.
 
@@ -172,7 +194,7 @@ Más info en [json.org](http://www.json.org/json-es.html)
 
 * La metadata solamente debe contener propiedades directas a la respuesta, no propiedades relacionadas a la información de la respuesta.
 
-### **Ejemplo válido**
+### Ejemplo válido
 
 No valores en claves:
 
@@ -181,7 +203,7 @@ No valores en claves:
       {"id": "834", "name": "Servicios"}
     ],
 
-### **Ejemplo NO válido**
+### Ejemplo NO válido
 
 Valores en claves:
 
@@ -190,7 +212,7 @@ Valores en claves:
       {"834": "Servicios"}
     ],
 
-## **Formato de fecha**
+## Formato de fecha
 
 Usar ISO 8601, en UTC.
 
@@ -208,7 +230,7 @@ Usar ISO 8601, en UTC.
 
 Más info en [The 5 laws of API dates and times](http://apiux.com/2013/03/20/5-laws-api-dates-and-times/)
 
-## **Errores (error handling)**
+## Manejo de errores
 
 Las respuestas de errores DEBEN incluir los códigos de estados HTTP, mensaje para el desarrollador, mensaje para el usuario final, código de error interno, enlaces con más información para los desarrolladores. Por ejemplo:
 
@@ -228,7 +250,7 @@ Use estos 3 simples códigos de respuesta indicando (1) éxito, (2) fallo debido
 
 3. 500 - Internal Server Error
 
-## **Usar UTF-8**
+## Usar UTF-8
 
 Usar [UTF-8](http://utf8everywhere.org/)
 
@@ -240,7 +262,7 @@ Una API que retorna JSON DEBE usar:
 
 * Content-Type: application/json; charset=utf-8
 
-## **Versiones**
+## Versiones
 
 * Nunca libere la versión de una API sin su número de versión.
 
@@ -252,7 +274,7 @@ Una API que retorna JSON DEBE usar:
 
 * Dar soporte al menos una versión anterior a la actual.
 
-## **Límite de registros**
+## Límite de registros
 
 * Si el límite no está especificado, retornar resultados con un valor por defecto.
 
@@ -277,7 +299,7 @@ La información sobre los límites de registros y totales disponibles DEBEN ser 
         "results": []
     }
 
-## **Ejemplos de Peticiones y Respuestas**
+## Ejemplos de Peticiones y Respuestas
 
 * [GET /articulos](#get-articulos)
 
@@ -285,7 +307,7 @@ La información sobre los límites de registros y totales disponibles DEBEN ser 
 
 * [POST /articulos/[id]/comentarios](#post-articulosidcomentarios)
 
-### **GET /articulos**
+### GET /articulos
 
 Ejemplo: http://ejemplo.gob/api/v1/articulos.json
 
@@ -315,7 +337,7 @@ Respuesta:
         ]
     }
 
-### **GET /articulos/[id]**
+### GET /articulos/[id]
 
 Ejemplo: http://ejemplo.gob/api/v1/articulos/[id].json
 
@@ -328,7 +350,7 @@ Respuesta:
         "body": "quia et suscipit suscipit recusandae consequuntur expedita."
     }
 
-### **POST /articulos/[id]/comentarios**
+### POST /articulos/[id]/comentarios
 
 Ejemplo: Crear – POST http://ejemplo.gob/api/v1/articulos/[id]/comentarios
 
@@ -342,7 +364,7 @@ Cuerpo de la solicitud:
         "body": "laudantium enim quasi est quidem magnam voluptate ipsam eos."
     }
 
-## **Datos de prueba (Mock Responses)**
+## Datos de prueba
 
 Cada recurso DEBE aceptar un parámetro 'mock' en el servidor de prueba. Pasando este parámetro debe devolver una respuesta de datos simulada (sin pasar por el backend).
 
@@ -350,9 +372,9 @@ La implementación de esta función en la primer etapa del desarrollo asegura qu
 
 Nota: Si el parámetro ‘mock’ está incluido en una solicitud para el entorno de producción, debe mostrar un error.
 
-## **Seguridad**
+## Seguridad
 
-### **Siempre usar HTTPS**
+### Siempre usar HTTPS
 
 Cualquier API que se cree DEBE usar *[HTTPS encryption](https://en.wikipedia.org/wiki/HTTPS)* (TLS/SSL). HTTPS provee:
 
@@ -370,15 +392,15 @@ Para APIs existentes que corren sobre HTTP, el primer paso es agregar soporte HT
 
 Luego, evaluar la posibilidad de deshabilitar o redireccionar a peticiones HTTP.
 
-## **Claves API (API Keys)**
+## Claves API
 
 Es importante que las APIs tengan la forma de poder identificar qué aplicación quiere acceder a los recursos. Para esto se utiliza una clave que va junto con el *request*.
 
-Ejemplo API’s de Google.
+Ejemplo API’s de Google:
 
 https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY
 
-### **¿Por qué es útil?**
+### ¿Por qué es útil?
 
 * Previene peticiones de usuarios anónimos.
 
@@ -386,7 +408,7 @@ https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY
 
 * Se puede aplicar *rate limiting *dependiendo el cliente.
 
-## **CORS**
+## CORS
 
 Para que los clientes puedan usar una API desde el front de una aplicación, la API DEBE tener [habilitado CORS](http://enable-cors.org/).
 
@@ -398,7 +420,7 @@ Esto tiene soporte por todos los [navegadores modernos](http://enable-cors.org/c
 
 Para una configuración más avanzada, ver la [especificación de W3C](https://www.w3.org/TR/cors/) o la [guía de Mozilla](https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS).
 
-## **Documentación**
+## Documentación
 
 La API debe tener su documentación detallada y con ejemplos.
 
@@ -408,4 +430,8 @@ Estas son algunas de las herramientas que recomendamos usar:
 
 * [Aglio](https://github.com/danielgtaylor/aglio)
 
-Basado en [White House Web API Standards](https://github.com/WhiteHouse/api-standards)
+## Referencias
+
+* [White House Web API Standards](https://github.com/WhiteHouse/api-standards)
+* [18F API Standards](https://github.com/18F/api-standards)
+* [Best Practices for Designing a Pragmatic RESTful API](http://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api)
