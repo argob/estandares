@@ -13,7 +13,7 @@ Versión: 1.0
 * [Lineamientos](#lineamientos)
 * [Idioma](#idioma)
 * [RESTful URLs](#restful-urls)
-* [Verbos HTTP](#verbox-http)
+* [Verbos HTTP](#verbos-http)
 * [Soporte JSON](#soporte-json)
 * [Respuestas](#respuestas)
 * [Formato de fecha](#formato-de-fecha)
@@ -188,7 +188,7 @@ Los verbos HTTP, o métodos, se deben utilizar en el cumplimiento de sus definic
 
 Más info en [json.org](http://www.json.org/json-es.html)
 
-## **Respuestas (responses)**
+## Respuestas
 
 * No valores en claves.
 
