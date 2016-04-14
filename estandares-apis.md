@@ -213,12 +213,11 @@ Más info en [The 5 laws of API dates and times](http://apiux.com/2013/03/20/5-l
 Las respuestas de errores DEBEN incluir los códigos de estados HTTP, mensaje para el desarrollador, mensaje para el usuario final, código de error interno, enlaces con más información para los desarrolladores. Por ejemplo:
 
     {
-      "status" : 400,
-      "developerMessage" : "Detallar una descripción clara del problema. Proveer a los desarrolladores sugerencias de cómo resolver sus problemas.",
-      "userMessage" : "Este es el mensaje para el usuario final.",
-      "errorCode" : "444444",
-      "moreInfo" : "http://www.ejemplo.gob.ar/developer/path/to/help/for/444444,
-       http://drupal.org/node/444444",
+        "status" : 400,
+        "developerMessage" : "Detallar una descripción clara del problema. Proveer a los desarrolladores sugerencias de cómo resolver sus problemas.",
+        "userMessage" : "Este es el mensaje para el usuario final.",
+        "errorCode" : "444444",
+        "moreInfo" : "http://www.ejemplo.gob.ar/developer/path/to/help/for/444444, http://drupal.org/node/444444",
     }
 
 Use estos 3 simples códigos de respuesta indicando (1) éxito, (2) fallo debido a un problema del cliente, (3) fallo debido a un problema del servidor:
@@ -302,16 +301,16 @@ Respuesta:
         },
         "results": [
             {
-                userId: 1,
-                id: 1,
-                title: "sunt aut facere repellat provident occaecati",
-                body: "quia et suscipit suscipit recusandae consequuntur expedita."
+                "userId": 1,
+                "id": 1,
+                "title": "sunt aut facere repellat provident occaecati",
+                "body": "quia et suscipit suscipit recusandae consequuntur expedita."
             },
             {
-                userId: 2,
-                id: 2,
-                title: "qui est esse",
-                body: "est rerum tempore vitae sequi sint nihil reprehenderit dolor."
+                "userId": 2,
+                "id": 2,
+                "title": "qui est esse",
+                "body": "est rerum tempore vitae sequi sint nihil reprehenderit dolor."
             }
         ]
     }
@@ -323,34 +322,25 @@ Ejemplo: http://ejemplo.gob/api/v1/articulos/[id].json
 Respuesta:
 
     {
-        userId: 1,
-        id: 1,
-        title: "sunt aut facere repellat provident occaecati excepturi optio",
-        body: "quia et suscipit suscipit recusandae consequuntur expedita."
+        "userId": 1,
+        "id": 1,
+        "title": "sunt aut facere repellat provident occaecati excepturi optio",
+        "body": "quia et suscipit suscipit recusandae consequuntur expedita."
     }
 
-### **POST /articulos/[id]/****comentarios**
+### **POST /articulos/[id]/comentarios**
 
 Ejemplo: Crear – POST http://ejemplo.gob/api/v1/articulos/[id]/comentarios
 
-Respuesta:
+Cuerpo de la solicitud:
 
-    [
-        {
-            postId: 1,
-            id: 1,
-            name: "id labore ex et quam laborum",
-            email: "[pedro@ejemplo.com](mailto:Eliseo@gardner.biz)",
-            body: "laudantium enim quasi est quidem magnam voluptate ipsam eos."
-        },
-        {
-            postId: 1,
-            id: 2,
-            name: "quo vero reiciendis velit similique earum",
-            email: "[juan@ejemplo.com](mailto:Jayne_Kuhic@sydney.com)",
-            body: "est natus enim nihil est dolore omnis voluptatem numquam et"
-        }
-    ]
+    {
+        "postId": 1,
+        "id": 1,
+        "name": "id labore ex et quam laborum",
+        "email": "pedro@ejemplo.com",
+        "body": "laudantium enim quasi est quidem magnam voluptate ipsam eos."
+    }
 
 ## **Datos de prueba (Mock Responses)**
 
