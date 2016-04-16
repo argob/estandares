@@ -42,9 +42,9 @@ Las áreas de Gobierno deben enviar informes una vez por mes a la Subsecretaría
 
 * Usabilidad: ¿Los textos cumplen con las 5 reglas de legibilidad de este documento?
 
-* Usabilidad: ¿El maquetado es *responsive* (apto para celulares y tabletas)?
+* Usabilidad: ¿El maquetado es responsive (apto para celulares y tabletas)?
 
-* Usabilidad: ¿Tienen todas las páginas títulos y *breadcrumbs*?
+* Usabilidad: ¿Tienen todas las páginas títulos y breadcrumbs?
 
 * Usabilidad: ¿Todos los botones y elementos interactivos tienen estados normal, en foco, *over*, activo y visitado?
 
@@ -142,7 +142,7 @@ Las áreas de Gobierno deben enviar informes una vez por mes a la Subsecretaría
 
 * Dispone de métricas sobre su uso
 
-* Cuál es su *rate limiting*
+* Cuál es su rate limiting
 
 * Requiere autenticación
 
@@ -206,7 +206,7 @@ Call Center
 
 * Cantidad de llamadas no atendidas
 
-* Tiempo promedio por llamadas (*Service Level*)
+* Tiempo promedio por llamadas (Service Level)
 
 * Tiempo promedio en espera
 
