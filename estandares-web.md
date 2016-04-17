@@ -295,6 +295,7 @@ Para conocer más acerca de Google Tag Manager, véase el apartado "Referencias"
 [https://es.wikipedia.org/wiki/Google_Analytics](https://es.wikipedia.org/wiki/Google_Analytics)
 
 ¿Qué es Google Tag Manager?
+
 [https://support.google.com/tagmanager/answer/6102821?hl=es](https://support.google.com/tagmanager/answer/6102821?hl=es)
 
 ¿Qué es una etiqueta? 
