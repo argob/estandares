@@ -10,7 +10,7 @@
 
 * [Estándares web] (https://github.com/argob/estandares/blob/master/estandares-web.md)
 
-* [Indicadores web] (https://github.com/argob/estandares/blob/master/indicadores.md)
+* [Indicadores] (https://github.com/argob/estandares/blob/master/indicadores.md)
 
 --
 Nos inspiramos en [GOV.UK Design Principles](https://www.gov.uk/design-principles) y [U.S. Digital Services Playbook](https://playbook.cio.gov/).
