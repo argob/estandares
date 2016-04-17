@@ -12,7 +12,7 @@ Las áreas de Gobierno deben enviar informes una vez por mes a la Subsecretaría
 
 * Dirección de correo electrónico de administrador responsable
 
-* Métricas: tiene implementado Google Analytics o alguna herramienta de edición web?: SÍ / NO
+* Métricas: tiene implementado Google Analytics o alguna herramienta de edición web?: SÍ/NO
 
 * Métricas: tiene implementado nuestro GTM?
 
@@ -56,71 +56,71 @@ Las áreas de Gobierno deben enviar informes una vez por mes a la Subsecretaría
 
 * Calidad: Proporción de errores 404 sobre cantidad de enlaces, en los primeros 2 niveles de navegación
 
-* Contenidos: ¿La página tiene título? SÍ / NO
+* Contenidos: ¿La página tiene título? SÍ/NO
 
-* Contenidos: ¿La página tiene resumen o bajada? SÍ / NO
+* Contenidos: ¿La página tiene resumen o bajada? SÍ/NO
 
-* Contenidos: ¿La lectura del contenido completo requiere hacer scroll? SÍ / NO (para ver indicador de extensión)
+* Contenidos: ¿La lectura del contenido completo requiere hacer scroll? SÍ/NO (para ver indicador de extensión)
 
-* Contenidos: ¿La home tiene ordenada la información de la siguiente forma: 1°) Información sobre los servicios, beneficios o regulaciones de la institución; 2°) anuncios y campañas de difusión; 3°) noticias? SÍ / NO
+* Contenidos: ¿La home tiene ordenada la información de la siguiente forma: 1°) Información sobre los servicios, beneficios o regulaciones de la institución; 2°) anuncios y campañas de difusión; 3°) noticias? SÍ/NO
 
-* Contenidos: ¿La home tiene dato de contacto? SÍ / NO
+* Contenidos: ¿La home tiene dato de contacto? SÍ/NO
 
-* Contenidos: ¿La home tiene vínculos a redes sociales? SÍ / NO
+* Contenidos: ¿La home tiene vínculos a redes sociales? SÍ/NO
 
-* Contenidos: ¿El sitio transcribe normas que ya figuran en otros sitios (Infoleg o Boletín Oficial)? SÍ / NO
+* Contenidos: ¿El sitio transcribe normas que ya figuran en otros sitios (Infoleg o Boletín Oficial)? SÍ/NO
 
-* Contenidos: ¿La página repite información que ya está en otras páginas? SÍ / NO
+* Contenidos: ¿La página repite información que ya está en otras páginas? SÍ/NO
 
-* Contenidos: ¿El sitio tiene publicada alguna imagen que no es propia y se desconoce su origen? SÍ / NO
+* Contenidos: ¿El sitio tiene publicada alguna imagen que no es propia y se desconoce su origen? SÍ/NO
 
 # **2. Indicadores de contenidos editoriales**
 
 * ¿Cuál es el nivel de legibilidad de los contenidos de las siguientes páginas según el sitio http://www.separarensilabas.com/?:  1) Última noticia, 2) página que presenta al organismo (link)
 
-* ¿Hay contenido que esté protegido por derechos de autor de terceros? SÍ / NO
+* ¿Hay contenido que esté protegido por derechos de autor de terceros? SÍ/NO
 
-* ¿Hay contenido que promueve intereses comerciales de terceros (mención de marcas)?  SÍ / NO
+* ¿Hay contenido que promueve intereses comerciales de terceros (mención de marcas)?  SÍ/NO
 
-* ¿Se utilizan oraciones cortas? SÍ / NO (tomar como referencia la misión o descripción del organismo y la última noticia destacada. Tómese por corto: título, 70 caracteres; bajada, 120 a 160 caracteres; oraciones: 120 a 160 caracteres; párrafos: 320 a 560 caracteres)
+* ¿Se utilizan oraciones cortas? SÍ/NO (tomar como referencia la misión o descripción del organismo y la última noticia destacada. Tómese por corto: título, 70 caracteres; bajada, 120 a 160 caracteres; oraciones: 120 a 160 caracteres; párrafos: 320 a 560 caracteres)
 
 * ¿El título presenta con claridad el tema de la página?
 
 * ¿El título tiene formato de frase?
 
-* ¿Título y bajada contienen información diferenciada y se complementan? SÍ / NO
+* ¿Título y bajada contienen información diferenciada y se complementan? SÍ/NO
 
-* ¿Están las oraciones construidas de manera simple (sujeto + verbo + complemento)? SÍ / NO 
+* ¿Están las oraciones construidas de manera simple (sujeto + verbo + complemento)? SÍ/NO 
 
-* ¿Está organizado el contenido de lo más importante a lo menos importante? SÍ / NO
+* ¿Está organizado el contenido de lo más importante a lo menos importante? SÍ/NO
 
-* ¿Hay errores de ortografía? SÍ / NO
+* ¿Hay errores de ortografía? SÍ/NO
 
 * ¿Se utilizan palabras técnicas, extranjerismos o jerga de la administración pública?
 
-* ¿Está claro qué tiene que hacer el usuario después de leer la información? SÍ / NO
+* ¿Está claro qué tiene que hacer el usuario después de leer la información? SÍ/NO
 
 # 3. **Indicadores de Aplicaciones Móviles**
 
-* Acceso de Servicios Digitales a las tiendas de las aplicaciones o donde estén alojadas las aplicaciones. SÍ / NO
+* Acceso de Servicios Digitales a las tiendas de las aplicaciones o donde estén alojadas las aplicaciones. SÍ/NO
 
-* Identificador de aplicación. SÍ / NO
+* Identificador de aplicación. SÍ/NO
 
-* Datos de Contacto. SÍ / NO
+* Datos de Contacto. SÍ/NO
 
-* Código Analytics de Servicios Digitales agregado. SÍ / NO
+* Código Analytics de Servicios Digitales agregado. SÍ/NO
 
-* Métricas implementadas. SÍ / NO
+* Métricas implementadas. SÍ/NO
 
-* Registro de errores y fallas. SÍ / NO
+* Registro de errores y fallas. SÍ/NO
 
-* Estética correcta. SÍ / NO
+* Estética correcta. SÍ/NO
 
-* Usabilidad correcta. SÍ / NO 
+* Usabilidad correcta. SÍ/NO 
 
-* Identificación Ciudadana. SÍ / NO
+* Identificación Ciudadana. SÍ/NO
 
-* Tipo de contenido. Estático / Dinámico
+* Tipo de contenido. Estático/Dinámico
 
 * Listado de APISs de terceros. Lista
 
@@ -172,9 +172,9 @@ Todos los ministerios deberán informar mensualmente:
 
 # **6. Indicadores de Atenci****ó****n al P****ú****blico**
 
-Todos los organismos del Estado que cuenten con este tipo de atención deberán informar mensualmente
+Todos los organismos del Estado que cuenten con este tipo de atención deberán informar mensualmente:
 
-Call Center
+Call Center:
 
 *  Nivel de Servicio
 
@@ -190,7 +190,7 @@ Call Center
 
 * Cantidad de colas de atención determinada - Grupo de Atención (se crean a partir del software que estén usando para las llamadas-IR)
 
-* Total de llamadas en línea/Cantidad de llamadas ingresadas/en linea /en espera/en curso
+* Total de llamadas en línea/cantidad de llamadas ingresadas/en linea/en espera/en curso
 
 * Tiempo de espera en línea y promedio
 
