@@ -43,11 +43,12 @@ Ejemplo [www.educacion.gob.ar](http://www.educacion.gob.ar). Si uno ingresa a [e
 
 ### **2.** **Diseño**
 
-* **Aplicación de marca sobre logotipo del área**: los logotipos de las áreas de gobierno deben respetar los lineamientos del Manual de identidad visual para web y aplicaciones móviles [link al manual]. Dependiendo de la cantidad de caracteres que tenga el nombre del área puede representarse con 1, 2 o 3 líneas de texto, junto a la leyenda "Presidencia de la Nación" y el Escudo de la Nación.
+* **Aplicación de marca sobre logotipo del área**: los logotipos de las áreas de gobierno deben respetar los lineamientos del [manual de identidad visual para web y aplicaciones móviles](recursos/identidad/presidencia_manual_digital.pdf). Dependiendo de la cantidad de caracteres que tenga el nombre del área puede representarse con 1, 2 o 3 líneas de texto, junto a la leyenda "Presidencia de la Nación" y el Escudo de la Nación.
 
-* **Uso de encabezados**: los encabezados deben tener un alto mínimo de 72px y fondo de color pleno blanco o color primario de la paleta. El logotipo debe tener un alto de 50px y ancho proporcional. Éste debe estar a 10px del margen superior y preferentemente alineado al margen izquierdo del contenedor principal.
+* **Uso de encabezados**: los encabezados deben tener un alto mínimo de 72px y fondo de color pleno blanco o color primario de la paleta. El logotipo debe tener un alto de 50px y ancho proporcional. Éste debe estar a 10px del margen superior y preferentemente alineado al margen izquierdo del contenedor principal. Ver referencias en el manual [manual de identidad visual para web](recursos/identidad/presidencia_manual_digital.pdf).
 
 * **Uso de pie de página oficial**: al final de las páginas debe agregarse el pie de página que distingue a los sitios webs oficiales del gobierno. Este debe tener la leyenda: "Dominio.gob.ar es un sitio web oficial del Gobierno Argentino". Junto a este debe estar el logotipo de Argentina.gob.ar, el cual debe linkear la página de inicio de esa web.
+[El código html se encuentra dentro de los recursos](recursos/codigo/pie_sitio_oficial.html).
 
 ![Pie de página oficial](img/pie-de-pagina.png)
 *Ejemplo de footer en sitio web del Ministerio de Cultura*
@@ -55,7 +56,7 @@ Ejemplo [www.educacion.gob.ar](http://www.educacion.gob.ar). Si uno ingresa a [e
 
 * **Favicon**: Se debe utilizar la versión adjunta en formato .ico con las versiones de 16px y 32px embebidas.
 
-  Dentro de los recursos adjuntos a este documento se pueden encontrar ejemplos de código para el encabezado y los tipos de pie de página, el favicon y las diferentes disposiciones del logotipo.
+  Dentro de la [carpeta de recursos](recursos/identidad/) adjuntos a este documento se pueden encontrar ejemplos de código para el encabezado, los tipos de pie de página, el favicon y las diferentes disposiciones del logotipo.
 
 * **Justificación:** Brindar un sistema visual homogéneo acorde al manual de identidad y marca, entre todas las propiedades digitales del gobierno.
 
