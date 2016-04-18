@@ -1,5 +1,6 @@
 # Estándares web
 
+**Versión preliminar, todavía en desarrollo, con muchos bugs**
 
 ## Objetivo: 
 
