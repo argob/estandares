@@ -48,7 +48,7 @@ Ejemplo [www.educacion.gob.ar](http://www.educacion.gob.ar). Si uno ingresa a [e
 * **Uso de encabezados**: los encabezados deben tener un alto mínimo de 72px y fondo de color pleno blanco o color primario de la paleta. El logotipo debe tener un alto de 50px y ancho proporcional. Éste debe estar a 10px del margen superior y preferentemente alineado al margen izquierdo del contenedor principal. Ver referencias en el manual [manual de identidad visual para web](recursos/identidad/presidencia_manual_digital.pdf).
 
 * **Uso de pie de página oficial**: al final de las páginas debe agregarse el pie de página que distingue a los sitios webs oficiales del gobierno. Este debe tener la leyenda: "Dominio.gob.ar es un sitio web oficial del Gobierno Argentino". Junto a este debe estar el logotipo de Argentina.gob.ar, el cual debe linkear la página de inicio de esa web.
-[El código html se encuentra dentro de los recursos](recursos/codigo/pie_sitio_oficial.html).
+[El código html se encuentra dentro de los recursos](recursos/identidad/codigo/pie_sitio_oficial.html).
 
 ![Pie de página oficial](img/pie-de-pagina.png)
 *Ejemplo de footer en sitio web del Ministerio de Cultura*
@@ -60,7 +60,7 @@ Ejemplo [www.educacion.gob.ar](http://www.educacion.gob.ar). Si uno ingresa a [e
 
 * **Justificación:** Brindar un sistema visual homogéneo acorde al manual de identidad y marca, entre todas las propiedades digitales del gobierno.
 
-* **Recursos:** Están disponibles los recursos gráficos a través de la base para webs que busca homogeneizar y facilitar la creación de sitios web. 
+* **Recursos:** Están disponibles los recursos gráficos a través de [Poncho](https://argob.github.io/poncho) que busca homogeneizar y facilitar la creación de sitios web. 
 
 #### **Colores:**
 
