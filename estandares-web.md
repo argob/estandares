@@ -1,6 +1,26 @@
 # Estándares web
 
+**Ministerio de Modernización**
+
+Dirección Nacional de Servicios Digitales
+
 **Versión preliminar, todavía en desarrollo, con muchos bugs**
+
+## Índice
+* [Objetivo] (#objetivo)
+* [Requisitos] (#requisitos)
+    * [Desarrollo] (#desarrollo)
+    * [Diseño] (#diseño)
+        * [Colores] (#colores)
+        * [Tipografías] (#tipografías)
+        * [Estética y elementos gráficos] (#estética-y-elementos-gráficos)
+        * [Soporte mínimo de navegadores] (#soporte-mínimo-de-navegadores)
+        * [Front-end] (#front-end)
+    * [Usabilidad] (#usabilidad)
+    * [Accesibilidad] (#accesibilidad)
+    * [Seguridad] (#seguridad)
+    * [Métricas] (#métricas)
+    * [Referencias] (#referencias)
 
 ## Objetivo: 
 
@@ -12,7 +32,7 @@ Con los siguientes estándares, se busca homogeneizar la experiencia entre los d
 
 ## Requisitos
 
-### **1**. **Desarrollo**
+### **Desarrollo**
 
 * Se pueden usar redirects desde dominios a otros dominios.
 
@@ -41,7 +61,7 @@ Ejemplo [www.educacion.gob.ar](http://www.educacion.gob.ar). Si uno ingresa a [e
 
 * Control de versiones: deberán estar etiquetadas con correspondiente nombre con el formato "vx.x.x". 
 
-### **2.** **Diseño**
+### **Diseño**
 
 * **Aplicación de marca sobre logotipo del área**: los logotipos de las áreas de gobierno deben respetar los lineamientos del [manual de identidad visual para web y aplicaciones móviles](recursos/identidad/presidencia_manual_digital.pdf). Dependiendo de la cantidad de caracteres que tenga el nombre del área puede representarse con 1, 2 o 3 líneas de texto, junto a la leyenda "Presidencia de la Nación" y el Escudo de la Nación.
 
@@ -204,7 +224,7 @@ Las tecnologías a utilizar para el desarrollo front-end de las aplicaciones son
 
 * **CSS3**: Uso de las últimas versiones, siempre teniendo en cuenta el soporte de los navegadores de las diferentes propiedades.
 
-### **3.** **Usabilidad**
+### **Usabilidad**
 
 1. Diseñar para todas las resoluciones de pantalla de computadoras, tablets y celulares posibles.
 
@@ -233,7 +253,7 @@ Las tecnologías a utilizar para el desarrollo front-end de las aplicaciones son
 8. Los campos de formularios deben mostrar su etiqueta al estar completos. [Ver ejemplos de uso correctos e incorrectos.](https://www.nngroup.com/articles/form-design-placeholders/)
 
 
-### 4. **Accesibilidad**
+### **Accesibilidad**
 
 1. Los textos deben cumplir las 5 reglas de legibilidad:
 
@@ -260,7 +280,7 @@ Las tecnologías a utilizar para el desarrollo front-end de las aplicaciones son
 7. En web, permitir el uso de un teclado sin necesidad de mouse.
 
 
-### 5. **Seguridad**
+### **Seguridad**
 
 La comunicación con los web services debe ser encriptada usando un certificado SSL/TLS
 
@@ -274,7 +294,7 @@ Limitar cantidad de intentos de logins.
 
 Se deben actualizar los frameworks de desarrollo para evitar vulnerabilidades de seguridad. 
 
-### 6. **Métricas**
+### **Métricas**
 
 **Caso 1: El sitio web no cuenta con Google Analytics**
 
