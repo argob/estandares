@@ -14,7 +14,7 @@
 
 * [Estándares Apps Móviles] (https://github.com/argob/estandares/blob/master/estandares-apps.md)
 
-* [Implementación de Google Tag Manager] (https://github.com/argob/estandares/edit/master/implementacion-gtm.md)
+* [Implementación de Google Tag Manager] (https://github.com/argob/estandares/blob/master/implementacion-gtm.md)
 
 --
 Nos inspiramos en [GOV.UK Design Principles](https://www.gov.uk/design-principles) y [U.S. Digital Services Playbook](https://playbook.cio.gov/).
