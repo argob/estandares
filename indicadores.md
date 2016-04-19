@@ -8,6 +8,7 @@ Versión: 0.1
 
 
 ## Índice:
+* [Objetivo] (#objetivo)
 * [Indicadores web] (#indicadores-web)
 * [Indicadores de contenidos editoriales] (#indicadores-de-contenidos-editoriales)
 * [Indicadores de Aplicaciones Móviles] (#indicadores-de-aplicacioes-móviles)
@@ -15,6 +16,8 @@ Versión: 0.1
 * [Indicadores de Servicios] (#indicadores-de-servicios]
 * [Indicadores de Atención Personalizada] (#indicadores-de-atención-personalizada)
 
+## Objetivo
+El presente documento tiene como objetivo definir los indicadores que deberán proveer todas las áreas del Estado Nacional a la Dirección Nacional de Servicios Digitales de manera mensual para su evaluación.
 
 ## **1. Indicadores web**
 
@@ -230,7 +233,7 @@ Call Center:
 
 * Tasa de resolución: seguimiento a través del Nº de trámite o respuesta.
 
-# 7. **Indicadores de Atención Personalizada**
+## 7. **Indicadores de Atención Personalizada**
 
 
 * Cantidad de visitas/revisitas
