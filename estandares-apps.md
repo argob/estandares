@@ -89,13 +89,15 @@ Con los siguientes estándares, se busca homogeneizar la experiencia entre los d
 
 La paleta de colores a utilizar es la definida en el manual de identidad visual para web y aplicaciones móviles. Los usos son los siguientes:
 
-* **Primario**:          #0072BC  
+* **Primario**: #0072BC  
 Es el color primario que se utiliza dentro de la UI en elementos como links, botones, etc.
 
-* **Secundario**:         #00B9F1
+* **Secundario**: #00B9F1
+
 Se utiliza para ciertos elementos del contenido que necesitan ser destacados, por ejemplo en iconos.
 
-* **Complementario**:         #FD4138
+* **Complementario**:#FD4138
+
 Se utiliza para elementos que necesiten un destaque diferencial y en ciertos elementos para dar calidez en páginas muy extensas que no contengan fotografías.
 
 * **Neutros**: 
