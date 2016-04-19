@@ -1,4 +1,22 @@
-# **1. Indicadores web**
+# Indicadores
+
+**Ministerio de Modernización**
+
+Dirección Nacional de Servicios Digitales
+
+Versión: 0.1 
+
+
+## Índice:
+* [Indicadores web] (#indicadores-web)
+* [Indicadores de contenidos editoriales] (#indicadores-de-contenidos-editoriales)
+* [Indicadores de Aplicaciones Móviles] (#indicadores-de-aplicacioes-móviles)
+* [Indicadores APIs] (#indicadores-apis)
+* [Indicadores de Servicios] (#indicadores-de-servicios]
+* [Indicadores de Atención Personalizada] (#indicadores-de-atención-personalizada)
+
+
+## **1. Indicadores web**
 
 Las áreas de Gobierno deben enviar informes una vez por mes a la Subsecretaría de Gobierno Digital, donde se indique el estado de los indicadores para cada una de sus webs.
 
@@ -74,7 +92,7 @@ Las áreas de Gobierno deben enviar informes una vez por mes a la Subsecretaría
 
 * Contenidos: ¿El sitio tiene publicada alguna imagen que no es propia y se desconoce su origen? SÍ/NO
 
-# **2. Indicadores de contenidos editoriales**
+## **2. Indicadores de contenidos editoriales**
 
 * ¿Cuál es el nivel de legibilidad de los contenidos de las siguientes páginas según el sitio http://www.separarensilabas.com/?:  1) Última noticia, 2) página que presenta al organismo (link)
 
@@ -100,7 +118,7 @@ Las áreas de Gobierno deben enviar informes una vez por mes a la Subsecretaría
 
 * ¿Está claro qué tiene que hacer el usuario después de leer la información? SÍ/NO
 
-# 3. **Indicadores de Aplicaciones Móviles**
+## 3. **Indicadores de Aplicaciones Móviles**
 
 * Acceso de Servicios Digitales a las tiendas de las aplicaciones o donde estén alojadas las aplicaciones. SÍ/NO
 
@@ -132,7 +150,7 @@ Las áreas de Gobierno deben enviar informes una vez por mes a la Subsecretaría
 
 * Duración de sesiones por plataforma mensualmente.
 
-# **4. Indicadores APIs**
+## **4. Indicadores APIs**
 
 * Tiene una API
 
@@ -150,7 +168,7 @@ Las áreas de Gobierno deben enviar informes una vez por mes a la Subsecretaría
 
 * Tiene HTTPS
 
-# **5. Indicadores de Servicios**
+## **5. Indicadores de Servicios**
 
 Todos los ministerios deberán informar mensualmente:
 
@@ -170,7 +188,7 @@ Todos los ministerios deberán informar mensualmente:
 
 * Sistema de organización de los trámites de cada servicio (turno online, turno telefónico, orden de llegada, etc.)
 
-# **6. Indicadores de Atenci****ó****n al P****ú****blico**
+## **6. Indicadores de Atención al Público**
 
 Todos los organismos del Estado que cuenten con este tipo de atención deberán informar mensualmente:
 
@@ -212,7 +230,7 @@ Call Center:
 
 * Tasa de resolución: seguimiento a través del Nº de trámite o respuesta.
 
-# 7. **Indicadores de Atenci****ó****n Personalizada**
+# 7. **Indicadores de Atención Personalizada**
 
 
 * Cantidad de visitas/revisitas
