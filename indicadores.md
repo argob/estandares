@@ -11,7 +11,7 @@ Versión: 0.1
 * [Objetivo] (#objetivo)
 * [Indicadores web] (#indicadores-web)
 * [Indicadores de contenidos editoriales] (#indicadores-de-contenidos-editoriales)
-* [Indicadores de Aplicaciones Móviles] (#indicadores-de-aplicacioes-móviles)
+* [Indicadores de Aplicaciones Móviles] (#indicadores-de-aplicaciones-móviles)
 * [Indicadores APIs] (#indicadores-apis)
 * [Indicadores de Servicios] (#indicadores-de-servicios)
 * [Indicadores de Atención Personalizada] (#indicadores-de-atención-personalizada)
