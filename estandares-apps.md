@@ -93,12 +93,10 @@ La paleta de colores a utilizar es la definida en el manual de identidad visual 
 Es el color primario que se utiliza dentro de la UI en elementos como links, botones, etc.
 
 * **Secundario**: #00B9F1
-
-Se utiliza para ciertos elementos del contenido que necesitan ser destacados, por ejemplo en iconos.
+    Se utiliza para ciertos elementos del contenido que necesitan ser destacados, por ejemplo en iconos.
 
 * **Complementario**:#FD4138
-
-Se utiliza para elementos que necesiten un destaque diferencial y en ciertos elementos para dar calidez en páginas muy extensas que no contengan fotografías.
+    Se utiliza para elementos que necesiten un destaque diferencial y en ciertos elementos para dar calidez en páginas muy extensas que no contengan fotografías.
 
 * **Neutros**: 
 
