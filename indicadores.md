@@ -95,7 +95,7 @@ Las áreas de Gobierno deben enviar informes una vez por mes a la Subsecretaría
 
 * Contenidos: ¿El sitio tiene publicada alguna imagen que no es propia y se desconoce su origen? SÍ/NO
 
-(1) Se puede usar [esta herramienta](https://www.google.com/webmasters/tools/mobile-friendly/?url=http%3A%2F%2Fwww.minseg.gob.ar%2F)
+(1) Se puede usar [esta herramienta para la medición](https://www.google.com/webmasters/tools/mobile-friendly/?url=http%3A%2F%2Fwww.minseg.gob.ar%2F)
 
 ## Indicadores de contenidos editoriales
 
