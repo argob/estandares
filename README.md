@@ -16,5 +16,7 @@
 
 * [Implementación de Google Tag Manager] (https://github.com/argob/estandares/blob/master/implementacion-gtm.md)
 
+* [Estándares Servicios] (https://github.com/argob/estandares/blob/master/estandares-servicios.md)
+
 --
 Nos inspiramos en [GOV.UK Design Principles](https://www.gov.uk/design-principles) y [U.S. Digital Services Playbook](https://playbook.cio.gov/).
