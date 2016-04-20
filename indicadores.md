@@ -33,11 +33,11 @@ Las áreas de Gobierno deben enviar informes una vez por mes a la Subsecretaría
 
 * Dirección de correo electrónico de administrador responsable
 
-* Métricas: tiene implementado Google Analytics o alguna herramienta de edición web?: SÍ/NO
+* Métricas: ¿tiene implementado Google Analytics o alguna herramienta de edición web?: SÍ/NO
 
-* Métricas: tiene implementado nuestro GTM?
+* Métricas: ¿tiene implementado nuestro GTM?
 
-* Métricas: tenemos acceso a través de API a su Analytics?
+* Métricas: ¿tenemos acceso a través de API a su Analytics?
 
 * Servidor: http/https
 
@@ -63,11 +63,11 @@ Las áreas de Gobierno deben enviar informes una vez por mes a la Subsecretaría
 
 * Usabilidad: ¿Los textos cumplen con las 5 reglas de legibilidad de este documento?
 
-* Usabilidad: ¿El maquetado es responsive (apto para celulares y tabletas)?
+* Usabilidad: ¿El maquetado es responsive (apto para celulares y tabletas)? (1)
 
 * Usabilidad: ¿Tienen todas las páginas títulos y breadcrumbs?
 
-* Usabilidad: ¿Todos los botones y elementos interactivos tienen estados normal, en foco, *over*, activo y visitado?
+* Usabilidad: ¿Todos los botones y elementos interactivos tienen estados normal, en foco, over, activo y visitado?
 
 * Usabilidad: ¿Las imágenes tienen texto alternativo descriptivo?
 
@@ -94,6 +94,8 @@ Las áreas de Gobierno deben enviar informes una vez por mes a la Subsecretaría
 * Contenidos: ¿La página repite información que ya está en otras páginas? SÍ/NO
 
 * Contenidos: ¿El sitio tiene publicada alguna imagen que no es propia y se desconoce su origen? SÍ/NO
+
+(1) Se puede usar [esta herramienta](https://www.google.com/webmasters/tools/mobile-friendly/?url=http%3A%2F%2Fwww.minseg.gob.ar%2F)
 
 ## Indicadores de contenidos editoriales
 
