@@ -42,7 +42,7 @@ Los ministerios deberán:
 
 ## Aclaraciones
 
-* Por **servicio ** entendemos a todos los beneficios, certificaciones y/o prestaciones que el Estado ofrece a la ciudadanía en el marco de una política pública. Esto incluye un amplio rango de prestaciones, desde pensiones y subsidios hasta legalización de documentos e inscripción a registros.
+* Por **servicio** entendemos a todos los beneficios, certificaciones y/o prestaciones que el Estado ofrece a la ciudadanía en el marco de una política pública. Esto incluye un amplio rango de prestaciones, desde pensiones y subsidios hasta legalización de documentos e inscripción a registros.
 
-* Por **trámites ** entendemos a todas las transacciones que un ciudadano deba realizar en el marco de un servicio específico prestado por el Estado. Algunos ejemplos usuales de estas transacciones son: inscripciones, renovaciones, modificaciones, bajas, etc. Los trámites pueden ser presenciales, digitales o combinados.
+* Por **trámites** entendemos a todas las transacciones que un ciudadano deba realizar en el marco de un servicio específico prestado por el Estado. Algunos ejemplos usuales de estas transacciones son: inscripciones, renovaciones, modificaciones, bajas, etc. Los trámites pueden ser presenciales, digitales o combinados.
 
