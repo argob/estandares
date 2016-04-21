@@ -8,25 +8,25 @@ Versión: 0.1
 
 **Indice:**
 
-[Objetivo](#objetivo)
-[Requisitos](#requisitos)
-    [Atención Personalizada](#atención-personalizada)
-    [Atención Telefónica](#atención-telefónica)
-    [Atención Digital](#atención-digital)
+* [Objetivo](#objetivo)
+* [Requisitos](#requisitos)
+    * [Atención Personalizada](#atención-personalizada)
+    * [Atención Telefónica](#atención-telefónica)
+    * [Atención Digital](#atención-digital)
 
 ## Objetivo: 
 
-El presente documento tiene como objetivo definir las pautas elementales a ser consideradas para la atención al ciudadano, tanto por canales presenciales, telefónicos o digitales.
+El presente documento tiene como objetivo definir las pautas elementales a considerar para la atención al ciudadano, tanto por canales presenciales, telefónicos o digitales.
 
-Con los siguientes estándares, se busca homogeneizar la experiencia entre los diversos activos del estado, para facilitar la comprensión y utilización, primando la Usabilidad, la Accesibilidad y la Experiencia.
+Con los siguientes estándares, se busca homogeneizar la experiencia entre los diversos activos del Estado, para facilitar la comprensión y utilización, primando la Usabilidad, la Accesibilidad y la Experiencia.
 
-El cumplimiento de estos estándares sirve como marco orientador para que en los distintos organismos del Estado se dirijan los esfuerzos hacia el fortalecimiento y la modernización de sus mecanismos de gestión.
+El cumplimiento de estos estándares sirve como marco orientador para que los distintos organismos del Estado dirijan sus esfuerzos hacia el fortalecimiento y la modernización de los mecanismos de gestión.
 
 ## Requisitos
 
-Los siguientes requerimientos tienen como objetivo fortalecer la calidad de los servicios que brinda el Estado a través de sus organismos, por medio de instrumentos útiles, efectivos y confiables al servicio de la sociedad con el fin de impulsar la transparencia de las instituciones hacia toda la ciudadanía.
+Los siguientes requerimientos tienen como objetivo fortalecer la calidad de los servicios que brinda el Estado a través de sus organismos, por medio de instrumentos útiles, efectivos y confiables al servicio de la sociedad, impulsando también la transparencia de las instituciones hacia la ciudadanía.
 
-El propósito principal es lograr que los organismos estatales, independientemente de su tamaño o especialización, apliquen herramientas que le permitan establecer un programa de calidad en su organización, medir su desempeño y buscar la mejora continua en sus procesos de atención al ciudadano. Contribuir así a una mejora general del nivel de servicios, que redundará en beneficio del país.
+El propósito principal es lograr que los organismos estatales, independientemente de su tamaño o especialización, apliquen herramientas que le permitan establecer un programa de calidad en su organización, medir su desempeño y buscar la mejora continua en sus procesos de atención al ciudadano. Y contribuir así a una mejora general del nivel de servicios, que redundará en beneficio del país.
 
 ## Atención Personalizada
 
@@ -42,21 +42,21 @@ Consiste en la atención presencial realizada por personal del Estado, capacitad
 
 ### Estándares:
 
-**Infraestructura: **
+**Infraestructura:**
 
-    * Señalización con la imagen del organismo, por ejemplo: cartel indicador.
+* Señalización con la imagen del organismo, por ejemplo: cartel indicador.
 
-    * Distribución del mobiliario y equipamiento para la atención (layout): se recomienda utilizar conceptos visuales claros. Mostrar un espacio organizado cumpliendo con los lineamientos básicos, mínimos e indispensables de las leyes de seguridad e higiene vigentes.  
+* Distribución del mobiliario y equipamiento para la atención (layout): se recomienda utilizar conceptos visuales claros. Mostrar un espacio organizado cumpliendo con los lineamientos básicos, mínimos e indispensables de las leyes de seguridad e higiene vigentes.  
 
-    * Puestos y espacios de atención con señalización adecuada que permita al ciudadano moverse de un lugar al otro orientándose con seguridad. 
+* Puestos y espacios de atención con señalización adecuada que permita al ciudadano moverse de un lugar al otro orientándose con seguridad. 
 
-    * Diseño y distribución de los espacios flexibles para realizar cambios con facilidad, con el objetivo de adaptar los sitios a las necesidades de los habitantes del lugar.
+* Diseño y distribución de los espacios flexibles para realizar cambios con facilidad, con el objetivo de adaptar los sitios a las necesidades de los habitantes del lugar.
 
-    * El equipamiento como monitores con información se encuentre disponible en lugares de fácil acceso a la lectura, así como también, su contenido sea claro. 
+* El equipamiento como monitores con información se encuentre disponible en lugares de fácil acceso a la lectura, así como también, su contenido sea claro. 
 
-    * Contar con mantenimiento para el equipamiento disponible tanto como paras las herramientas del personal como para las que son de uso del ciudadano Ej: Totem Sistema Numerador.
+* Contar con mantenimiento para el equipamiento disponible tanto como paras las herramientas del personal como para las que son de uso del ciudadano Ej: Totem Sistema Numerador.
 
-    * Considerar los requerimientos mínimos de orden y limpieza correctos para establecimientos de índole público.
+* Considerar los requerimientos mínimos de orden y limpieza correctos para establecimientos de índole público.
 
 **Atención al Ciudadano**
 
