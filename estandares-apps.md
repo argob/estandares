@@ -49,7 +49,7 @@ Con los siguientes estándares, se busca homogeneizar la experiencia entre los d
 
 * Control de Versiones: 
 
-    * **versión v0.0.1**: Resolución de bugs de versiones actuales.
+    * **versión v 0.0.1**: Resolución de bugs de versiones actuales.
 
     * **versión v.0.1.0**: Nueva funcionalidad dentro de la versión actual.
 
@@ -59,7 +59,7 @@ Con los siguientes estándares, se busca homogeneizar la experiencia entre los d
 
      **¿Por qué?**
 
-  Brinda un sistema homogéneo de registración para los ciudadanos en  todas las propiedades digitales del gobierno.
+  Brinda un sistema homogéneo de registración para los ciudadanos en todas las propiedades digitales del gobierno.
 
 * Todo contenido que muestra la aplicación debe ser consumido mediante una API respetando los lineamientos del Estándar de API definida por la Coordinación de Desarrollo de Servicios Digitales y el Estándar de Contenido definida por la Coordinación de Contenidos de Servicios Digitales.
 
@@ -229,7 +229,7 @@ En caso de poseer código de seguimiento se deberá brindar permisos de administ
 
 * Los identificadores de cada aplicación deben ser únicos para cada dispositivo y tener el siguiente formato: 
 
-  ar.gob.abreviabtura_del_ministerio.nombre_aplicacion
+  ar.gob.nombre_aplicacion
 
   **¿Por qué?**
 
