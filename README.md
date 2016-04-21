@@ -20,6 +20,8 @@
 
 * [Estándares Servicios] (https://github.com/argob/estandares/blob/master/estandares-servicios.md)
 
+* [Estándares de Atención al Público] (https://github.com/argob/estandares/blob/master/estandares-atencion-al-publico.md)
+
 * [Guía de estilo para contenido web](contenido-web.md)
 
 
