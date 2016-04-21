@@ -39,7 +39,7 @@ Con los siguientes estándares, se busca homogeneizar la experiencia entre los d
 
 * No embeber imágenes y videos como contenido estático que hagan que los instaladores sean más pesados.
 
-* Las aplicaciones que no tengan backend propio pueden utilizar el portal de argentina.gob.ar para consumir contenidos dinámicos, respetando los lineamientos del Estándar de API definida por la Coordinación de Desarrollo de Servicios Digitales.
+* Las aplicaciones que no tengan backend propio pueden utilizar el portal de [argentina.gob.ar](http://www.argentina.gob.ar/) para consumir contenidos dinámicos, respetando los lineamientos del Estándar de API definida por la Coordinación de Desarrollo de Servicios Digitales.
 
 * La lista de aplicaciones de cada ministerio debe estar actualizada. Si la aplicación no está más en funcionamiento (o con soporte) hay que removerla de las tiendas.
 
