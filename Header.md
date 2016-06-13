@@ -20,3 +20,6 @@
  
 
 La foto se adapta según el dispositivo:
+
+![Dispositivos Nación](img/dispositivos-nacion.jpg)
+*Ejemplos*
