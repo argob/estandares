@@ -70,11 +70,11 @@ De ninguna forma se debe traducir lo que DEBE estar en inglés. A continuación 
 
 ### **Ejemplo válido**
 
-* http://www.ejemplo.gob/api/v1/articulos.json?year=2016&sort=desc
+* http://www.ejemplo.gob/api/v1.0/articulos?year=2016&sort=desc
 
 ### **Ejemplo NO válido**
 
-* http://www.ejemplo.gob/api/v1/articulos.json?anio=2016&orden=desc
+* http://www.ejemplo.gob/api/v1.0/articulos?anio=2016&orden=desc
 
 ## RESTful URLs
 
@@ -90,41 +90,41 @@ De ninguna forma se debe traducir lo que DEBE estar en inglés. A continuación 
 
 * No necesita ir más allá de resource/identifier/resource
 
-* Ponga el número de versión en la URL, por ejemplo: http://ejemplo.gob.ar/v1/path/to/resource
+* Ponga el número de versión en la URL, por ejemplo: http://ejemplo.gob.ar/v1.0/path/to/resource
 
 * Especificar campos opcionales como una lista separada por coma.
 
-* El formato DEBE ser: api/v2/resource/{id}.json
+* Para indicar el formato de respuesta utilizar el campo content-type del header siendo por defecto el formato JSON. Por ejemplo:
+XML: Content-Type: application/xml
+JSON: Content-Type: application/json; charset=utf-8
+
+* El formato DEBE ser: api/v2.0/resource/{id}
 
 ### Ejemplos válidos de URLs
 
 * Lista de artículos:
 
-  * GET http://www.ejemplo.gob/api/v1/articulos.json
+  * GET http://www.ejemplo.gob/api/v1.0/articulos
 
 * Filtrando con query string:
 
-  * GET http://www.ejemplo.gob/api/v1/articulos.json?year=2016&sort=desc
+  * GET http://www.ejemplo.gob/api/v1.0/articulos?year=2016&sort=desc
 
 * Un artículo en formato JSON:
 
-  * GET http://www.ejemplo.gob/api/v1/articulos/1234.json
+  * GET http://www.ejemplo.gob/api/v1.0/articulos/1234
 
 * Todos los comentarios de un artículo en particular:
 
-  * GET http://www.ejemplo.gob/api/v1/articulos/1234/comentarios.json
-
-* Todos los comentarios de un artículo en particular en formato XML:
-
-  * GET http://ejemplo.gob/api/v1/articulos/1234/comentarios.xml
+  * GET http://www.ejemplo.gob/api/v1.0/articulos/1234/comentarios
 
 * Especificar campos opcionales en una lista separada por coma:
 
-  * GET http://www.ejemplo.gob/api/v1/articulos/1234.json?fields=title,body
+  * GET http://www.ejemplo.gob/api/v1.0/articulos/1234?fields=title,body
 
 * Agregar un comentario a un artículo específico:
 
-  * POST http://ejemplo.gob/api/v1/articulos/1234/comentarios
+  * POST http://ejemplo.gob/api/v1.0/articulos/1234/comentarios
 
 ### Ejemplos NO válidos de URLs
 
@@ -165,7 +165,7 @@ Los verbos HTTP, o métodos, se deben utilizar en el cumplimiento de sus definic
     <td>/articulos</td>
     <td>Crea nuevo artículo</td>
     <td>Lista de artículos</td>
-    <td>Actualiza un artículo</td>
+    <td>Error</td>
     <td>Elimina todos los artículos</td>
   </tr>
   <tr>
@@ -266,13 +266,16 @@ Una API que retorna JSON DEBE usar:
 
 * Nunca libere la versión de una API sin su número de versión.
 
-* Las versiones DEBEN ser enteros, no decimales, con el prefijo ‘v’. Por ejemplo:
+* Los números de version deben abarcar dos niveles de versión: x.x
 
-  * Válido: v1, v2, v3
-
-  * No válido: v-1.1, v1.2, 1.3
+* Las versiones DEBEN ser enteros, no decimales, con el prefijo ‘v’.
 
 * Dar soporte al menos una versión anterior a la actual.
+
+* Ejemplos:
+Válido: v1.0, v2.1, v3.5
+No válido: v-1.1, v1.2.5, 1.3.3
+
 
 ## Límite de registros
 
@@ -309,7 +312,7 @@ La información sobre los límites de registros y totales disponibles DEBEN ser 
 
 ### GET /articulos
 
-Ejemplo: http://ejemplo.gob/api/v1/articulos.json
+Ejemplo: http://ejemplo.gob/api/v1.0/articulos
 
 Respuesta:
 
@@ -339,7 +342,7 @@ Respuesta:
 
 ### GET /articulos/[id]
 
-Ejemplo: http://ejemplo.gob/api/v1/articulos/[id].json
+Ejemplo: http://ejemplo.gob/api/v1.0/articulos/[id]
 
 Respuesta:
 
@@ -352,7 +355,7 @@ Respuesta:
 
 ### POST /articulos/[id]/comentarios
 
-Ejemplo: Crear – POST http://ejemplo.gob/api/v1/articulos/[id]/comentarios
+Ejemplo: Crear – POST http://ejemplo.gob/api/v1.0/articulos/[id]/comentarios
 
 Cuerpo de la solicitud:
 
