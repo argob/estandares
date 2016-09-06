@@ -22,8 +22,7 @@ Para comunicar en un sitio web de gobierno es fundamental pensar que el usuario 
 
 Por otra parte, es importante tener en cuenta que en términos generales **se lee poco más del 20% del texto de una página web** y **13 millones de personas usa celulares** para interactuar con Internet.
 
-![Dispositivos Nación](img/dispositivos-nacion.jpg)
-*Ejemplos*
+![Celular con el app de Argentina](img/app-argentina.png)
 
 Cada vez que se genere un contenido hay que pensar que el ciudadano entra porque necesita algo. Entender esa necesidad nos obliga a ser:
    * Estrictamente informativos y concisos.
@@ -135,7 +134,7 @@ Se recomiendan textos breves, a modo de referencia:
 
 Ejemplo de visualización de noticia:
 
-![Dispositivos Nación](img/dispositivos-nacion.jpg)
+![Ejemplo de visualización de noticia](img/ejemplo-de- visualización-de noticia.png)
 
 
 En lo posible, utilicemos **anclas visuales**: subtítulos, imágenes, destacados, blancos espaciadores para que la lectura sea más ágil y rápida.
@@ -175,8 +174,8 @@ Se sugiere buscar fotografías de ciudadanos/as siempre que contemos con los der
 
 Busquemos imágenes que ilustren el objetivo de nuestra publicación, representen una situación o algún elemento clave y que sean de dominio o uso público **libre de derechos**. Podes buscar en Internet bancos de imágenes libres de derecho.
 
-![Dispositivos Nación](img/dispositivos-nacion.jpg)
-
+![Ejemplo 1 de imágenes libres de derechos](img/debate-sobre-la- figura-del- arrepentido.png)
+![Ejemplo 2 de imágenes libres de derechos](img/portal-de-datos- abiertos-de agroindustria.png)
 
 
 **Fuentes**
