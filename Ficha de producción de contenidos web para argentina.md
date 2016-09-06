@@ -13,7 +13,7 @@ Nuestro objetivo es que el ciudadano encuentre todo en un solo lugar, que pueda 
 
 También podrán sacar turnos en línea, descargar formularios o documentación necesaria para iniciar los trámites y así ganar tiempo.
 
-![Dispositivos Nación](img/dispositivos-nacion.jpg)
+![Portada Argentina.gob.ar](img/portada-argentina.png)
 *Ejemplos*
 
 **Creemos que un sitio funciona solo si la gente puede encontrar lo que necesita rápidamente y se retira sin tener que pensar demasiado en eso.**
