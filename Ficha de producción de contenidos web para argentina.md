@@ -13,7 +13,7 @@ Nuestro objetivo es que el ciudadano encuentre todo en un solo lugar, que pueda 
 
 También podrán sacar turnos en línea, descargar formularios o documentación necesaria para iniciar los trámites y así ganar tiempo.
 
-![Portada Argentina](img/portada-argentina.png)
+![Portada Argentina.gob.ar](img/portada- argentina.png)
 
 
 **Creemos que un sitio funciona solo si la gente puede encontrar lo que necesita rápidamente y se retira sin tener que pensar demasiado en eso.**
