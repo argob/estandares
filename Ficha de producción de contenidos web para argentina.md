@@ -33,13 +33,13 @@ Cada vez que se genere un contenido hay que pensar que el ciudadano entra porque
 Es importante que el enfoque de toda la información que se vaya a  publicar sea de servicio al ciudadano.
 
 **Sobre el organismo**
-* Misión, objetivos, autoridades, contactos,
-* Políticas, programas, proyectos
-* Resultados e informes
+* Misión, objetivos, autoridades, contactos.
+* Políticas, programas, proyectos.
+* Resultados e informes.
 
 **Información**
 
-* Sobre servicios, beneficios o regulaciones documentos 
+* Sobre servicios, beneficios o regulaciones documentos. 
 * Respuestas a preguntas frecuentes.
 
 **Noticias y novedades**
@@ -49,7 +49,7 @@ Es importante que el enfoque de toda la información que se vaya a  publicar sea
 
 **Anuncios y campañas de difusión**
 
-* Inscripciones a cursos, concursos, jornadas
+* Inscripciones a cursos, concursos, jornadas.
 * Campañas de concientización. Inicio de programas destinados a un público en particular.
 
 
@@ -82,10 +82,15 @@ El registro es el de una conversación habitual y coloquial. No hay excusas para
   
 
 **La composición de las frases**
+
 1. Claridad desde la gramática y la semántica, utilizando palabras cortas, conocidas y precisas.
+
 2. Deben ser cortas. Sin exceso de incisos ni de circunstancias.
+
 3. El núcleo de cada frase, el verbo, debe ser fuerte y directo, aclaró, y no débil y sinuoso, hizo la aclaración.
+
 4. En textos largos el ritmo sugerido es de frase larga + frase corta + frase larga, resulta ideal para conformar un párrafo eficaz e impactante.
+
 5. Adverbios y adjetivos se recomienda que sean descriptivos.
 
 **Visualización de la información**
