@@ -67,7 +67,9 @@ Tomando como referencia casos exitosos de gobierno digital y comunicación web, 
 Según se explica en la guía de producción de contenido del sitio, se realizaron **pruebas de usabilidad para evaluar** si un estilo de presentación de la información genera **mejoras para el usuario**:
 
 1. Los textos con un estilo promocional: 0 %
+
 2. Los textos concisos, con economía de palabras: 58 %
+
 3. Un diseño que facilite el reconocimiento: 47 %
 4. Un lenguaje informativo, neutral: 27 %   
 
