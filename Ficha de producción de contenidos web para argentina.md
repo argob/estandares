@@ -24,8 +24,8 @@ Por otra parte, es importante tener en cuenta que en términos generales **se le
 
 ![Celular con el app de Argentina](img/app-argentina.png)
 Cada vez que se genere un contenido hay que pensar que el ciudadano entra porque necesita algo. Entender esa necesidad nos obliga a ser:
-   * Estrictamente informativos y concisos.
- * Claros y directos.
+* Estrictamente informativos y concisos.
+* Claros y directos.
 
 
 ## ¿Qué tipo de contenidos puedo publicar?
@@ -165,7 +165,7 @@ También se puede incorporar imágenes de menor tamaño en el cuerpo de la nota.
 
 Epígrafe de foto: 15 palabras, 120 caracteres.
 
-**¿Si no tengo fotos qué puedo hacer?**
+**¿Si no tengo fotos, qué puedo hacer?**
 
 Se sugiere buscar fotografías de ciudadanos/as siempre que contemos con los derechos, de la Ciudad, Provincia o Nación y sus diversos escenarios, de eventos pasados relacionados con el contenido nuevo, entre otras opciones.
 
@@ -178,7 +178,7 @@ Busquemos imágenes que ilustren el objetivo de nuestra publicación, represente
 
 - Dirección Nacional de Servicios Digitales, [Guía de estilo para contenido web](https://github.com/argob/estandares/blob/master/contenido-web.md)
 
-- [Content design: planning, writing and managing content](https://www.gov.uk/guidance/content-design)
+- [Content design: planning, writing and managing content.](https://www.gov.uk/guidance/content-design)
 
-- [How Users Read on the Web](https://www.nngroup.com/articles/how-users-read-on-the-web), by JAKOB NIELSEN on October 1, 1997, Topics: Writing for the Web.
+- [How Users Read on the Web.](https://www.nngroup.com/articles/how-users-read-on-the-web), by JAKOB NIELSEN on October 1, 1997, Topics: Writing for the Web.
 - Manual de producción de contenidos para web del Gobierno de la Ciudad de Buenos Aires.
