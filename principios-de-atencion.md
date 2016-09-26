@@ -1,7 +1,7 @@
 # Principios de Atención al Ciudadano
 
 
-> Estos principios guían a todos los organismos del Estado en su relación con el ciudadano. 
+### Estos principios guían a todos los organismos del Estado en su relación con el ciudadano. 
  
 1. Somos **cercanos y empáticos**. La **empatía** nos hace mejores a la hora del intercambio con los demás.
 - Ser cercanos es ser **accesibles**, y eso quiere decir que contamos con las herramientas que nos permiten tener en cuenta las diferencias técnicas, cognitivas y físicas de las personas.
@@ -19,9 +19,9 @@
 - Hacemos nuestro máximo esfuerzo para que la persona que vino a nosotros se vaya **satisfecha** con nuestra atención, siempre que sea posible con su situación resuelta.
 - **Recordamos siempre que somos representantes del Estado, y compartimos esta visión que nos une como equipo. Colaboramos con nuestros compañeros, trabajamos en equipo y transmitimos esta forma de ser y hacer en la administración pública.**
 
-***
 
-> Estos principios guían a los organismos del Estado en relación con sus empleados de atención al ciudadano:
+
+### Estos principios guían a los organismos del Estado en relación con sus empleados de atención al ciudadano:
 
 1. **Capacito y doy formación a mis empleados**, teniendo en cuenta el desarrollo de sus capacidades.
 - Le doy a mis empleados **todas las herramientas** que necesitan para cumplir con su tarea, sean manuales, sistemas, o información actualizada.
