@@ -20,8 +20,7 @@ Para recibir un beneficio o un derecho.
 - ¿Cuándo cobro la jubilación?
 - ¿Puedo pedir de manera gratuita un decodificador de TV digital?
 - ¿Me corresponde la Asignación Universal por Hijo?
-- Un familiar necesita remedios oncológicos. 
-- ¿Dónde los consigo?
+- Un familiar necesita remedios oncológicos ¿Dónde los consigo?
 - ¿Me corresponde un plan social?
 
 Para cumplir una obligación. 
