@@ -6,6 +6,8 @@
 
 * [Principios de Servicios Digitales](principios.md)
 
+* [Principios de Atención al Ciudadano](principios-de-atencion.md)
+
 ## Indicadores
 
 * [Indicadores] (https://github.com/argob/estandares/blob/master/indicadores.md)
