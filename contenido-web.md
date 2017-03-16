@@ -1,5 +1,18 @@
 # Guía de estilo para contenidos web
 
+**Ministerio de Modernización**
+
+Dirección Nacional de Servicios Digitales
+
+Versión: 0.1 
+
+**Indice:**
+
+* [Consideraciones iniciales](#consideraciones iniciales)
+* [¿Para qué nos pide información el ciudadano](#¿Para qué nos pide información un ciudadano?)
+* [¿Cómo leemos un contenido en pantalla?](¿cómo leemos un contenido en pantalla?)
+
+
 ## Consideraciones iniciales
 
 ### ¿Qué es comunicar con claridad?
