@@ -21,5 +21,5 @@
 
 La foto se adapta según el dispositivo:
 
-![Dispositivos Nación](img/dispositivos-nacion.jpg)
+![Header jubilados y pensionados](estandares/img/landing_jubilados_pensionados_0.jpg)
 *Ejemplos*
