@@ -1,4 +1,4 @@
-#Ficha para producción de contenidos web para Argentina.gob.ar#
+#### Ficha para producción de contenidos web para Argentina.gob.ar
 
 **Descripción**: este apunte señala cuestiones centrales a tener en cuenta al momento de producir contenido para la web Argentina.gob.ar. Incluye aspectos de estrategia, datos técnicos sobre la plataforma y tips para lograr una comunicación simple y efectiva.
 
@@ -7,7 +7,7 @@
 
 [Argentina.gob.ar](https://www.argentina.gob.ar/) es el sitio web oficial del Estado argentino y, como tal, es el espacio de comunicación de los servicios al ciudadano.
 
-El ciudadano ngresa a un sitio del gobierno para buscar información, recibir un beneficio, acceder a un derecho, cumplir con una obligación o tomar decisiones.
+El ciudadano ingresa a un sitio del gobierno para buscar información, recibir un beneficio, acceder a un derecho, cumplir con una obligación o tomar decisiones.
 
 Nuestro objetivo, sobre la base de esa premisa, es que el ciudadano encuentre todo en un solo lugar, que pueda hacer consultas sobre [trámites, servicios y beneficios](https://www.argentina.gob.ar/buscar/%2A?f%5B0%5D=bundle%3A%28tramite%20OR%20argentinagobar_migtram%29) de la Administración Pública Nacional. Para eso le presentamos un instructivo de cómo hacerlo, qué documentación necesita, cuánto tiempo requiere y cuánto cuesta.
 
