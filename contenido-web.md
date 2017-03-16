@@ -6,12 +6,16 @@ Dirección Nacional de Servicios Digitales
 
 Versión: 0.1 
 
-**Indice:**
+**Índice:**
 
 * [Consideraciones iniciales](#consideraciones-iniciales)
+* [¿Qué es comunicar con claridad?](#que-es-comunicar-con-claridad)
 * [¿Para qué nos pide información un ciudadano?](#para-qué-nos-pide-información-un-ciudadano)
 * [¿Cómo leemos un contenido en pantalla?](#cómo-leemos-un-contenido-en-pantalla)
 * [¿Qué contenidos podemos publicar en el sitio?](#qué-contenidos-podemos-publicar-en-el-sitio)
+* [¿Qué debemos considerar antes de empezar a escribir?](#qué-debemos-considerar-antes-de-empezar-a-escribir)
+* [Autotest final](#autotest-final)
+
 
 
 
@@ -106,7 +110,7 @@ Los contenidos que **no** debemos publicar son:
 - los que están protegidos por derechos de autor;
 - los que promueven intereses comerciales de terceros.
 
-## Qué debemos considerar antes de empezar a escribir
+## ¿Qué debemos considerar antes de empezar a escribir?
  
 Cuando redactamos textos para la web, es recomendable que utilicemos un estilo periodístico (directo y sencillo)  aunque estemos presentando la misión de un organismo o describiendo una política para el público en general.  
 Las siguientes preguntas nos permiten identificar a quién nos dirigimos y qué necesita que le informemos:  
