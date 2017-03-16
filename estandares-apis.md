@@ -8,7 +8,7 @@ Versión: 1.0
 
 ## Índice
 
-* [Objetivos](#objetivos)
+* [Objetivo](#objetivo)
 * [Requisitos](#requisitos)
 * [Lineamientos](#lineamientos)
 * [Idioma](#idioma)
