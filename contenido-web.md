@@ -14,7 +14,7 @@ Versión: 0.1
 * [¿Cómo leemos un contenido en pantalla?](#cómo-leemos-un-contenido-en-pantalla)
 * [¿Qué contenidos podemos publicar en el sitio?](#qué-contenidos-podemos-publicar-en-el-sitio)
 * [¿Qué debemos considerar antes de empezar a escribir?](#qué-debemos-considerar-antes-de-empezar-a-escribir)
-    * [¿Cómo definimos el perfil del público lector?](#como-definimos-el-perfil-del-público-lector)
+    * [¿Cómo definimos el perfil del público lector?](#cómo-definimos-el-perfil-del-público-lector)
     * [Información clave y orden de los temas](#información-clave-y-orden-de-los-temas)
     * [Estructura del texto](#estructura-del-texto)
         * [Título](#título)
