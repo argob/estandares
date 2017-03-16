@@ -35,7 +35,7 @@ Versión: 0.1
 * [Autotest final](#autotest-final)
     * [¿Cómo sabemos si el contenido que hemos elaborado responde al lenguaje claro?](#cómo-sabemos-si-el-contenido-que-hemos-elaborado-responde-al-lenguaje-claro)
     * [Legibilidad](#legibilidad)
-    * [Escala Inflesz](#escala-inflesz) 
+        * [Escala Inflesz](#escala-inflesz) 
     
     
 ## Consideraciones iniciales
