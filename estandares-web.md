@@ -7,21 +7,21 @@ Dirección Nacional de Servicios Digitales
 **Versión preliminar, todavía en desarrollo, con muchos bugs**
 
 ## Índice
-* [Objetivo] (#objetivo)
-* [Requisitos] (#requisitos)
-    * [Desarrollo] (#desarrollo)
-    * [Diseño] (#diseño)
-        * [Colores] (#colores)
-        * [Tipografías] (#tipografías)
-        * [Estética y elementos gráficos] (#estética-y-elementos-gráficos)
-        * [Soporte mínimo de navegadores] (#soporte-mínimo-de-navegadores)
-        * [Front-end] (#front-end)
-        * [Header] (#header)
-    * [Usabilidad] (#usabilidad)
-    * [Accesibilidad] (#accesibilidad)
-    * [Seguridad] (#seguridad)
-    * [Métricas] (#métricas)
-    * [Referencias] (#referencias)
+* [Objetivo](#objetivo)
+* [Requisitos](#requisitos)
+    * [Desarrollo](#desarrollo)
+    * [Diseño](#diseño)
+        * [Colores](#colores)
+        * [Tipografías](#tipografías)
+        * [Estética y elementos gráficos](#estética-y-elementos-gráficos)
+        * [Soporte mínimo de navegadores](#soporte-mínimo-de-navegadores)
+        * [Front-end](#front-end)
+        * [Header](#header)
+    * [Usabilidad](#usabilidad)
+    * [Accesibilidad](#accesibilidad)
+    * [Seguridad](#seguridad)
+    * [Métricas](#métricas)
+    * [Referencias](#referencias)
 
 ## Objetivo: 
 
