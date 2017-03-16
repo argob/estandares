@@ -18,7 +18,14 @@ Versión: 0.1
     * [Información clave y orden de los temas](#información-clave-y-orden-de-los-temas)
     * [Estructura del texto](#estructura-del-texto)
         * [Título](#título)
-       
+        * [Encabezado o resumen](#encabezado-o-resumen)
+        * [Cuerpo del texto](#cuerpo-del-texto)
+    * [Extensión](#exstensión)
+        * [Extensiones orientativas](#extensiones-orientativas)
+        * [Usemos el menor número de palabras posible para expresar un concepto](#usemos-el-menor-número-de-palabras-posibles-para-expresar-un-concepto)
+        * [Incluyamos solo información relevante](#incluyamos-solo-información-relevante)
+        * [Digámoslo solo una vez](#digámoslo-solo-una-vez)
+        * [Busquemos alternativas de visualización](#busquemos-alternativas-de-visualización)
 * [Autotest final](#autotest-final)
 
 
