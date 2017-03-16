@@ -8,9 +8,9 @@ Versión: 0.1
 
 **Índice**
 
-* [Objetivo] (#objetivo)
-* [Requisitos] (#requisitos)
-* [Aclaraciones] (#aclaraciones)
+* [Objetivo](#objetivo)
+* [Requisitos](#requisitos)
+* [Aclaraciones](#aclaraciones)
 
 ## Objetivo
 
