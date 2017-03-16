@@ -1,36 +1,36 @@
 #Ficha para producción de contenidos web para Argentina.gob.ar#
 
-**Descripción**: este apunte señala cuestiones centrales a tener en cuenta al momento de producir contenido para la web Argentina.gob.ar. Incluye aspectos de la estrategia, datos técnicos sobre la plataforma y tips para lograr una comunicación simple y efectiva.
+**Descripción**: este apunte señala cuestiones centrales a tener en cuenta al momento de producir contenido para la web Argentina.gob.ar. Incluye aspectos de estrategia, datos técnicos sobre la plataforma y tips para lograr una comunicación simple y efectiva.
 
 
 ## Cómo comunicar desde Argentina.gob.ar
 
 [Argentina.gob.ar](https://www.argentina.gob.ar/) es el sitio web oficial del Estado argentino y, como tal, es el espacio de comunicación de los servicios al ciudadano.
 
-Partimos de que el ciudadano que ingresa a un sitio del gobierno buscar información para recibir un beneficio, acceder a un derecho, cumplir con una obligación o tomar decisiones.
+El ciudadano ngresa a un sitio del gobierno para buscar información, recibir un beneficio, acceder a un derecho, cumplir con una obligación o tomar decisiones.
 
-Nuestro objetivo es que el ciudadano encuentre todo en un solo lugar, que pueda hacer consultas sobre [trámites, servicios y beneficios](https://www.argentina.gob.ar/buscar/%2A?f%5B0%5D=bundle%3A%28tramite%20OR%20argentinagobar_migtram%29) de la Administración Pública Nacional. Para eso le presentamos un instructivo de cómo hacerlo, qué documentación necesita, cuánto tiempo requiere y cuánto cuesta.
+Nuestro objetivo, sobre la base de esa premisa, es que el ciudadano encuentre todo en un solo lugar, que pueda hacer consultas sobre [trámites, servicios y beneficios](https://www.argentina.gob.ar/buscar/%2A?f%5B0%5D=bundle%3A%28tramite%20OR%20argentinagobar_migtram%29) de la Administración Pública Nacional. Para eso le presentamos un instructivo de cómo hacerlo, qué documentación necesita, cuánto tiempo requiere y cuánto cuesta.
 
-También podrán sacar turnos en línea, descargar formularios o documentación necesaria para iniciar los trámites y así ganar tiempo.
+También podrá sacar turnos en línea, descargar formularios o documentación necesaria para iniciar los trámites y así ganar tiempo.
 
 ![Portada Argentina.gob.ar](img/portada- argentina.png)
 
 
-**Creemos que un sitio funciona solo si la gente puede encontrar lo que necesita rápidamente y se retira sin tener que pensar demasiado en eso.**
+**Creemos que un sitio funciona solo si la gente puede encontrar lo que necesita rápidamente y se retira sin tener que pensar demasiado en eso, con una sensación de comodidad y no de frustración.**
 
 Para comunicar en un sitio web de gobierno es fundamental pensar que el usuario es el ciudadano. Según Google en Argentina, en 2015 **29 millones de personas** estaban conectadas a la Red, lo que representa el 72% de la población.
 
-Por otra parte, es importante tener en cuenta que en términos generales **se lee poco más del 20% del texto de una página web** y **13 millones de personas usa celulares** para interactuar con Internet.
+Por otra parte, es importante tener en cuenta que, en términos generales, **se lee poco más del 20% del texto de una página web** y **13 millones de personas usa celulares** para interactuar con Internet.
 
 ![Celular con el app de Argentina](img/app-argentina.png)
-Cada vez que se genere un contenido hay que pensar que el ciudadano entra porque necesita algo. Entender esa necesidad nos obliga a ser:
-* Estrictamente informativos y concisos.
+Cada vez que se genera un contenido hay que pensar que el ciudadano entra porque necesita algo. Entender esa necesidad nos obliga a ser:
+* Informativos y concisos.
 * Claros y directos.
 
 
 ## ¿Qué tipo de contenidos puedo publicar?
 
-Es importante que el enfoque de toda la información que se vaya a  publicar sea de servicio al ciudadano.
+Es importante que el enfoque de toda la información a publicar sea de servicio al ciudadano.
 
 **Sobre el organismo**
 * Misión, objetivos, autoridades, contactos.
@@ -97,7 +97,7 @@ El registro es el de una conversación habitual y coloquial. No hay excusas para
 
 **Visualización de la información**
 
-Teniendo en cuenta que se lee el **20%** del total del contenido, podemos diferenciar tres formas para describir el modo en que recorremos los contenidos de una web, las mismas pueden identificarse con tres letras de nuestro alfabeto: F, E y L.
+Si tenemos en cuenta que se lee el **20%** del total del contenido, podemos diferenciar tres formas para describir el modo en que recorremos los contenidos de una web, identificables con tres letras de nuestro alfabeto: F, E y L.
 
 Es importante incorporar elementos que nos permitan destacar información y mejorar su visualización:
 1. Listas numeradas, viñetas, énfasis en palabras u oraciones claves, resumen de los puntos principales.
@@ -176,7 +176,7 @@ Epígrafe de foto: 15 palabras, 120 caracteres.
 
 Se sugiere buscar fotografías de ciudadanos/as siempre que contemos con los derechos, de la Ciudad, Provincia o Nación y sus diversos escenarios, de eventos pasados relacionados con el contenido nuevo, entre otras opciones.
 
-Busquemos imágenes que ilustren el objetivo de nuestra publicación, representen una situación o algún elemento clave y que sean de dominio o uso público **libre de derechos**. Podes buscar en Internet bancos de imágenes libres de derecho.
+Busquemos imágenes que ilustren el objetivo de nuestra publicación, representen una situación o algún elemento clave y que sean de dominio o uso público **libre de derechos**. Podés buscar en Internet bancos de imágenes libres de derecho.
 
 ![Ejemplo 1 de imágenes libres de derechos](img/debate-sobre-la- figura-del- arrepentido.png)
 ![Ejemplo 2 de imágenes libres de derechos](img/portal-de-datos- abiertos-de agroindustria.png)
