@@ -9,8 +9,8 @@ Versión: 0.1
 **Indice:**
 
 * [Consideraciones iniciales](#consideraciones-iniciales)
-* [¿Para qué nos pide información el ciudadano?](#¿para-qué-nos-pide-información-el-ciudadano?)
-* [¿Cómo leemos un contenido en pantalla?](#¿cómo-leemos-un-contenido-en-pantalla?)
+* [¿Para qué nos pide información el ciudadano?](#para-qué-nos-pide-información-el-ciudadano)
+* [¿Cómo leemos un contenido en pantalla?](#cómo-leemos-un-contenido-en-pantalla)
 
 
 ## Consideraciones iniciales
