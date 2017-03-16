@@ -8,13 +8,13 @@ Versión: 0.1
 
 
 ## Índice:
-* [Objetivo] (#objetivo)
-* [Indicadores web] (#indicadores-web)
-* [Indicadores de contenidos editoriales] (#indicadores-de-contenidos-editoriales)
-* [Indicadores de Aplicaciones Móviles] (#indicadores-de-aplicaciones-móviles)
-* [Indicadores APIs] (#indicadores-apis)
-* [Indicadores de Servicios] (#indicadores-de-servicios)
-* [Indicadores de Atención Personalizada] (#indicadores-de-atención-personalizada)
+* [Objetivo](#objetivo)
+* [Indicadores web](#indicadores-web)
+* [Indicadores de contenidos editoriales](#indicadores-de-contenidos-editoriales)
+* [Indicadores de Aplicaciones Móviles](#indicadores-de-aplicaciones-móviles)
+* [Indicadores APIs](#indicadores-apis)
+* [Indicadores de Servicios](#indicadores-de-servicios)
+* [Indicadores de Atención Personalizada](#indicadores-de-atención-personalizada)
 
 ## Objetivo
 El presente documento tiene como objetivo definir los indicadores que deberán proveer todas las áreas del Estado Nacional a la Dirección Nacional de Servicios Digitales de manera mensual para su evaluación.
