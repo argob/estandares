@@ -9,15 +9,15 @@ Versión: 0.1
 **Índice:**
 
 * [Consideraciones iniciales](#consideraciones-iniciales)
-    * [¿Qué es comunicar con claridad?](#que-es-comunicar-con-claridad)
+    * [¿Qué es comunicar con claridad?](#qué-es-comunicar-con-claridad)
 * [¿Para qué nos pide información un ciudadano?](#para-qué-nos-pide-información-un-ciudadano)
 * [¿Cómo leemos un contenido en pantalla?](#cómo-leemos-un-contenido-en-pantalla)
 * [¿Qué contenidos podemos publicar en el sitio?](#qué-contenidos-podemos-publicar-en-el-sitio)
 * [¿Qué debemos considerar antes de empezar a escribir?](#qué-debemos-considerar-antes-de-empezar-a-escribir)
-    * [¿Cómo definimos el perfil del público lector?](#como-definimos-el-perfil-del-publico-lector)
-    * [Información clave y orden de los temas](#informacionn-clave-y-orden-de-los-temas)
+    * [¿Cómo definimos el perfil del público lector?](#como-definimos-el-perfil-del-público-lector)
+    * [Información clave y orden de los temas](#información-clave-y-orden-de-los-temas)
     * [Estructura del texto](#estructura-del-texto)
-        * [Título](#titulo)
+        * [Título](#título)
        
 * [Autotest final](#autotest-final)
 
