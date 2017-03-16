@@ -22,15 +22,21 @@ Versión: 0.1
         * [Cuerpo del texto](#cuerpo-del-texto)
     * [Extensión](#extensión)
         * [Extensiones orientativas](#extensiones-orientativas)
-        * [Usemos el menor número de palabras posible para expresar un concepto](#usemos-el-menor-número-de-palabras-posible-para-expresar-un-concepto)
+        * [Usemos el menor número de palabras posible para expresar un concepto](#usemos-el-menor-número-de-palabras-posible-para-expresar-un-concepto)    
         * [Incluyamos solo información relevante](#incluyamos-solo-información-relevante)
         * [Digámoslo solo una vez](#digámoslo-solo-una-vez)
         * [Busquemos alternativas de visualización](#busquemos-alternativas-de-visualización)
+    * [Lenguaje claro, sencillo, preciso](#lenguaje claro, sencillo, preciso)
+        * [Algunas recomendaciones](#algunas-recomendaciones)
+* [El uso de imágenes](#el-uso-de-imágenes)
+    * [El sentido de su uso](#el-sentido-de-su-uso)  
+    * [Aspectos técnicos](#aspectos-técnicos)
 * [Autotest final](#autotest-final)
-
-
-
-
+    * [¿Cómo sabemos si el contenido que hemos elaborado responde al lenguaje claro?](#cómo-sabemos-si-el-contenido-que-hemos-elaborado-responde-al-lenguaje-claro)
+    * [Legibilidad](#legibilidad)
+    * [Escala Inflesz](#escala-inflesz) 
+    
+    
 ## Consideraciones iniciales
 
 ### ¿Qué es comunicar con claridad?
