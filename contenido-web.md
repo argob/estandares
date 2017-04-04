@@ -29,7 +29,7 @@ Versión: 0.1
     * [Lenguaje claro, sencillo, preciso](#lenguaje-claro-sencillo-preciso)
         * [Algunas recomendaciones](#algunas-recomendaciones)
         
-* [El uso de imágenes](#el-uso-de-imágenes)
+* [Uso de imágenes](#uso-de-imágenes)
     * [El sentido de su uso](#el-sentido-de-su-uso)  
     * [Aspectos técnicos](#aspectos-técnicos)
 * [Autotest final](#autotest-final)
