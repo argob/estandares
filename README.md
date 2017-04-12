@@ -10,7 +10,7 @@
 
 ## Indicadores
 
-* [Indicadores] (https://github.com/argob/estandares/blob/master/indicadores.md)
+* [Indicadores](indicadores.md)
 
 ## Estándares
 
