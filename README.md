@@ -16,15 +16,15 @@
 
 * [Estándares de APIs](estandares-apis.md)
 
-* [Estándares web] (https://github.com/argob/estandares/blob/master/estandares-web.md)
+* [Estándares web](estandares-web.md)
 
-* [Estándares Apps Móviles] (https://github.com/argob/estandares/blob/master/estandares-apps.md)
+* [Estándares Apps Móviles](estandares-apps.md)
 
-* [Estándares Servicios] (https://github.com/argob/estandares/blob/master/estandares-servicios.md)
+* [Estándares Servicios](estandares-servicios.md)
 
-* [Estándares de Atención al Público] (https://github.com/argob/estandares/blob/master/estandares-atencion-al-publico.md)
+* [Estándares de Atención al Público](estandares-atencion-al-publico.md)
 
-* [Estándares para header] (https://github.com/argob/estandares/blob/master/Header.md)
+* [Estándares para header](Header.md)
 
 * [Guía de estilo para contenido web](contenido-web.md)
 
