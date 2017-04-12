@@ -71,8 +71,8 @@ Ejemplo [www.educacion.gob.ar](http://www.educacion.gob.ar). Si uno ingresa a [e
 * **Uso de pie de página oficial**: al final de las páginas debe agregarse el pie de página que distingue a los sitios webs oficiales del gobierno. Este debe tener la leyenda: "Dominio.gob.ar es un sitio web oficial del Gobierno Argentino". Junto a este debe estar el logotipo de Argentina.gob.ar, el cual debe linkear la página de inicio de esa web.
 [El código html se encuentra dentro de los recursos](recursos/identidad/codigo/pie_sitio_oficial.html).
 
-![Pie de página oficial](img/pie-de-pagina.png)
-*Ejemplo de footer en sitio web del Ministerio de Cultura*
+![Pie de página oficial](img/pie-de-pagina-presidencia.png)
+*Ejemplo de footer en sitio web del Ministerio de Educación y Deportes*
 
 
 * **Favicon**: Se debe utilizar la versión adjunta en formato .ico con las versiones de 16px y 32px embebidas.
