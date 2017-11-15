@@ -5,7 +5,6 @@
 ## Principios
 
 * [Principios de Servicios Digitales](principios.md)
-
 * [Principios de Atención al Ciudadano](principios-de-atencion.md)
 
 ## Indicadores
@@ -15,20 +14,13 @@
 ## Estándares
 
 * [Estándares de APIs](estandares-apis.md)
-
 * [Estándares web](estandares-web.md)
-
 * [Estándares Apps Móviles](estandares-apps.md)
-
 * [Estándares Servicios](estandares-servicios.md)
-
 * [Estándares de Atención al Público](estandares-atencion-al-publico.md)
-
 * [Estándares para header](Header.md)
-
 * [Guía de estilo para contenido web](contenido-web.md)
 
+---
 
-
---
 Nos inspiramos en [GOV.UK Design Principles](https://www.gov.uk/design-principles) y [U.S. Digital Services Playbook](https://playbook.cio.gov/).
