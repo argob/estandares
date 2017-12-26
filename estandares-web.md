@@ -18,7 +18,7 @@ Dirección Nacional de Servicios Digitales
         * [Front-end](#front-end)
         * [Header](#header)
     * [Usabilidad](#usabilidad)
-    <* [Accesibilidad](#accesibilidad)>
+    <!-- * [Accesibilidad](#accesibilidad) -->
     * [Seguridad](#seguridad)
     * [Métricas](#métricas)
     * [Referencias](#referencias)
@@ -258,9 +258,9 @@ En este [enlace](https://github.com/argob/estandares/blob/master/Header.md) unas
 8. Los campos de formularios deben mostrar su etiqueta al estar completos. [Ver ejemplos de uso correctos e incorrectos.](https://www.nngroup.com/articles/form-design-placeholders/)
 
 
-### **Accesibilidad**
+<!-- ### **Accesibilidad**-->
 
-1. Los textos deben cumplir las 5 reglas de legibilidad:
+<!--1. Los textos deben cumplir las 5 reglas de legibilidad:
 
     1. El contraste mínimo del texto debe ser 4,5:1 (Para un fondo blanco #fff, el texto más claro posibles es #767676). Probarlo usando herramientas como por ejemplo [http://webaim.org/resources/contrastchecker/](http://webaim.org/resources/contrastchecker/)
 
@@ -270,19 +270,19 @@ En este [enlace](https://github.com/argob/estandares/blob/master/Header.md) unas
 
     4. La separación entre párrafos debe ser 1,5 veces el interlineado.
 
-    5. No usar párrafos con texto justificado.
+    5. No usar párrafos con texto justificado.-->
 
-2. Usar subrayado para los enlaces (a menos que sea un menú o botón).
+<!--2. Usar subrayado para los enlaces (a menos que sea un menú o botón).-->
 
-3. Las fotos deben tener un texto alternativo descriptivo.
+<!--3. Las fotos deben tener un texto alternativo descriptivo.-->
 
-4. No usar texto que en vez de ser texto es una imagen.
+<!--4. No usar texto que en vez de ser texto es una imagen.-->
 
-5. Incluir una vista de impresión, ya sea usando una hoja de estilos o una página aparte, para que todo contenido se vea bien al imprimir.
+<!--5. Incluir una vista de impresión, ya sea usando una hoja de estilos o una página aparte, para que todo contenido se vea bien al imprimir.-->
 
-6. Usar subtítulos para videos.
+<!--6. Usar subtítulos para videos.-->
 
-7. En web, permitir el uso de un teclado sin necesidad de mouse.
+<!--7. En web, permitir el uso de un teclado sin necesidad de mouse.-->
 
 
 ### **Seguridad**
