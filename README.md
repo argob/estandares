@@ -16,7 +16,7 @@
 * [Estándares de APIs](estandares-apis.md)
 * [Estándares web](estandares-web.md)
 * [Estándares Apps Móviles](estandares-apps.md)
-* [Estándares Servicios](estandares-servicios.md)
+* [Estándares de Servicios](estandares-servicios.md)
 * [Estándares de Atención al Público](estandares-atencion-al-publico.md)
 * [Guía de estilo para un header](Header.md)
 * [Guía de estilo para contenido web](contenido-web.md)
