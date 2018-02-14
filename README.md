@@ -13,8 +13,8 @@
 
 ## Estándares
 
-* [Estándares Web](estandares-web.md)
 * [Estándares de APIs](estandares-apis.md)
+* [Estándares de Sitios Web](estandares-web.md)
 * [Estándares de Aplicaciones Móviles](estandares-apps.md)
 * [Estándares de Servicios](estandares-servicios.md)
 * [Estándares de Atención al Público](estandares-atencion-al-publico.md)
