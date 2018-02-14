@@ -56,7 +56,7 @@ Estos lineamientos tienen como objetivo apoyar una verdadera API RESTful. Excepc
 
 * No traducir al español lo que DEBE estar en inglés.
 
-* Armar una documentación detallada como por ejemplo: [https://pages.18f.gov/fbopen/apidocs/](https://pages.18f.gov/fbopen/apidocs/)
+* Armar una documentación detallada como por ejemplo: [https://github.com/18F/api-standards](https://github.com/18F/api-standards/)
 
 * Para el armado de la misma se recomienda utilizar herramientas como:
 
