@@ -1,0 +1,71 @@
+{
+    "metadata": {
+
+        // Estándar de definición geográfica definidas en la guía de entidades interoperables 
+        // http://paquete-apertura-datos.readthedocs.io/es/stable/guia_interoperables.html#geograficas
+        
+        "provincia_id": 06,
+        "provincia_nombre": "Buenos Aires",
+        "spatial": [
+            "ARG",
+            06 
+        ],
+        "homepage": "https://www.gba.gob.ar",
+
+        // Organismo editor del archivo
+        "publisher": {
+            "name": "Organismo provincial",
+            "mbox": "email organismo provincial"
+        },
+
+        // Version, fecha de creación y fecha ultima modificacion
+        "version": 1.0,
+        "issued": "2017-02-20",
+        "modified": "2018-04-18",
+
+        // Cantidad de trámites listados
+        "count": 2,
+
+        // Listado de categorías, debe respetar las definidas en el estándar
+        "themeTaxonomy": [
+            {
+                "id": "doc",
+                "label": "Documentación ciudadana",
+                "description": "Documentos que hacen los ciudadanos"
+            }
+        ]
+    },
+    "services": [
+        {
+            // Organismo editor de este servicio
+            "publisher": {
+                "name": "Registro civil",
+                "mbox": "email organismo"
+            },
+
+            // Título y descripción del servicio
+            "title": "Partidas de nacimiento",
+            "description": "Podés solicitar cualquier partida de la provincia de Buenos Aires de forma online.",
+
+            // Urls de referencia del trámite para la guía, turnos y trámite online.
+            "guide": "https://www.gba.gob.ar/registrodelaspersonas/solicitud_de_partidas",
+            "appointment": "https://www.gba.gob.ar/registrodelaspersonas/solicitud_de_partidas",
+            "online": "https://www.gba.gob.ar/registrodelaspersonas/solicitud_de_partidas",
+
+            // ID de la lista de taxonomias que se definio arriba
+            "theme": "doc"
+        },
+        {
+            "publisher": {
+                "name": "Registro civil",
+                "mbox": "email organismo"
+            },
+            "title": "Partidas de nacimiento",
+            "description": "Podés solicitar cualquier partida de la provincia de Buenos Aires de forma online.",
+            "guide": "https://www.gba.gob.ar/registrodelaspersonas/solicitud_de_partidas",
+            "appointment": "https://www.gba.gob.ar/registrodelaspersonas/solicitud_de_partidas",
+            "online": "https://www.gba.gob.ar/registrodelaspersonas/solicitud_de_partidas",
+            "theme": "doc"
+        }
+    ]
+}
