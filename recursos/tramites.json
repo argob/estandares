@@ -8,28 +8,97 @@
 		],
 		"homepage": "https://www.gba.gob.ar",
 		"tax": "http://www.arba.gov.ar/",
-		"tourism": "http://www.buenosaires.tur.ar/",
-
+		"turism": "http://www.buenosaires.tur.ar/",
 		"publisher": {
-			"name": "Organismo provincial",
+			"name": "Ministerio de gobierno",
 			"mbox": ""
 		},
 		"version": 1.0,
 		"issued": "2017-02-20",
 		"modified": "2018-04-18",
-		"count": 1,
+		"count": 2,
 		"themeTaxonomy": [
 			{
-				"id": "doc",
+				"id": "turismo",
+				"label": "Turismo y migraciones",
+				"description": "Servicios turísticos, entrar y salir del país."
+			},
+			{
+				"id": "transporte",
+				"label": "Transporte",
+				"description": "Particular, profesional, empresas."
+			},
+			{
+				"id": "trabajo",
+				"label": "Trabajo",
+				"description": "Seguros, aportes, formación."
+			},
+			{
+				"id": "sociedad",
+				"label": "Sociedades, industria y negocios",
+				"description": "Inscripciones, registros, autorizaciones."
+			},
+			{
+				"id": "comunicaciones",
+				"label": "Comunicaciones",
+				"description": "Habilitaciones, licencias."
+			},
+			{
+				"id": "comercio",
+				"label": "Comercio interior y exterior",
+				"description": "Autorizaciones, licencias."
+			},
+			{
+				"id": "ciencia",
+				"label": "Ciencia, tecnología e innovación",
+				"description": "Marcas y patentes, licencias, capacitación."
+			},
+			{
+				"id": "social",
+				"label": "Beneficios sociales",
+				"description": "Familia, jubilación, discapacidad."
+			},
+			{
+				"id": "cultura",
+				"label": "Cultura, educación y deporte",
+				"description": "Títulos, bibliotecas y museos, becas."
+			},
+			{
+				"id": "derechos",
+				"label": "Derechos humanos, seguridad y justicia",
+				"description": "Resolución de conflictos, registro de bienes."
+			},
+			{
+				"id": "salud",
+				"label": "Salud",
+				"description": "Obras sociales y prepagas, habilitaciones."
+			},
+			{
+				"id": "finanzas",
+				"label": "Finanzas e impuestos",
+				"description": "Monotributo, declaración jurada, CUIT."
+			},
+			{
+				"id": "energia",
+				"label": "Energía",
+				"description": "Reclamos por servicios."
+			},
+			{
+				"id": "documentacion",
 				"label": "Documentación ciudadana",
-				"description": "Documentos que hacen los ciudadanos"
+				"description": "DNI, pasaporte, antecedentes."
+			},
+			{
+				"id": "ambiente",
+				"label": "Ambiente, agro y alimentos",
+				"description": "Sanidad animal y vegetal, químicos."
 			}
 		]
 	},
 	"services": [
 		{
 			"publisher": {
-				"name": "Registro civil",
+				"name": "Subsecretaría  de gestión gubernamental",
 				"mbox": ""
 			},
 			"title": "Partidas de nacimiento",
@@ -37,7 +106,7 @@
 			"guide": "https://www.gba.gob.ar/registrodelaspersonas/solicitud_de_partidas",
 			"appointment": "https://www.gba.gob.ar/registrodelaspersonas/solicitud_de_partidas",
 			"online": "https://www.gba.gob.ar/registrodelaspersonas/solicitud_de_partidas",
-			"theme": "doc"
+			"theme": "documentacion"
 		}
 	]
 }
