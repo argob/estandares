@@ -84,7 +84,7 @@
 				"description": "Reclamos por servicios."
 			},
 			{
-				"id": "documentacion",
+				"id": "documentos",
 				"label": "Documentación ciudadana",
 				"description": "DNI, pasaporte, antecedentes."
 			},
@@ -106,7 +106,7 @@
 			"guide": "https://www.gba.gob.ar/registrodelaspersonas/solicitud_de_partidas",
 			"appointment": "https://www.gba.gob.ar/registrodelaspersonas/solicitud_de_partidas",
 			"online": "https://www.gba.gob.ar/registrodelaspersonas/solicitud_de_partidas",
-			"theme": "documentacion"
+			"theme": "documentos"
 		}
 	]
 }
