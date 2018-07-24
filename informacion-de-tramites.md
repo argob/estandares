@@ -69,7 +69,7 @@ Con esta finalidad generamos un estándar para compartir información básica de
         // Accesos web generales
         "homepage": "https://www.gba.gob.ar",
         "tax": "http://www.arba.gov.ar/",
-        "turism": "http://www.buenosaires.tur.ar/",
+        "tourism": "http://www.buenosaires.tur.ar/",
 
         // Organismo editor del archivo
         "publisher": {
