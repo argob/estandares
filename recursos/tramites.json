@@ -8,16 +8,16 @@
 		],
 		"homepage": "https://www.gba.gob.ar",
 		"tax": "http://www.arba.gov.ar/",
-		"turism": "http://www.buenosaires.tur.ar/",
+		"tourism": "http://www.buenosaires.tur.ar/",
 
 		"publisher": {
 			"name": "Organismo provincial",
-			"mbox": "email organismo provincial"
+			"mbox": ""
 		},
 		"version": 1.0,
 		"issued": "2017-02-20",
 		"modified": "2018-04-18",
-		"count": 2,
+		"count": 1,
 		"themeTaxonomy": [
 			{
 				"id": "doc",
@@ -30,19 +30,7 @@
 		{
 			"publisher": {
 				"name": "Registro civil",
-				"mbox": "email organismo"
-			},
-			"title": "Partidas de nacimiento",
-			"description": "Podés solicitar cualquier partida de la provincia de Buenos Aires de forma online.",
-			"guide": "https://www.gba.gob.ar/registrodelaspersonas/solicitud_de_partidas",
-			"appointment": "https://www.gba.gob.ar/registrodelaspersonas/solicitud_de_partidas",
-			"online": "https://www.gba.gob.ar/registrodelaspersonas/solicitud_de_partidas",
-			"theme": "doc"
-		},
-		{
-			"publisher": {
-				"name": "Registro civil",
-				"mbox": "email organismo"
+				"mbox": ""
 			},
 			"title": "Partidas de nacimiento",
 			"description": "Podés solicitar cualquier partida de la provincia de Buenos Aires de forma online.",
