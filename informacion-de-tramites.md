@@ -37,20 +37,66 @@ Con esta finalidad generamos un estándar para compartir información básica de
 
 ### Categorías
 
-- Ambiente, agro y alimentos 
-- Beneficios sociales 
-- Ciencia, tecnología e innovación 
-- Comercio interior y exterior 
-- Comunicaciones 
-- Cultura, educación y deporte 
-- Derechos humanos, seguridad y justicia 
-- Documentación ciudadana 
-- Finanzas e impuestos 
-- Salud 
-- Sociedades, industria y negocios 
-- Trabajo 
-- Transporte 
-- Turismo y migraciones
+
+- **Ambiente, agro y alimentos**:
+  Sanidad animal y vegetal, químicos.
+  *(id: ambiente)*
+
+- **Beneficios sociales**:
+  Familia, jubilación, discapacidad.
+  *(id: beneficios)*
+
+- **Ciencia, tecnología e innovación**:
+  Marcas y patentes, licencias, capacitación.
+  *(id: ciencia)*
+
+- **Comercio interior y exterior**:
+  Autorizaciones, licencias.
+  *(id: comercio)*
+
+- **Comunicaciones**:
+  Habilitaciones, licencias.
+  *(id: comunicaciones)*
+
+- **Cultura, educación y deporte**:
+  Títulos, bibliotecas y museos, becas.
+  *(id: cultura)*
+
+- **Derechos humanos, seguridad y justicia**:
+  Resolución de conflictos, registro de bienes.
+  *(id: derechos)*
+
+- **Documentación ciudadana**:
+  DNI, pasaporte, antecedentes.
+  *(id: documentos)*
+
+- **Energía**:
+  Reclamos por servicios.
+  *(id: energia)*
+
+- **Finanzas e impuestos**:
+  Monotributo, declaración jurada, CUIT.
+  *(id: finanzas)*
+
+- **Salud**:
+  Obras sociales y prepagas, habilitaciones.
+  *(id: salud)*
+
+- **Sociedades, industria y negocios**:
+  Inscripciones, registros, autorizaciones.
+  *(id: sociedad)*
+
+- **Trabajo**:
+  Seguros, aportes, formación.
+  *(id: trabajo)*
+
+- **Transporte**:
+  Particular, profesional, empresas.
+  *(id: transporte)*
+
+- **Turismo y migraciones**:
+  Servicios turísticos, entrar y salir del país.
+  *(id: turismo)*
 
 ## Ejemplo
 
@@ -58,18 +104,16 @@ Con esta finalidad generamos un estándar para compartir información básica de
 {
     "metadata": {
 
-        // Estándar de especificación geográfica definidas en la guía de entidades interoperables
-        "provincia_id": 06,
+        // Estándar de definición geográfica definidas en la guía de entidades interoperables 
+        // http://paquete-apertura-datos.readthedocs.io/es/stable/guia_interoperables.html#geograficas
+
+        "provincia_id": 6,
         "provincia_nombre": "Buenos Aires",
         "spatial": [
             "ARG",
-            06 
+            6
         ],
-        
-        // Accesos web generales
         "homepage": "https://www.gba.gob.ar",
-        "tax": "http://www.arba.gov.ar/",
-        "tourism": "http://www.buenosaires.tur.ar/",
 
         // Organismo editor del archivo
         "publisher": {
@@ -88,9 +132,79 @@ Con esta finalidad generamos un estándar para compartir información básica de
         // Listado de categorías, debe respetar las definidas en el estándar
         "themeTaxonomy": [
             {
-                "id": "doc",
+                "id": "turismo",
+                "label": "Turismo y migraciones",
+                "description": "Servicios turísticos, entrar y salir del país."
+            },
+            {
+                "id": "transporte",
+                "label": "Transporte",
+                "description": "Particular, profesional, empresas."
+            },
+            {
+                "id": "trabajo",
+                "label": "Trabajo",
+                "description": "Seguros, aportes, formación."
+            },
+            {
+                "id": "sociedad",
+                "label": "Sociedades, industria y negocios",
+                "description": "Inscripciones, registros, autorizaciones."
+            },
+            {
+                "id": "comunicaciones",
+                "label": "Comunicaciones",
+                "description": "Habilitaciones, licencias."
+            },
+            {
+                "id": "comercio",
+                "label": "Comercio interior y exterior",
+                "description": "Autorizaciones, licencias."
+            },
+            {
+                "id": "ciencia",
+                "label": "Ciencia, tecnología e innovación",
+                "description": "Marcas y patentes, licencias, capacitación."
+            },
+            {
+                "id": "social",
+                "label": "Beneficios sociales",
+                "description": "Familia, jubilación, discapacidad."
+            },
+            {
+                "id": "cultura",
+                "label": "Cultura, educación y deporte",
+                "description": "Títulos, bibliotecas y museos, becas."
+            },
+            {
+                "id": "derechos",
+                "label": "Derechos humanos, seguridad y justicia",
+                "description": "Resolución de conflictos, registro de bienes."
+            },
+            {
+                "id": "salud",
+                "label": "Salud",
+                "description": "Obras sociales y prepagas, habilitaciones."
+            },
+            {
+                "id": "finanzas",
+                "label": "Finanzas e impuestos",
+                "description": "Monotributo, declaración jurada, CUIT."
+            },
+            {
+                "id": "energia",
+                "label": "Energía",
+                "description": "Reclamos por servicios."
+            },
+            {
+                "id": "documentos",
                 "label": "Documentación ciudadana",
-                "description": "Documentos generados por el Estados para los ciudadanos."
+                "description": "DNI, pasaporte, antecedentes."
+            },
+            {
+                "id": "ambiente",
+                "label": "Ambiente, agro y alimentos",
+                "description": "Sanidad animal y vegetal, químicos."
             }
         ]
     },
@@ -112,7 +226,7 @@ Con esta finalidad generamos un estándar para compartir información básica de
             "online": "https://www.gba.gob.ar/registrodelaspersonas/solicitud_de_partidas",
 
             // ID de la lista de taxonomias que se definio arriba
-            "theme": "doc"
+            "theme": "documentos"
         },
         {
             "publisher": {
@@ -124,7 +238,7 @@ Con esta finalidad generamos un estándar para compartir información básica de
             "guide": "https://www.gba.gob.ar/registrodelaspersonas/solicitud_de_partidas",
             "appointment": "https://www.gba.gob.ar/registrodelaspersonas/solicitud_de_partidas",
             "online": "https://www.gba.gob.ar/registrodelaspersonas/solicitud_de_partidas",
-            "theme": "doc"
+            "theme": "documentos"
         }
     ]
 }
