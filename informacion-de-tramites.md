@@ -37,66 +37,28 @@ Con esta finalidad generamos un estándar para compartir información básica de
 
 ### Categorías
 
+Estas son las categorías definidas en el estándar para segmentar los trámites.
+Solo pueden usarse las que están definidas en esta documentación y no se permitirá tener unas diferentes en el archivo json.
 
-- **Ambiente, agro y alimentos**:
-  Sanidad animal y vegetal, químicos.
-  *(id: ambiente)*
 
-- **Beneficios sociales**:
-  Familia, jubilación, discapacidad.
-  *(id: beneficios)*
+| Nombre                                     | Descripción                                    | Id             |
+|--------------------------------------------|------------------------------------------------|----------------|
+| **Ambiente, agro y alimentos**             | Sanidad animal y vegetal, químicos.            | ambiente       |
+| **Beneficios sociales**                    | Familia, jubilación, discapacidad.             | beneficios     |
+| **Ciencia, tecnología e innovación**       | Marcas y patentes, licencias, capacitación.    | ciencia        |
+| **Comercio interior y exterior**           | Autorizaciones, licencias.                     | comercio       |
+| **Comunicaciones**                         | Habilitaciones, licencias.                     | comunicaciones |
+| **Cultura, educación y deporte**           | Títulos, bibliotecas y museos, becas.          | cultura        |
+| **Derechos humanos, seguridad y justicia** | Resolución de conflictos, registro de bienes.  | derechos       |
+| **Documentación ciudadana**                | DNI, pasaporte, antecedentes.                  | documentos     |
+| **Energía**                                | Reclamos por servicios.                        | energia        |
+| **Finanzas e impuestos**                   | Monotributo, declaración jurada, CUIT.         | finanzas       |
+| **Salud**                                  | Obras sociales y prepagas, habilitaciones.     | salud          |
+| **Sociedades, industria y negocios**       | Inscripciones, registros, autorizaciones.      | sociedad       |
+| **Trabajo**                                | Seguros, aportes, formación.                   | trabajo        |
+| **Transporte**                             | Particular, profesional, empresas.             | transporte     |
+| **Turismo y migraciones**                  | Servicios turísticos, entrar y salir del país. | turismo        |
 
-- **Ciencia, tecnología e innovación**:
-  Marcas y patentes, licencias, capacitación.
-  *(id: ciencia)*
-
-- **Comercio interior y exterior**:
-  Autorizaciones, licencias.
-  *(id: comercio)*
-
-- **Comunicaciones**:
-  Habilitaciones, licencias.
-  *(id: comunicaciones)*
-
-- **Cultura, educación y deporte**:
-  Títulos, bibliotecas y museos, becas.
-  *(id: cultura)*
-
-- **Derechos humanos, seguridad y justicia**:
-  Resolución de conflictos, registro de bienes.
-  *(id: derechos)*
-
-- **Documentación ciudadana**:
-  DNI, pasaporte, antecedentes.
-  *(id: documentos)*
-
-- **Energía**:
-  Reclamos por servicios.
-  *(id: energia)*
-
-- **Finanzas e impuestos**:
-  Monotributo, declaración jurada, CUIT.
-  *(id: finanzas)*
-
-- **Salud**:
-  Obras sociales y prepagas, habilitaciones.
-  *(id: salud)*
-
-- **Sociedades, industria y negocios**:
-  Inscripciones, registros, autorizaciones.
-  *(id: sociedad)*
-
-- **Trabajo**:
-  Seguros, aportes, formación.
-  *(id: trabajo)*
-
-- **Transporte**:
-  Particular, profesional, empresas.
-  *(id: transporte)*
-
-- **Turismo y migraciones**:
-  Servicios turísticos, entrar y salir del país.
-  *(id: turismo)*
 
 ## Ejemplo
 
