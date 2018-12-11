@@ -92,6 +92,11 @@
 				"id": "ambiente",
 				"label": "Ambiente, agro y alimentos",
 				"description": "Sanidad animal y vegetal, químicos."
+			},
+			{
+				"id": "vivienda",
+				"label": "Inmuebles y vivienda",
+				"description": "Habilitaciones, Registros y proyectos."
 			}
 		]
 	},
