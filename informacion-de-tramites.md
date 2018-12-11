@@ -58,7 +58,7 @@ Solo pueden usarse las que están definidas en esta documentación y no se permi
 | **Trabajo**                                | Seguros, aportes, formación.                   | trabajo        |
 | **Transporte**                             | Particular, profesional, empresas.             | transporte     |
 | **Turismo y migraciones**                  | Servicios turísticos, entrar y salir del país. | turismo        |
-
+| **Inmuebles y vivienda**                   | Habilitaciones, Registros y proyectos.         | vivienda       |
 
 ## Ejemplo
 
