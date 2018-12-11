@@ -167,6 +167,11 @@ Solo pueden usarse las que están definidas en esta documentación y no se permi
                 "id": "ambiente",
                 "label": "Ambiente, agro y alimentos",
                 "description": "Sanidad animal y vegetal, químicos."
+            },
+            {
+                "id": "vivienda",
+                "label": "Inmuebles y vivienda",
+                "description": "Habilitaciones, Registros y proyectos."
             }
         ]
     },
