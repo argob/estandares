@@ -14,6 +14,7 @@ Versión: 0.1
 * [Requisitos](#requisitos)
   * [Categorías](#categorías)
 * [Ejemplo](#ejemplo)
+* [Versiones](#versiones)
 
 ## Objetivo: 
 
@@ -83,10 +84,11 @@ Solo pueden usarse las que están definidas en esta documentación y no se permi
             "mbox": "email organismo provincial"
         },
 
-        // Version, fecha de creación y fecha ultima modificacion
+        // Version, fecha de creación, fecha ultima modificacion y versión del estandar implementado.
         "version": 1.0,
         "issued": "2017-02-20",
         "modified": "2018-04-18",
+        "standardVersion": 2,
 
         // Cantidad de trámites listados
         "count": 2,
@@ -210,3 +212,8 @@ Solo pueden usarse las que están definidas en esta documentación y no se permi
     ]
 }
 ```
+
+## Versiones
+
+- [[26/07/2018](https://github.com/argob/estandares/blob/7870f16f9664e4622899e8cfb6f1437db1710888/informacion-de-tramites.md)] v1: Primera versión
+- [11/12/2018] v2: Se agregó la categoría *Inmuebles y vivienda* y el metadato **standardVersion** que especifica la versión del estándar utilizada.
