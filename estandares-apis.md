@@ -86,7 +86,7 @@ De ninguna forma se debe traducir lo que DEBE estar en inglés. A continuación 
 
 * Use sustantivos en plural solamente para consistencia (no sustantivos en singular).
 
-* Use los verbos HTTP (GET, POST, PUT, DELETE) para funcionar en las colecciones y elementos.
+* Use los verbos HTTP apropiados (GET, POST, PUT, PATCH, DELETE) para operar en las colecciones y elementos.
 
 * No necesita ir más allá de resource/identifier/resource
 
@@ -151,7 +151,7 @@ Los verbos HTTP, o métodos, se deben utilizar en el cumplimiento de sus definic
     <td>Método HTTP</td>
     <td>POST</td>
     <td>GET</td>
-    <td>PUT</td>
+    <td>PUT/PATCH</td>
     <td>DELETE</td>
   </tr>
   <tr>
