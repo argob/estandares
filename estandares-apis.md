@@ -60,8 +60,9 @@ Estos lineamientos tienen como objetivo apoyar una verdadera API RESTful. Excepc
 
 * Para el armado de la misma se recomienda utilizar herramientas como:
 
+  * [Swagger](https://swagger.io/)
+  * [Raml](https://raml.org/)
   * [MkDocs](http://www.mkdocs.org/)
-
   * [Aglio](https://github.com/danielgtaylor/aglio)
 
 ## Idioma
