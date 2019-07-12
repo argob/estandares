@@ -33,7 +33,7 @@ Con esta finalidad generamos un estándar para compartir información básica de
 - Los archivos deben estar alojados en el sitio web oficiale de Estado local, con el nombre `tramites.json` en el directorio raíz.
   Por ejemplo: `www.provincia.gob.ar/tramites.json`
 - El archivo debe estar en formato json y no debe tener errores de sintaxis. La estructura del archivo puede verse en [este ejemplo](https://github.com/argob/estandares/blob/master/recursos/tramites.json).
-- La especificación geográfica tiene que basarse en la [guía de entidades interoperables](http://paquete-apertura-datos.readthedocs.io/es/stable/guia_interoperables.html#geograficas).
+- La especificación geográfica tiene que basarse en la [guía de entidades interoperables](https://datosgobar.github.io/paquete-apertura-datos/).
 
 
 ### Categorías
@@ -68,7 +68,7 @@ Solo pueden usarse las que están definidas en esta documentación y no se permi
     "metadata": {
 
         // Estándar de definición geográfica definidas en la guía de entidades interoperables 
-        // http://paquete-apertura-datos.readthedocs.io/es/stable/guia_interoperables.html#geograficas
+        // https://datosgobar.github.io/paquete-apertura-datos/guia-interoperables/#geograficas
 
         "provincia_id": 6,
         "provincia_nombre": "Buenos Aires",
