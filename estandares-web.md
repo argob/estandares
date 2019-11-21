@@ -8,8 +8,6 @@ Dirección Nacional de Servicios Digitales
 
 * [Objetivo](#objetivo)
 * [Diseño](#diseño)
-    * [Estrategia de UX](#estrategia-de-ux)
-    * [Uso de Poncho](#uso-de-poncho)
 * [Contenido](#contenido)
 * [Desarrollo](#desarrollo)
 * [Seguridad](#seguridad)
@@ -17,35 +15,11 @@ Dirección Nacional de Servicios Digitales
 
 ## Objetivo: 
 
-El presente documento tiene como objetivo definir las pautas elementales a ser consideradas al momento de diseñar, desarrollar e implementar todo sitio web del Estado Nacional, ya sea realizado por empleados del Estado o personal tercerizado, con el fin de ser utilizados por ciudadanos.
-
-Con los siguientes estándares, se busca homogeneizar la experiencia entre los diversos activos del estado, para facilitar la comprensión y utilización, primando la Usabilidad, la Accesibilidad y la Experiencia.
+Este documento define las pautas elementales a ser consideradas al momento de diseñar, desarrollar e implementar todo sitio web del Estado Nacional, ya sea realizado por empleados del Estado o personal tercerizado, con el fin de ser utilizados por ciudadanos.
 
 ## **Diseño**
 
-### **Estrategia de UX**
-
-La UX o experiencia de usuario sucede en base al diseño, contenidos y performance del sitio. Al momento de pensar en la utilidad del sitio para los ciudadanos se debe tener en cuenta:
-
-1. Investigar (con usuarios y métricas) **qué servicios son los más usados o demandados** y que sea lo primero que se vea al entrar al sitio (y así mismo darles diferentes jerarquías a los servicios según su uso).
-
-2. **Ayudar al usuario a entender dónde está y qué tiene que hacer,** con títulos, breadcrumbs y botones con textos claros (ej: no usar "hacer click acá" si no "descargar tarifas de peajes 2019"). También usar textos y animaciones de "cargando" para cuando el sitio vaya a tardar para mostrar información.
-
-3. Al momento de disponibilizar de forma digital un servicio, **también mejorar el servicio.** Por ejemplo un formulario debe tener sólo los datos necesarios para que el ciudadano pueda usar el servicio, no datos personales que sirvan sólo para estadísticas, por lo cual se puede cambiar el servicio para que tanto su versión en papel como la digital tengan menos campos para completar.
-
-### **Uso de Poncho**
-
-http://argob.github.io/poncho/
-
-Poncho es la librería de estilos y componentes para diseñar y desarrollar sitios web del Estado Nacional. Contiene lineamientos y soluciones específicas para reutilizar:
-
-* **Identidad:** Usar los colores, íconos y tipografía (Roboto) de Poncho: http://argob.github.io/poncho/identidad/colores/
-
-* **Componentes:** Usar los componentes de Poncho http://argob.github.io/poncho/identidad/colores/ (en el caso de necesitar componentes nuevos se pueden hacer basandose en componentes de Bootstrap 3 y Material Design).
-
-* **Plantillas:** Las plantillas son páginas con componentes necesarios para que la misma cumpla alguna función. Su uso es opcional pero ayuda a entender cómo combinar los componentes.
-
-* **Headers y footers:** Los headers de sitios externos a argentina.gob.ar deben tener el título del sitio en la esquina superior izquierda, como se muestra en esta plantilla: http://argob.github.io/poncho/plantillas/headers-y-footers/header-footer-v2.html
+La UX (experiencia de usuario) debe ser útil para el ciudadano además de fácil de entender y usar. La identidad visual debe ser homogénea entre los diferentes sitios del Gobierno (para lo cual se usa la librería de estilos y componentes [Poncho](http://argob.github.io/poncho/). Para más información ver los [Estándares de UX y usabilidad](https://github.com/argob/estandares/blob/master/estandares-ux-usabilidad.md)
 
 ## **Contenido**
 
