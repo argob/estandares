@@ -7,13 +7,13 @@ Dirección Nacional de Servicios Digitales
 ## Índice
 
 * [Objetivo](#objetivo)
-  * [Diseño](#diseño)
-      * [Estrategia de UX](#estrategia-de-ux)
-      * [Uso de Poncho](#uso-de-poncho)
-  * [Contenido](#contenido)
-  * [Desarrollo](#desarrollo)
-  * [Seguridad](#seguridad)
-  * [Métricas](#métricas)
+* [Diseño](#diseño)
+    * [Estrategia de UX](#estrategia-de-ux)
+    * [Uso de Poncho](#uso-de-poncho)
+* [Contenido](#contenido)
+* [Desarrollo](#desarrollo)
+* [Seguridad](#seguridad)
+* [Métricas](#métricas)
 
 ## Objetivo: 
 
