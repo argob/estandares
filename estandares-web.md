@@ -1,24 +1,18 @@
-# Estándares web
+# Estándares de sitios web
 
 **Ministerio de Modernización**
 
 Dirección Nacional de Servicios Digitales
 
-**Versión preliminar, todavía en desarrollo, con muchos bugs**
-
 ## Índice
+
 * [Objetivo](#objetivo)
 * [Requisitos](#requisitos)
-    * [Desarrollo](#desarrollo)
     * [Diseño](#diseño)
-        * [Colores](#colores)
-        * [Tipografías](#tipografías)
-        * [Estética y elementos gráficos](#estética-y-elementos-gráficos)
-        * [Soporte mínimo de navegadores](#soporte-mínimo-de-navegadores)
-        * [Front-end](#front-end)
-        * [Header](#header)
-    * [Usabilidad](#usabilidad)
-    <!-- * [Accesibilidad](#accesibilidad) -->
+        * [Estrategia de UX](#estrategia-de-ux)
+        * [Uso de Poncho](#uso-de-poncho)
+    * [Contenido](#contenido)
+    * [Desarrollo](#desarrollo)
     * [Seguridad](#seguridad)
     * [Métricas](#métricas)
     * [Referencias](#referencias)
@@ -29,13 +23,42 @@ El presente documento tiene como objetivo definir las pautas elementales a ser c
 
 Con los siguientes estándares, se busca homogeneizar la experiencia entre los diversos activos del estado, para facilitar la comprensión y utilización, primando la Usabilidad, la Accesibilidad y la Experiencia.
 
- 
-
 ## Requisitos
+
+### **Diseño**
+
+#### **Estrategia de UX**
+
+La UX o experiencia de usuario sucede en base al diseño, contenidos y performance del sitio. Al momento de pensar en la utilidad del sitio para los ciudadanos se debe tener en cuenta:
+
+1. Investigar (con usuarios y métricas) qué servicios son los más usados o requeridos y **que sea lo primero que se vea al entrar al sitio** (y así mismo darles diferentes jerarquías a los servicios según su uso).
+
+2. Ayudar al usuario a entender dónde está y qué tiene que hacer, con títulos, breadcrumbs y botones con textos claros (ej: no usar "hacer click acá" si no "descargar tarifas de peajes 2019"). También usar textos y animaciones de "cargando" para cuando el sitio vaya a tardar para mostrar información.
+
+3. Al momento de disponibilizar de forma digital un servicio, también mejorar el servicio. Por ejemplo un formulario debe tener sólo los datos necesarios para que el ciudadano pueda usar el servicio, no datos personales que sirvan sólo para estadísticas, por lo cual se puede cambiar el servicio para que tanto su versión en papel como la digital tengan menos campos para completar.
+
+#### **Uso de Poncho**
+
+http://argob.github.io/poncho/
+
+Poncho es la librería de estilos y componentes para diseñar y desarrollar sitios web del Estado Nacional. Contiene lineamientos y soluciones específicas para reutilizar:
+
+* **Identidad:** Usar los colores, íconos y tipografía (Roboto) de Poncho: http://argob.github.io/poncho/identidad/colores/
+
+* **Componentes:** Usar los componentes de Poncho http://argob.github.io/poncho/identidad/colores/ (en el caso de necesitar componentes nuevos se pueden hacer basandose en componentes de Bootstrap 3 y Material Design).
+
+* **Plantillas:** Las plantillas son páginas con componentes necesarios para que la misma cumpla alguna función. Su uso es opcional pero ayuda a entender cómo combinar los componentes.
+
+* **Headers y footers:** Los headers de sitios externos a argentina.gob.ar deben tener el título del sitio en la esquina superior izquierda, como se muestra en esta plantilla: http://argob.github.io/poncho/plantillas/headers-y-footers/header-footer-v2.html
+
+### **Contenido**
+
+El estilo de comunicación de los sitios debe ser cercano al ciudadano, con lenguaje simple, preferentemente usando fotos con ciudadanos argentinos. Para más información ver la [Ficha para producción de contenidos web para Argentina.gob.ar
+](https://github.com/argob/estandares/blob/master/Ficha%20de%20producci%C3%B3n%20de%20contenidos%20web%20para%20argentina.md)
 
 ### **Desarrollo**
 
-* Se pueden usar redirects desde dominios a otros dominios.
+* Se pueden usar redirects desde dominios a otros dominios (ej: www.salud.gob.ar redirige a www.argentina.gob.ar/salud)
 
 * Los sitios web que sean la base del dominio deben usarse con www.
 Ejemplo [www.educacion.gob.ar](http://www.educacion.gob.ar). Si uno ingresa a [educacion.gob.ar](http://educacion.gob.ar) se deberá generar redirect 301 al dominio con las www.
@@ -44,9 +67,9 @@ Ejemplo [www.educacion.gob.ar](http://www.educacion.gob.ar). Si uno ingresa a [e
 
 * Todos los sitios web que ofrezcan servicios de consulta online (mostrar ejemplos) deben tener una API disponible y/o planificada su implementación. (Ver estándares de APIs).
 
-* Todos los sitios con sistemas de registración deben seguir los lineamientos definidos por la coordinación de identidad digital y tarjeta inteligente.
+* Todos los sitios con servicios para el ciudadano que tengan que tener registro de usuarios deben usar el sistema de login de Mi Argentina (ID).
 
-* Los sitios deben ser responsive para poder adaptarse y poder ser navegables desde diversos dispositivos, como por ejemplo dispositivos móviles.
+* Los sitios deben ser responsive para poder adaptarse y poder ser navegables desde diversos dispositivos como por ejemplo celulares.
 
 * Todos los sitios y aplicaciones deberán contar con el mínimo de documentación necesaria para ser instalados en diferentes entornos.
 
@@ -62,48 +85,15 @@ Ejemplo [www.educacion.gob.ar](http://www.educacion.gob.ar). Si uno ingresa a [e
 
 * Control de versiones: deberán estar etiquetadas con correspondiente nombre con el formato "vx.x.x". 
 
-### **Diseño**
+#### **Front-end:**
 
-* **Aplicación de marca sobre logotipo del área**: los logotipos de las áreas de gobierno deben respetar los lineamientos del [manual de identidad visual para web y aplicaciones móviles](recursos/identidad/presidencia_manual_digital.pdf). Dependiendo de la cantidad de caracteres que tenga el nombre del área puede representarse con 1, 2 o 3 líneas de texto, junto a la leyenda "Presidencia de la Nación" y el Escudo de la Nación.
+Las tecnologías a utilizar para el desarrollo front-end de las aplicaciones son:
 
-* **Uso de encabezados**: los encabezados deben tener un alto mínimo de 72px y fondo de color pleno blanco o color primario de la paleta. El logotipo debe tener un alto de 50px y ancho proporcional. Éste debe estar a 10px del margen superior y preferentemente alineado al margen izquierdo del contenedor principal. Ver referencias en el manual [manual de identidad visual para web](recursos/identidad/presidencia_manual_digital.pdf).
+* **HTML5**: Código semántico y organizado para asegurar la accesibilidad del contenido. 
 
-* **Uso de pie de página oficial**: al final de las páginas debe agregarse el pie de página que distingue a los sitios webs oficiales del gobierno. Este debe tener la leyenda: "Dominio.gob.ar es un sitio web oficial del Gobierno Argentino". Junto a este debe estar el logotipo de Argentina.gob.ar, el cual debe linkear la página de inicio de esa web.
-[El código html se encuentra dentro de los recursos](recursos/identidad/codigo/pie_sitio_oficial.html).
+* **CSS3**: Uso de las últimas versiones, siempre teniendo en cuenta el soporte de los navegadores de las diferentes propiedades.
 
-![Pie de página oficial](img/pie-de-pagina-presidencia.png)
-*Ejemplo de footer en sitio web del Ministerio de Educación y Deportes*
-
-
-* **Favicon**: Se debe utilizar la versión adjunta en formato .ico con las versiones de 16px y 32px embebidas.
-
-  Dentro de la [carpeta de recursos](recursos/identidad/) adjuntos a este documento se pueden encontrar ejemplos de código para el encabezado, los tipos de pie de página, el favicon y las diferentes disposiciones del logotipo.
-
-* **Justificación:** Brindar un sistema visual homogéneo acorde al manual de identidad y marca, entre todas las propiedades digitales del gobierno.
-
-* **Recursos:** Están disponibles los recursos gráficos a través de [Poncho](https://argob.github.io/poncho) que busca homogeneizar y facilitar la creación de sitios web. 
-
-#### **Colores:**
-
-Se debe respetar la paleta de colores de Poncho: http://argob.github.io/poncho/estilos/colores/
-
-#### **Tipografías:**
-
-La familia tipográfica estándar es **Roboto** dada su alta legibilidad en medios digitales.
-
-Para textos largos se usa Droid Serif para cansar menos al lector, ya que por su forma las letras se identifican más fácil.
-
-Ambas familias tipográficas están hechas por Google y su uso es libre y gratuito bajo licencia Apache 2.0.
-
-#### **Estética y elementos gráficos:**
-
-Como estética se usa un sistema visual minimalista/flat donde predomina el diseño del contenido evitando el uso de ornamentos que distraigan o afecten la performance del sitio.
-
-Los elementos se componen de figuras simples con colores plenos, evitando el uso de degradados.
-
-Se recomienda el uso de fotografías como parte del contenido, ya que hace más amena la lectura y ayuda a la comunicación. Ver los estándares de contenido para más información.
-
-#### **Responsive:**
+#### **Maquetado responsive**
 
 Todos los sitios deben poder verse desde cualquier dispositivo que se utilice.
 
@@ -136,7 +126,6 @@ El soporte mínimo que se debe dar es para las siguientes resoluciones:
     <td>2560 x 1440 px</td>
   </tr>
 </table>
-
 
 #### **Soporte mínimo de navegadores:**
 
@@ -195,78 +184,9 @@ Todos los sitios web deben poder verse bien y con todas sus funcionalidades anda
   </tr>
 </table>
 
-
-#### **Front-end:**
-
-Las tecnologías a utilizar para el desarrollo front-end de las aplicaciones son:
-
-* **HTML5**: Código semántico y organizado para asegurar la accesibilidad del contenido. 
-
-* **CSS3**: Uso de las últimas versiones, siempre teniendo en cuenta el soporte de los navegadores de las diferentes propiedades.
-
-#### **Header**
-
-En este [enlace](https://github.com/argob/estandares/blob/master/Header.md) unas indicaciones de estilo para el header. 
-
-### **Usabilidad**
-
-1. Diseñar para todas las resoluciones de pantalla de computadoras, tablets y celulares posibles.
-
-2. Usar convenciones de estética y funcionamiento de cada plataforma o sistema operativo (Ej: [Google Material Design,](https://www.google.com/design/spec/material-design/introduction.html) [iOS Guidelines.](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/) Para sitios web se deben respetar sólo los lineamientos de identidad visual).
-
-3. Entender qué funcionalidades son las más usadas (en base a medición de analíticas y pruebas de usabilidad) para hacerlas más fácil de acceder en futuras versiones.
-
-4. Mostrar al usuario el estado del sistema en todo momento. Dónde está (títulos y breadcrumbs), lo que está haciendo y de qué se trata (títulos y descripciones), cuál es su progreso (indicadores de carga y barras de progreso, etc).
-
-5. Brindar una respuesta inmediata a cada interacción (un cambio visual, un mensaje de carga, etc).
-
-6. Los elementos interactivos deben tener un estilo para cuando está:
-
-    1. En estado normal
-
-    2. En foco
-
-    3. Over (mouse encima del elemento)
-
-    4. Activo (cuando se está haciendo clic o tap)
-
-    5. Visitado (para enlaces dentro de un párrafo).
-
-7. Los botones o áreas interactivas deben ser grandes como para no necesitar precisión al hacer clic o tap. Esta necesidad está basada en la [ley de Fitts.](https://es.wikipedia.org/wiki/Ley_de_Fitts) En aplicaciones móviles el mínimo de un área interactiva debe ser 44x44pts.
-
-8. Los campos de formularios deben mostrar su etiqueta al estar completos. [Ver ejemplos de uso correctos e incorrectos.](https://www.nngroup.com/articles/form-design-placeholders/)
-
-
-<!-- ### **Accesibilidad**-->
-
-<!--1. Los textos deben cumplir las 5 reglas de legibilidad:
-
-    1. El contraste mínimo del texto debe ser 4,5:1 (Para un fondo blanco #fff, el texto más claro posibles es #767676). Probarlo usando herramientas como por ejemplo [http://webaim.org/resources/contrastchecker/](http://webaim.org/resources/contrastchecker/)
-
-    2. El cuerpo de texto mínimo para sitios web es de 14px/pts para párrafos y 12px/pts para anotaciones.
-
-    3. Usar interlineado de párrafos de 1,5 a 2 veces el cuerpo de texto.
-
-    4. La separación entre párrafos debe ser 1,5 veces el interlineado.
-
-    5. No usar párrafos con texto justificado.-->
-
-<!--2. Usar subrayado para los enlaces (a menos que sea un menú o botón).-->
-
-<!--3. Las fotos deben tener un texto alternativo descriptivo.-->
-
-<!--4. No usar texto que en vez de ser texto es una imagen.-->
-
-<!--5. Incluir una vista de impresión, ya sea usando una hoja de estilos o una página aparte, para que todo contenido se vea bien al imprimir.-->
-
-<!--6. Usar subtítulos para videos.-->
-
-<!--7. En web, permitir el uso de un teclado sin necesidad de mouse.-->
-
-
 ### **Seguridad**
 
-La comunicación con los web services debe ser encriptada usando un certificado SSL/TLS
+La comunicación con los web services debe ser encriptada usando un certificado SSL/TLS.
 
 Todas las URL que lanza una aplicación deben ser https.
 
@@ -290,25 +210,4 @@ Se deberá brindar permisos de administración a una cuenta proporcionada única
 
 **Para todos los casos**
 
-Serán provistos de un código o etiqueta que deberá ser implementado en todas las páginas de su sitio web. La implementación es muy simple y se detalla en el documento de "Implementación de Google Tag Manager" disponible en el siguiente enlace: ######
-
-Para conocer más acerca de Google Tag Manager, véase el apartado "Referencias"
-
-### Referencias
-
-¿Qué es Google Analytics?
-
-[https://es.wikipedia.org/wiki/Google_Analytics](https://es.wikipedia.org/wiki/Google_Analytics)
-
-¿Qué es Google Tag Manager?
-
-[https://support.google.com/tagmanager/answer/6102821?hl=es](https://support.google.com/tagmanager/answer/6102821?hl=es)
-
-¿Qué es una etiqueta? 
-
-[https://support.google.com/tagmanager/answer/6102821?hl=es](https://support.google.com/tagmanager/answer/6102821?hl=es)
-
-¿Qué es SEO? (Posicionamiento en Buscadores)
-
-[https://es.wikipedia.org/wiki/Posicionamiento_en_buscadores](https://es.wikipedia.org/wiki/Posicionamiento_en_buscadores)
-
+Serán provistos de un código o etiqueta que deberá ser implementado en todas las páginas de su sitio web. La implementación es muy simple y se detalla en el documento de [Implementación de Google Tag Manager](https://github.com/argob/estandares/blob/master/implementacion-gtm.md)
