@@ -27,11 +27,11 @@ Con los siguientes estándares, se busca homogeneizar la experiencia entre los d
 
 La UX o experiencia de usuario sucede en base al diseño, contenidos y performance del sitio. Al momento de pensar en la utilidad del sitio para los ciudadanos se debe tener en cuenta:
 
-1. Investigar (con usuarios y métricas) qué servicios son los más usados o requeridos y **que sea lo primero que se vea al entrar al sitio** (y así mismo darles diferentes jerarquías a los servicios según su uso).
+1. Investigar (con usuarios y métricas) **qué servicios son los más usados o demandados** y que sea lo primero que se vea al entrar al sitio (y así mismo darles diferentes jerarquías a los servicios según su uso).
 
-2. Ayudar al usuario a entender dónde está y qué tiene que hacer, con títulos, breadcrumbs y botones con textos claros (ej: no usar "hacer click acá" si no "descargar tarifas de peajes 2019"). También usar textos y animaciones de "cargando" para cuando el sitio vaya a tardar para mostrar información.
+2. **Ayudar al usuario a entender dónde está y qué tiene que hacer,** con títulos, breadcrumbs y botones con textos claros (ej: no usar "hacer click acá" si no "descargar tarifas de peajes 2019"). También usar textos y animaciones de "cargando" para cuando el sitio vaya a tardar para mostrar información.
 
-3. Al momento de disponibilizar de forma digital un servicio, también mejorar el servicio. Por ejemplo un formulario debe tener sólo los datos necesarios para que el ciudadano pueda usar el servicio, no datos personales que sirvan sólo para estadísticas, por lo cual se puede cambiar el servicio para que tanto su versión en papel como la digital tengan menos campos para completar.
+3. Al momento de disponibilizar de forma digital un servicio, **también mejorar el servicio.** Por ejemplo un formulario debe tener sólo los datos necesarios para que el ciudadano pueda usar el servicio, no datos personales que sirvan sólo para estadísticas, por lo cual se puede cambiar el servicio para que tanto su versión en papel como la digital tengan menos campos para completar.
 
 ### **Uso de Poncho**
 
