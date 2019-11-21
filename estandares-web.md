@@ -14,7 +14,6 @@ Dirección Nacional de Servicios Digitales
   * [Desarrollo](#desarrollo)
   * [Seguridad](#seguridad)
   * [Métricas](#métricas)
-  * [Referencias](#referencias)
 
 ## Objetivo: 
 
