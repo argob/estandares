@@ -19,7 +19,7 @@ Este documento define las pautas elementales a ser consideradas al momento de di
 
 ## **Diseño**
 
-La UX (experiencia de usuario) debe ser útil para el ciudadano además de fácil de entender y usar. La identidad visual debe ser homogénea entre los diferentes sitios del Gobierno (para lo cual se usa la librería de estilos y componentes [Poncho](http://argob.github.io/poncho/). Para más información ver los [Estándares de UX y usabilidad](https://github.com/argob/estandares/blob/master/estandares-ux-usabilidad.md)
+La UX (experiencia de usuario) debe ser útil para el ciudadano además de fácil de entender y usar. La identidad visual debe ser homogénea entre los diferentes sitios del Gobierno (para lo cual se usa la librería de estilos y componentes [Poncho](http://argob.github.io/poncho/). Para más información ver los [Estándares de Diseño de UX e Identidad Visual](https://github.com/argob/estandares/blob/master/estandares-ux-visual.md)
 
 ## **Contenido**
 
