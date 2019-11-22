@@ -1,4 +1,4 @@
-# Estándares de Diseño de UX y Usabilidad para sitios web y aplicaciones móviles
+# Estándares de Diseño de UX e Identidad Visual para sitios web y aplicaciones móviles
 
 **Ministerio de Modernización**
 
