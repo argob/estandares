@@ -510,6 +510,24 @@ Expertos como Nikolajeva y Scott señalan que las imágenes que acompañan un te
 
 Nuestras imágenes deben encuadrarse en la primera o segunda modalidad; nunca en la tercera.
 
+### Imagen destacada
+
+* Usá fotos que se relacionen directamente con la información del contenido y refuercen el mensaje principal.
+
+* Las imágenes deben de marcar un contexto (Relación figura - fondo)
+
+* Evitá fotografías de funcionarios
+
+* No usar tipografía o texto sobre la imagen
+
+* No usar logos ni marcas sobre la imagen.
+
+**Fotografías de 1920x1080px, formato JPEG y PNG de 72 dpi.**
+ 
+La foto se adapta según el dispositivo:
+
+![Header jubilados y pensionados](img/landing_jubilados_pensionados_0.jpg)
+*Ejemplos*
 
 ### Aspectos técnicos
 Hay 4 aspectos importantes a tener en cuenta al elegir una foto:
