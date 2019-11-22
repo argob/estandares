@@ -1,4 +1,4 @@
-## Guía de estilo para un header
+## Guía de estilo para imágenes destacadas de una página web
 
 ### Descripción
 
@@ -9,8 +9,6 @@
 * Las imágenes deben de marcar un contexto (Relación figura - fondo)
 
 * Evitá fotografías de funcionarios
-
-* Se permiten ilustraciones figurativas y sin fondos planos
 
 * No usar tipografía o texto sobre la imagen
 
