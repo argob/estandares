@@ -18,9 +18,8 @@
 * [Estándares de Diseño de UX e Identidad Visual](estandares-ux-visual.md)
 * [Estándares de Sitios Web](estandares-web.md)
 * [Estándares de Aplicaciones Móviles](estandares-apps.md)
-* [Diseño de interfaces conversacionales (chatbots)](estandares-chatbot.md)
+* [Estándares de diseño de Interfaces Conversacionales (Chatbots)](estandares-chatbot.md)
 * [Estándares de APIs](estandares-apis.md)
-* [Guía de estilo para un header](Header.md)
 * [Guía de estilo para contenido web](contenido-web.md)
 
 ---
