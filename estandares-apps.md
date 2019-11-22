@@ -18,7 +18,7 @@ Este documento define las pautas elementales a ser consideradas al momento de di
 
 ## **Diseño**
 
-La UX (experiencia de usuario) debe ser útil para el ciudadano además de fácil de entender y usar. La identidad visual debe ser homogénea entre los diferentes sitios del Gobierno (para lo cual se usa la librería de estilos y componentes [Poncho](http://argob.github.io/poncho/). Para más información ver los [Estándares de UX y usabilidad](https://github.com/argob/estandares/blob/master/estandares-ux-usabilidad.md)
+La UX (experiencia de usuario) debe ser útil para el ciudadano además de fácil de entender y usar. La identidad visual debe ser homogénea entre los diferentes sitios del Gobierno (para lo cual se usa la librería de estilos y componentes [Poncho](http://argob.github.io/poncho/). Para más información ver los [Estándares de Diseño de UX e Identidad Visual](https://github.com/argob/estandares/blob/master/estandares-ux-visual.md)
 
 Se debe tener en cuenta que una aplicación móvil es más costosa de desarrollar que un sitio web y es más dificil que un usuario la baje (en comparación a entrar a un sitio web). Por lo cual se debe evaluar con mayor rigurosidad si debe existir la aplicación o no. Por ejemplo en el caso de necesitar mostrar sólo información conviene hacer un sitio web, pero en el caso de tener que realizar una acción recurrente que dura poco, es posible que convenga hacer una aplicación.
 
