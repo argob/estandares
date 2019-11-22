@@ -15,7 +15,7 @@
 
 * [Estándares de Servicios](estandares-servicios.md)
 * [Estándares de Atención al Público](estandares-atencion-al-publico.md)
-* [Estándares de Diseño de UX e Identidad Visual para sitios web y aplicaciones móviles](estandares-ux-usabilidad.md)
+* [Estándares de Diseño de UX e Identidad Visual](estandares-ux-visual.md)
 * [Estándares de Sitios Web](estandares-web.md)
 * [Estándares de Aplicaciones Móviles](estandares-apps.md)
 * [Diseño de interfaces conversacionales (chatbots)](estandares-chatbot.md)
