@@ -18,6 +18,8 @@
 * [Estándares de Sitios Web](estandares-web.md)
 * [Estándares de Aplicaciones Móviles](estandares-apps.md)
 * [Estándares de APIs](estandares-apis.md)
+* [Información de trámites provinciales](informacion-de-tramites.md)
+* [Implementación de Google Tag Manager](implementacion-gtm.mdd)
 
 ## Contenido Web
 
