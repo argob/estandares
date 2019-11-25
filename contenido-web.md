@@ -501,15 +501,6 @@ El uso de palabras simples garantiza que somos comprendidos por el mayor número
 ### El sentido de su uso
 Las imágenes -sean fotos o ilustraciones- nos permiten darle apoyo documental al texto escrito. Cuando se trata de íconos y símbolos ampliamente reconocidos, nos ayudan a organizar visualmente la información. Privilegiemos su uso con fines informativos y evitemos utilizarlas para darle solo valor estético o visual.
 
-
-Expertos como Nikolajeva y Scott señalan que las imágenes que acompañan un texto funcionan de tres maneras:
-
-- Cooperante: La imagen y el texto escrito se complementan mutuamente.
-- Operante: La imagen agrega información que no estaba contenida en el texto, pero que se vincula con ella.
-- Contradictoria: La imagen desdice lo dicho en el texto.
-
-Nuestras imágenes deben encuadrarse en la primera o segunda modalidad; nunca en la tercera.
-
 ### Imagen destacada
 
 * Usá fotos que se relacionen directamente con la información del contenido y refuercen el mensaje principal.
@@ -546,7 +537,7 @@ Antes de elegir una fotografía es importante que sepamos el objetivo de nuestra
 
 La mayoría de los organismos oficiales ofrecen imágenes de libre disponibilidad en las redes. Los buscadores y algunos bancos de fotos permiten buscar imágenes con licencia Creative Commons.
 
-
+
 ## Autotest final
 ### ¿Cómo sabemos si el contenido que hemos elaborado responde al lenguaje claro?
 
