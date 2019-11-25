@@ -1,21 +1,26 @@
-# Estándares de Servicios Digitales
+# Principios y Estándares de Servicios Digitales
 
-> Guías de principios y formas de trabajar de la Dirección Nacional de Servicios Digitales de la República Argentina.
+> Formas de trabajar de la Dirección Nacional de Servicios Digitales de la República Argentina.
 
 ## Principios
 
 * [Principios de Servicios Digitales](principios.md)
-* [Principios de Atención al Ciudadano](principios-de-atencion.md)
 
-## Estándares y guías
+## Servicios y Diseño de Productos
 
 * [Estándares de Servicios](estandares-servicios.md)
 * [Estándares de Atención al Público](estandares-atencion-al-publico.md)
 * [Estándares de Diseño de UX e Identidad Visual](estandares-ux-visual.md)
+* [Estándares de Diseño de Interfaces Conversacionales (Chatbots)](estandares-chatbot.md)
+
+## Desarrollo e Infraestructura
+
 * [Estándares de Sitios Web](estandares-web.md)
 * [Estándares de Aplicaciones Móviles](estandares-apps.md)
-* [Estándares de diseño de Interfaces Conversacionales (Chatbots)](estandares-chatbot.md)
 * [Estándares de APIs](estandares-apis.md)
+
+## Contenido Web
+
 * [Guía de estilo para contenido web](contenido-web.md)
 * [Guía de producción de contenidos web para Argentina.gob.ar](contenido-web-argentina.md)
 
