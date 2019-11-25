@@ -1,4 +1,4 @@
-# Diseño de interfaces conversacionales (chatbots)
+# Diseño de Interfaces Conversacionales (Chatbots)
 
 Prácticas recomendadas, uso de componentes y patrones, usuarios representativos, arquitectura, métricas y cuestiones a tener en cuenta.
 
