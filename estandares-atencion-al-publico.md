@@ -9,6 +9,7 @@ Versión: 0.1
 **Indice:**
 
 * [Objetivo](#objetivo)
+* [Principios de Atención al Público](#principios-de-atencion-al-publico)
 * [Requisitos](#requisitos)
     * [Atención Personalizada](#atención-personalizada)
     * [Atención Telefónica](#atención-telefónica)
