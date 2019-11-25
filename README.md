@@ -11,8 +11,8 @@
 * [Estándares de Servicios](estandares-servicios.md)
 * [Estándares de Atención al Público](estandares-atencion-al-publico.md)
 * [Estándares de Diseño de UX e Identidad Visual](estandares-ux-visual.md)
-* [Estándares de Diseño de Interfaces Conversacionales (Chatbots)](estandares-chatbot.md)
-* [Estándares de Contenido Web](contenido-web.md)
+* [Guía de Diseño de Interfaces Conversacionales (Chatbots)](chatbot.md)
+* [Guía de Contenido Web](contenido-web.md)
 
 ## Desarrollo e Infraestructura
 
