@@ -6,12 +6,13 @@
 
 * [Principios de Servicios Digitales](principios.md)
 
-## Servicios y Diseño de Productos
+## Servicios, Diseño de Productos y Contenido
 
 * [Estándares de Servicios](estandares-servicios.md)
 * [Estándares de Atención al Público](estandares-atencion-al-publico.md)
 * [Estándares de Diseño de UX e Identidad Visual](estandares-ux-visual.md)
 * [Estándares de Diseño de Interfaces Conversacionales (Chatbots)](estandares-chatbot.md)
+* [Estándares de Contenido Web](contenido-web.md)
 
 ## Desarrollo e Infraestructura
 
@@ -20,11 +21,6 @@
 * [Estándares de APIs](estandares-apis.md)
 * [Información de trámites provinciales](informacion-de-tramites.md)
 * [Implementación de Google Tag Manager](implementacion-gtm.mdd)
-
-## Contenido Web
-
-* [Guía de estilo para contenido web](contenido-web.md)
-* [Guía de producción de contenidos web para Argentina.gob.ar](contenido-web-argentina.md)
 
 ---
 
