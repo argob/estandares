@@ -7,7 +7,7 @@ Dirección Nacional de Servicios Digitales
 ## Índice
 
 * [Objetivo](#objetivo)
-* [Estrategia de UX](#estrategia-de-ux)
+* [Principios de UX](#principios-de-ux)
 * [Uso de Poncho para sitios web](#uso-de-poncho-para-sitios-web)
 * [Uso de Poncho para aplicaciones móviles](#uso-de-poncho-para-aplicaciones-móviles)
 
@@ -15,7 +15,7 @@ Dirección Nacional de Servicios Digitales
 
 Este documento define las pautas elementales a ser consideradas al momento de idear y diseñar sitios webs y aplicaciones móviles del Estado Nacional, ya sean realizadas desde el Estado o por un proveedor externo, con el fin de ser utilizadas por ciudadanos.
 
-## **Estrategia de UX**
+## **Principios de UX**
 
 La UX o experiencia de usuario sucede en base al diseño, contenidos y performance del sitio. Al momento de pensar en la utilidad del sitio para los ciudadanos se debe tener en cuenta:
 
