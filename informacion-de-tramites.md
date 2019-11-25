@@ -22,12 +22,6 @@ Dentro de las plataformas de Mi Argentina y Argentina.gob.ar tenemos el objetivo
 
 Con esta finalidad generamos un estándar para compartir información básica de estos servicios y que los ciudadanos puedan accederlos cómodamente desde su perfil ciudadano, o al navegar la web oficinal del Estado Nacional.
 
-## Planificación
-
-- [x] Definir el estándar de datos a compartir
-- [ ] Implementar el listado de los trámites provinciales en Argentina.gob.ar
-- [ ] Mostrar los trámites de la provincia del usuario en Mi Argentina
-
 ## Requisitos
 
 - Los archivos deben estar alojados en el sitio web oficiale de Estado local, con el nombre `tramites.json` en el directorio raíz.
