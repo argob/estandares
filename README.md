@@ -7,11 +7,7 @@
 * [Principios de Servicios Digitales](principios.md)
 * [Principios de Atención al Ciudadano](principios-de-atencion.md)
 
-## Indicadores
-
-* [Indicadores](indicadores.md)
-
-## Estándares
+## Estándares y guías
 
 * [Estándares de Servicios](estandares-servicios.md)
 * [Estándares de Atención al Público](estandares-atencion-al-publico.md)
@@ -21,6 +17,7 @@
 * [Estándares de diseño de Interfaces Conversacionales (Chatbots)](estandares-chatbot.md)
 * [Estándares de APIs](estandares-apis.md)
 * [Guía de estilo para contenido web](contenido-web.md)
+* [Guía de producción de contenidos web para Argentina.gob.ar](contenido-web-argentina.md)
 
 ---
 
