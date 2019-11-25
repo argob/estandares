@@ -1,7 +1,8 @@
-# Ficha para producción de contenidos web para Argentina.gob.ar
+# Guía de producción de contenidos web para Argentina.gob.ar
 
 **Descripción**: este apunte señala cuestiones centrales a tener en cuenta al momento de producir contenido para la web Argentina.gob.ar. Incluye aspectos de estrategia, datos técnicos sobre la plataforma y tips para lograr una comunicación simple y efectiva.
 
+Esta guía pensada para Argentina.gob.ar se apoya en la [Guía de estilo para contenidos web](https://github.com/argob/estandares/blob/master/contenido-web.md)
 
 ## Cómo comunicar desde Argentina.gob.ar
 
