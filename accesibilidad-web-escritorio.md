@@ -139,9 +139,9 @@ Por ej si las opciones son:
 
 **Cantidad de pasajes**
 
-**- 1**
-**- 2**
-**- 3**
+- 1
+- 2
+- 3
 
 La persona va a escuchar **“uno, dos, tres”** y no sabrá que esta elección se refiere a **“Cantidad de pasajes”.**
 
@@ -158,9 +158,9 @@ Lo tolerado o mínimo (y lo más fácil de lograr) es que en la página de devol
 
 Por ejemplo si falta ingresar:
 
-**- DNI**
-**- Nombre**
-**- Apellido**
+- DNI
+- Nombre
+- Apellido
 
 La página de devolución de error debe mostrarse con el foco en el input DNI y el audio debe decir lo mismo que antes del envio “completar campo de texto DNI”. Para que esto suceda los input deben tener sus nombres (labels) asociadas correctamente con “label for” y “id”.
 
@@ -248,9 +248,9 @@ Al abrir el panel de elementos podemos ver la lista de enlaces y de paso revisar
 
 Por ej “VER MÁS” “HACER CLICK AQUÍ” no se entienden aisladamente. En la lista de enlaces de una página de noticias se verá:
 
-**- VER MÁS**
-**- VER MÁS**
-**- VER MÁS**
+- VER MÁS
+- VER MÁS
+- VER MÁS
 
 Y el usuario no sabe a dónde lleva cada uno.
 
