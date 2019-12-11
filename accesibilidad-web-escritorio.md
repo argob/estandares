@@ -274,7 +274,7 @@ Otras cosas que tenemos que chequear y la mayoría se puede verificar a simple v
 
 ### La página debe tener título
 
-La página tiene que tener un título que describa su propósito (esto se indica con la etiqueta <title>) es una de los elementos más importantes porque es lo que permite a una persona con discapacidad irse de la página pronto si es una que no tiene lo que busca. El título debe ser específico. Si hay varias páginas en un sitio no deberían llamarse todas con el mismo nombre si no con el nombre específico de la página en sí, el del sitio se puede poner al final del título para reforzar pertenencia.
+La página tiene que tener un título que describa su propósito (esto se indica con la etiqueta &lt;title&gt;) es una de los elementos más importantes porque es lo que permite a una persona con discapacidad irse de la página pronto si es una que no tiene lo que busca. El título debe ser específico. Si hay varias páginas en un sitio no deberían llamarse todas con el mismo nombre si no con el nombre específico de la página en sí, el del sitio se puede poner al final del título para reforzar pertenencia.
 
 ### Expiración de sesión
 
@@ -285,7 +285,7 @@ Si se necesita hacer esto por seguridad se debe incluir la opción de solicitar 
 
 El lenguaje de la página tiene que estar declarado en el html.
 
-Para que el lector pueda pronunciar las palabras correctamente el lenguaje de la página tiene que estar declarado en la etiqueta lang=”es-AR”, esto se puede chequear verificando el código de la página.
+Para que el lector pueda pronunciar las palabras correctamente el lenguaje de la página tiene que estar declarado en la etiqueta **lang=”es-AR”**, esto se puede chequear verificando el código de la página.
 
 ### Nombre, rol (función), valor
 
