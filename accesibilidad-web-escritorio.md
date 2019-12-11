@@ -210,9 +210,9 @@ Si hay una tabla con datos tiene que anunciarse y leerse como tabla en forma aud
 
 La información debe leerse de manera que coincida con la estructura visual: la primera fila, de izquierda a derecha, luego la segunda. Si los “heads” están bien colocados los datos de las celdas van a mencionar al usuario a que columna pertenecen para una mayor comprensión.
 
-Para que el usuario sepa que es una tabla debe tener una etiqueta "<caption>" con el título de la tabla además de las etiquetas "<table>"
+Para que el usuario sepa que es una tabla debe tener una etiqueta "**&lt;caption&gt;**" con el título de la tabla además de las etiquetas "**&lt;table&gt;**"
 
-Si la información o la estructura son complejas debe tener una explicación con un "<table summary=”…”>"
+Si la información o la estructura son complejas debe tener una explicación con un "**&lt;table summary=”…”&gt;**"
 
 Cuando hacemos una tabla con información tabular no se deben utilizar celdas columnas o filas para generar “padding” o espacios. Las celdas columnas o filas deben estar ocupadas únicamente por los datos.
 
@@ -220,7 +220,7 @@ Cuando hay información tabular lo correcto es utilizar una tabla. Cuando no hay
 
 Si la información (que no es tabular) está maquetada con tablas y esto no se puede modificar (pasa en sitios antiguos) se sugiere hacerlas “invisibles” al lector de pantalla.
 
-Para hacer “invisible” al lector la estructura de tablas sugiere dejar solo las etiquetas "<tr>" y "<td>" para definirlas y ocultar las demás.
+Para hacer “invisible” al lector la estructura de tablas sugiere dejar solo las etiquetas "**&lt;tr&gt;**" y "**&lt;td&gt;**" para definirlas y ocultar las demás.
 
 #### Audios y videos
 
@@ -274,7 +274,7 @@ Otras cosas que tenemos que chequear y la mayoría se puede verificar a simple v
 
 ### La página debe tener título
 
-La página tiene que tener un título que describa su propósito (esto se indica con la etiqueta &lt;title&gt;) es una de los elementos más importantes porque es lo que permite a una persona con discapacidad irse de la página pronto si es una que no tiene lo que busca. El título debe ser específico. Si hay varias páginas en un sitio no deberían llamarse todas con el mismo nombre si no con el nombre específico de la página en sí, el del sitio se puede poner al final del título para reforzar pertenencia.
+La página tiene que tener un título que describa su propósito (esto se indica con la etiqueta **&lt;title&gt;**) es una de los elementos más importantes porque es lo que permite a una persona con discapacidad irse de la página pronto si es una que no tiene lo que busca. El título debe ser específico. Si hay varias páginas en un sitio no deberían llamarse todas con el mismo nombre si no con el nombre específico de la página en sí, el del sitio se puede poner al final del título para reforzar pertenencia.
 
 ### Expiración de sesión
 
