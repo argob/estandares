@@ -1,4 +1,4 @@
-#Guía de revisión de accesibilidad de sitios webs en computadoras de escritorio
+# Guía de revisión de accesibilidad de sitios webs en computadoras de escritorio
 
 El objetivo de este documento es explicar los aspectos que debe revisar un desarrollador front end o analista de accesibilidad para asegurar que un sitio web sea accesible (lo cual en parte hace que lo puedan usar personas con discapacidades visuales, mediante el uso de lectores de pantalla).
 
@@ -8,11 +8,11 @@ El objetivo de este documento es explicar los aspectos que debe revisar un desar
 2. Navegar como una persona con discapacidad
 3. Chequear visualmente y con validador de w3c
 
-##1. Testear con herramientas automáticas
+## 1. Testear con herramientas automáticas
 
 Para una primera mirada está bueno testear con herramientas automáticas, si bien se debe complementar con revisiones manuales (los puntos 2, 3 y 4).
 
-###Analizar con Tota11y
+### Analizar con Tota11y
 
 1. Instalar Tota11y https://khan.github.io/tota11y/
 2. Se sugiere utilizar en el navegador Firefox
@@ -28,7 +28,7 @@ Para cada elemento el programa va a indicar los problemas en una vista marcada e
 - Orden de encabezados
 - Contraste
 
-####Etiquetas de formularios
+#### Etiquetas de formularios
 
 Las etiquetas son para que el usuario con discapacidad visual “escuche” los nombres de los elementos de formulario y sepa qué datos está completando. La vista marcada mostrará si faltan etiquetas en inputs o botones, luego habrá que visualizar si están asociadas correctamente a los inputs (esto lo vemos en la parte de testeo manual).
 
@@ -48,22 +48,22 @@ Debe existir un h1 que describa el propósito de la página.
 - No puede haber encabezados no consecutivos (después de un h1 debería haber un h2, un h3 y no un h4 después de un h2, etc).
 - Los elementos que no “encabezan” a otros elementos no deben ser etiquetados como encabezados. P. Ej.: Un número de teléfono aislado no debe ser etiquetado como un encabezado.
 
-####Contraste
+#### Contraste
 
 El contraste debe tener un ratio mayor a 4.5 (esto lo verifica el Tota11y).
 
-##2. Navegar como una persona con discapacidad visual
+## 2. Navegar como una persona con discapacidad visual
 
 Para chequear la accesibilidad de la página al menos lo que hago es navegar la página como lo hacen las personas con discapacidad visual.
 
 - Navegando por teclado
 - Escuchando la página con un lector de voz (NVDA, JAWS, Voice over)
 
-###Pautas para la navegación por teclado
+### Pautas para la navegación por teclado
 
 Utilizando el teclado podemos verificar que se cumpla lo siguiente:
 
-####Todo elemento debe ser navegable por teclado
+#### Todo elemento debe ser navegable por teclado
 
 Las personas con discapacidad visual, algunas con discapacidad motriz y muchas otras no utilizan el mouse/mousepad, utilizan teclados o tecnologías asistivas que las emulan. Si la página es navegable y operable por teclado tenemos garantizada gran parte de la accesibilidad.
 
@@ -77,15 +77,15 @@ La navegación por teclado se puede testear sin utilizar el NVDA para hacer una 
 - Enter o barra espaciadora para accionar los formularios, desplegables y controles en general
 - Teclado para ingresar texto o números en inputs
 
-####La secuencia de navegación debe debe ser la misma que la visual
+#### La secuencia de navegación debe debe ser la misma que la visual
 
 Cuando navegamos la pantalla operando el teclado la secuencia de navegación debe ser igual a la percibida visualmente. Si hay alteraciones mínimas no sería un problema pero algunas veces la alteración del orden de los elementos tergiversa totalmente el contenido como por ejemplo en un cuadro o tabla. Muchas veces los problemas de la secuencia de navegación son ocasionados por el uso indiscriminado de la etiqueta “tabindex” en la maquetación.
 
-####El foco debe ser visible
+#### El foco debe ser visible
 
 Al navegar la página con teclado el foco que va cambiando de un elemento a otro tiene que ser visible, en general esto viene configurado por defecto en todos los componentes y lo que hay que hacer es no modificarlos para ocultar el foco como se hace en algunos casos por una cuestión “estética”.
 
-####No debe haber trampas para el foco
+#### No debe haber trampas para el foco
 
 La trampa para el foco es un problema de accesibilidad muy raro de encontrar pero es importante evitarlo porque para el usuario puede significar tener que abandonar la página o resetear equipo. Se dice que hay una “trampa para el foco” cuando un elemento de la navegación al ser accedido por teclado atrapa el foco y no permite continuar la navegación volver atrás y bloquea la navegación.
 
@@ -93,7 +93,7 @@ Para detectar este error hay que navegar la página con el teclado y si se encue
 
 *Para navegar cómo navegan lo más similar posible a como navegan las personas con discapacidad es importante instalar un lector de pantalla y comprobar si la página se “escucha” correctamente*
 
-###Pautas para revisar con un lector de pantalla
+### Pautas para revisar con un lector de pantalla
 
 Primero se debe tener instalado un lector de pantalla como el NVDA (gratuito).
 
@@ -101,7 +101,7 @@ https://www.nvaccess.org/download/
 
 Con el uso del lector vamos a poder chequear si la página tiene:
 
-####Texto alternativo (audible) para imágenes e íconos
+#### Texto alternativo (audible) para imágenes e íconos
 
 Navegando con el NVDA nos vamos a dar cuenta si el lector nos está describiendo el contenido de una imágen o ícono.
 
@@ -111,13 +111,13 @@ Cuando las imágenes no son relevantes (separadores, líneas, etc) se recomienda
 
 Los íconos y o svg también tienen que tener texto alternativo si no se escuchan correctamente con el lector, se puede poner con etiquetas ARIA. Nunca se debe usar imágenes para botones, menúes o elementos de interacción.
 
-####Gráficos interactivos, visualizaciones de datos, mapas
+#### Gráficos interactivos, visualizaciones de datos, mapas
 
 Si existen gráficos que no se pueden hacer accesibles porque la ubicación en pantalla es fundamental para su comprensión el gráfico debe estar acompañado por un texto o enlace a texto como alternativa accesible.
 
 Por ej: Si la imagen muestra un mapa con geocalización de sucursales la alternativa accesible puede ser una lista de sucursales con dirección, localidad, provincia. Si la imagen muestra un gráfico con ordenadas x e y la alternativa accesible puede ser el cuadro de doble entrada que dio origen al gráfico.
 
-####Formularios
+#### Formularios
 
 Las etiquetas de formularios se tienen que escuchar navegando con Tab.
 
@@ -149,7 +149,7 @@ Lo correcto es que la persona escuche: **“Cantidad de pasajes botón de opció
 
 Si el título de la agrupación o “legend” no se escucha es un problema de accesibilidad y se soluciona etiquetando el grupo de opciones como “fieldset” desde “Cantidad de pasajes” hasta el fin de “3” y luego etiquetando “Cantidad de pasajes” con la etiqueta “legend” para darle nombre al grupo de opciones.
 
-####Los formularios tienen que tener devolución de errores audible
+#### Los formularios tienen que tener devolución de errores audible
 
 Cuando enviamos un formulario y hay un error esa devolución de errores debe ser audible.
 Este es uno de los errores más bloqueantes que existen porque impiden a los usuarios con discapacidad visual avanzar.
@@ -168,7 +168,7 @@ Lo ideal (es más difícil de lograr) es que la devolución de mensaje de error 
 
 En el caso de que el formulario haya sido completado con éxito el usuario debe recibir este mensaje en forma audible.
 
-####Cambios de pantalla anunciados en forma audible
+#### Cambios de pantalla anunciados en forma audible
 
 Es muy común encontrar que los cambios o interacciones que se suceden en la pantalla después de la carga inicial sean “inaudibles” para el usuario de lector de voz.
 
@@ -180,7 +180,7 @@ Lo recomendable es usar este tipo de interactividad contemplando la maquetación
 
 Cuando el elemento está bien maquetado se comporta de un modo equivalente al que se percibe visualmente: Anuncia el cambio y permite la interacción.
 
-####Pop Ups, modales
+#### Pop Ups, modales
 
 Los pop ups o ventanas emergentes son parte del grupo “elementos que llegan a la pantalla luego de la carga inicial” pero tienen otras particularidades.
 
@@ -192,7 +192,7 @@ Para que un pop up sea accesible tiene que cumplir con las siguientes caracterí
 - Los elementos dentro del pop up deben ser navegables con teclado.
 - El pop up debe poder cerrarse a voluntad del usuario con la tecla “escape” que es un estándar para cierre de pop ups. Además se puede incluir un elemento para cerrarlo dentro del pop up, este tiene que anunciarse en forma audible
 
-####Desplegables
+#### Desplegables
 
 Para que un desplegable sea accesible debe ser navegable por teclado y en forma audible, debe:
 
@@ -204,7 +204,7 @@ Para que un desplegable sea accesible debe ser navegable por teclado y en forma 
 - Permitir ser plegado con la tecla “escape”
 - Una opción de selector o desplegable no debe iniciar cambios sin aceptación del usuario. En el caso de selectores que inician cambios o llevan a diferentes secciones deben acompañarse de un botón “Ir” o similar que permita confirmar el cambio iniciado por el usuario en el selector.
 
-####Tablas
+#### Tablas
 
 Si hay una tabla con datos tiene que anunciarse y leerse como tabla en forma audible.
 
@@ -222,7 +222,7 @@ Si la información (que no es tabular) está maquetada con tablas y esto no se p
 
 Para hacer “invisible” al lector la estructura de tablas sugiere dejar solo las etiquetas <tr> y <td> para definirlas y ocultar las demás.
 
-####Audios y videos
+#### Audios y videos
 
 Los controles de audios o videos deben ser operables por teclado (no mouse).
 
@@ -232,7 +232,7 @@ Para los audios se puede incluir una transcripción escrita. Los videos deben te
 
 Los videos deben tener opción a audiodescripción, es un audio que incluye una descripción de lo que se oye en los videos además de lo que dicen los parlamentos (Ej. “ruido de puerta que se cierra”, “suena el timbre”)
 
-####"Panel de elementos" de NVDA
+#### "Panel de elementos" de NVDA
 
 El NVDA tiene un “panel de elementos” que las personas con discapacidad utilizan bastante. Es como un índice de la página divido por tipo de elementos (Encabezados, Enlaces, Elementos de formulario, Botones, Puntos de referencia. Este panel nos puede ayudar a detectar problemas en:
 
@@ -244,7 +244,7 @@ Al panel de NVDA se accede teniendo el NVDA encendido y tocando simultáneamente
 
 Al abrir el panel de elementos podemos ver la lista de enlaces y de paso revisar si existen los siguientes problemas de accesibilidad.
 
-#####Enlaces con textos específicos y se entiendan fuera del contexto visual
+##### Enlaces con textos específicos y se entiendan fuera del contexto visual
 
 Por ej “VER MÁS” “HACER CLICK AQUÍ” no se entienden aisladamente. En la lista de enlaces de una página de noticias se verá:
 
@@ -258,36 +258,36 @@ Hay varias formas de solucionar esto pero la más sencilla es llamando a los enl
 
 Los enlaces no deben ser demasiados largos (deben tener menos que una línea de texto) en lo posible.
 
-#####Etiquetado
+##### Etiquetado
 
 Lo que funciona y se ve como botón debe estar etiquetado como botón, y lo que funciona como enlace y se ve como enlace debe estar etiquetado como enlace. Todos los elementos de formulario tienen que estar etiquetados según su función. Esto va a ser más importante aún si queremos que el sitio sea accesible en mobile.
 
-#####Puntos de referencia
+##### Puntos de referencia
 
 Los puntos de referencia deben estar etiquetados correctamente (main, nav, aside para html5 y si no mediante etiquetas ARIA).
 
 Los “puntos de referencia” permiten al usuario con discapacidad visual “saltar bloques”. Esto es pasar por alto los bloques repetidos como el cabezal, el menú de la izquierda para no tener que escuchar todo ese contenido de nuevo y poder pasar directo al contenido principal “main”.
 
-##3. Chequeos a simple vista, validador w3c
+## 3. Chequeos a simple vista, validador w3c
 
 Otras cosas que tenemos que chequear y la mayoría se puede verificar a simple vista o con el validador de la W3C
 
-###La página debe tener título
+### La página debe tener título
 
 La página tiene que tener un título que describa su propósito (esto se indica con la etiqueta <title>) es una de los elementos más importantes porque es lo que permite a una persona con discapacidad irse de la página pronto si es una que no tiene lo que busca. El título debe ser específico. Si hay varias páginas en un sitio no deberían llamarse todas con el mismo nombre si no con el nombre específico de la página en sí, el del sitio se puede poner al final del título para reforzar pertenencia.
 
-###Expiración de sesión
+### Expiración de sesión
 
 Para que un sitio sea accesible no debe haber tiempo limitado para realizar una tarea.
 Si se necesita hacer esto por seguridad se debe incluir la opción de solicitar más tiempo para la operación.
 
-###Lenguaje de la página
+### Lenguaje de la página
 
 El lenguaje de la página tiene que estar declarado en el html.
 
 Para que el lector pueda pronunciar las palabras correctamente el lenguaje de la página tiene que estar declarado en la etiqueta lang=”es-AR”, esto se puede chequear verificando el código de la página.
 
-###Nombre, rol (función), valor
+### Nombre, rol (función), valor
 
 Este criterio de evaluación de accesibilidad apunta a que todos los componentes del html tienen que tener un nombre, una función y un valor declarados para el lector de pantalla. Por ejemplo:
 
@@ -296,7 +296,7 @@ Este criterio de evaluación de accesibilidad apunta a que todos los componentes
 
 En general los componentes nativos de los framework estándar ya contienen estas especificaciones pero es importante verificarlo en el caso de que se desarrollen componentes de interfaz de usuario propios.
 
-###Parsing
+### Parsing
 
 Para chequear que el html esté bien construido se recomienda ingresar el url en el validador de la w3c https://validator.w3.org/
 
