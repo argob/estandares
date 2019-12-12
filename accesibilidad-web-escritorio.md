@@ -5,8 +5,8 @@ El objetivo de este documento es explicar los aspectos que debe revisar un desar
 **Las formas de revisar la accesibilidad que proponemos es:**
 
 1. Testear con herramientas automáticas
-2. Testear de forma manual
-3. Chequear visualmente y con validador de w3c
+2. Navegación por teclado con lector de voz
+3. Validador de la w3c y otros chequeos
 
 ## 1. Testear con herramientas automáticas
 
@@ -52,7 +52,7 @@ Debe existir un h1 que describa el propósito de la página.
 
 El contraste debe tener un ratio mayor a 4.5 (esto lo verifica el Tota11y).
 
-## 2. Testear de forma manual
+## 2. Navegación por teclado con lector de voz
 
 Para chequear la accesibilidad de la página al menos lo que hago es navegar la página como lo hacen las personas con discapacidad visual.
 
@@ -268,7 +268,7 @@ Los puntos de referencia deben estar etiquetados correctamente (main, nav, aside
 
 Los “puntos de referencia” permiten al usuario con discapacidad visual “saltar bloques”. Esto es pasar por alto los bloques repetidos como el cabezal, el menú de la izquierda para no tener que escuchar todo ese contenido de nuevo y poder pasar directo al contenido principal “main”.
 
-## 3. Chequeos a simple vista, validador w3c
+## 3. Validador de la w3c y otros chequeos
 
 Otras cosas que tenemos que chequear y la mayoría se puede verificar a simple vista o con el validador de la W3C
 
