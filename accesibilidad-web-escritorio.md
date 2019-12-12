@@ -1,11 +1,11 @@
 # Guía de revisión de accesibilidad de sitios webs en computadoras de escritorio
 
-El objetivo de este documento es explicar los aspectos que debe revisar un desarrollador front end o analista de accesibilidad para asegurar que un sitio web sea accesible (lo cual en parte hace que lo puedan usar personas con discapacidades visuales, mediante el uso de lectores de pantalla).
+El objetivo de este documento es explicar los aspectos que debe revisar un desarrollador front end o analista de accesibilidad para asegurar que un sitio web sea accesible (lo cual en parte hace que lo puedan usar personas con discapacidad, mediante el uso de lectores de pantalla).
 
 **Las formas de revisar la accesibilidad que proponemos es:**
 
 1. Testear con herramientas automáticas
-2. Navegar como una persona con discapacidad
+2. Testear de forma manual
 3. Chequear visualmente y con validador de w3c
 
 ## 1. Testear con herramientas automáticas
@@ -52,7 +52,7 @@ Debe existir un h1 que describa el propósito de la página.
 
 El contraste debe tener un ratio mayor a 4.5 (esto lo verifica el Tota11y).
 
-## 2. Navegar como una persona con discapacidad visual
+## 2. Testear de forma manual
 
 Para chequear la accesibilidad de la página al menos lo que hago es navegar la página como lo hacen las personas con discapacidad visual.
 
