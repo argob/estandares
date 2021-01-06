@@ -1,8 +1,8 @@
 # Estándares de sitios web
 
-**Ministerio de Modernización**
-
-Dirección Nacional de Servicios Digitales
+**Secretaría de Innovación Pública**
+- Subsecretaría de Gobierno Abierto y País Digital
+-- Dirección Nacional de Servicios Digitales
 
 ## Índice
 
