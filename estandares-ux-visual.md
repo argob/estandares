@@ -1,8 +1,8 @@
 # Estándares de Diseño de UX e Identidad Visual para sitios web y aplicaciones móviles
 
-**Ministerio de Modernización**
-
-Dirección Nacional de Servicios Digitales
+Secretaría de Innovación Tecnológica del Sector Público
+ - Subsecretaría de Servicios y País Digital 
+    - Dirección Nacional de Servicios Digitales
 
 ## Índice
 
