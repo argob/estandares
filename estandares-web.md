@@ -1,7 +1,7 @@
 # Estándares de sitios web
 
-**Secretaría de Innovación Pública**
-- Subsecretaría de Gobierno Abierto y País Digital
+**Secretaría de Innovación Tecnológica del Sector Público**
+- Subsecretaría de Servicios y País Digital
 -- Dirección Nacional de Servicios Digitales
 
 ## Índice
