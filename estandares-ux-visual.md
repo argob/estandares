@@ -41,7 +41,6 @@ Poncho es la librería de estilos y componentes para diseñar y desarrollar siti
 
 ### **Uso de Poncho para aplicaciones móviles**
 
-http://argob.github.io/poncho/movil
 
 Las aplicaciones móviles tanto para Android como para iOS usan la identidad de Poncho (colores e íconos) pero según el sistema operativo usan diferentes tipografías, componentes y patrones de uso:
 
