@@ -33,11 +33,11 @@ Poncho es la librería de estilos y componentes para diseñar y desarrollar siti
 
 * **Identidad:** Usar los colores, íconos y tipografía (Roboto) de Poncho: http://argob.github.io/poncho/identidad/colores/
 
-* **Componentes:** Usar los componentes de Poncho http://argob.github.io/poncho/identidad/colores/ (en el caso de necesitar componentes nuevos se pueden hacer basandose en componentes de Bootstrap 3 y Material Design).
+* **Componentes:** Usar los componentes de Poncho https://argob.github.io/poncho/componentes/botones/ (en el caso de necesitar componentes nuevos se pueden hacer basandose en componentes de Bootstrap 3 y Material Design).
 
 * **Plantillas:** Las plantillas son páginas con componentes necesarios para que la misma cumpla alguna función. Su uso es opcional pero ayuda a entender cómo combinar los componentes.
 
-* **Headers y footers:** Los headers de sitios externos a argentina.gob.ar deben tener el título del sitio en la esquina superior izquierda, como se muestra en esta plantilla: http://argob.github.io/poncho/plantillas/headers-y-footers/header-footer-v2.html
+* **Headers y footers:** Los headers de sitios externos a argentina.gob.ar deben tener el título del sitio en la esquina superior izquierda, como se muestra en esta plantilla: https://argob.github.io/poncho/plantillas/headers-y-footers/header-footer-v1.html
 
 ### **Uso de Poncho para aplicaciones móviles**
 
