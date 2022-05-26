@@ -21,7 +21,7 @@
 * [Estándares de Aplicaciones Móviles](estandares-apps.md)
 * [Estándares de APIs](estandares-apis.md)
 * [Información de trámites provinciales](informacion-de-tramites.md)
-* [Implementación de Google Tag Manager](implementacion-gtm.mdd)
+* [Implementación de Google Tag Manager](implementacion-gtm.md)
 
 ---
 
