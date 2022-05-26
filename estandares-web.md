@@ -23,8 +23,7 @@ La UX (experiencia de usuario) debe ser útil para el ciudadano además de fáci
 
 ## **Contenido**
 
-El estilo de comunicación de los sitios debe ser cercano al ciudadano, con lenguaje simple, preferentemente usando fotos con ciudadanos argentinos. Para más información ver la [Ficha para producción de contenidos web para Argentina.gob.ar
-](https://github.com/argob/estandares/blob/master/Ficha%20de%20producci%C3%B3n%20de%20contenidos%20web%20para%20argentina.md)
+El estilo de comunicación de los sitios debe ser cercano al ciudadano, con lenguaje simple, preferentemente usando fotos con ciudadanos argentinos. Para más información ver la [Guía de estilo para contenidos web](https://github.com/argob/estandares/blob/master/contenido-web.md)
 
 ## **Desarrollo**
 
