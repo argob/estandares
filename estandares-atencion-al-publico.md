@@ -1,8 +1,8 @@
 # Estándares de Atención al Público
 
-**Ministerio de Modernización**
-
-Dirección Nacional de Servicios Digitales
+**Secretaría de Innovación Tecnológica del Sector Público**
+- Subsecretaría de Servicios y País Digital  
+  -   Dirección Nacional de Servicios Digitales
 
 Versión: 0.1 
 
