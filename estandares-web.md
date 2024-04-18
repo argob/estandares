@@ -1,7 +1,7 @@
 # Estándares de sitios web
 
-**Secretaría de Innovación Tecnológica del Sector Público**
-- Subsecretaría de Servicios y País Digital  
+**Secretaría de Innovación, Ciencia y Tecnología**
+- Subsecretaría de Tecnologías de la Información  
   -   Dirección Nacional de Servicios Digitales
 
 ## Índice
@@ -27,30 +27,30 @@ El estilo de comunicación de los sitios debe ser cercano al ciudadano, con leng
 
 ## **Desarrollo**
 
-* Se pueden usar redirects desde dominios a otros dominios (ej: www.salud.gob.ar redirige a www.argentina.gob.ar/salud)
+* Se pueden usar redirects desde dominios a otros dominios (ej: [www.trabajo.gob.ar](https://www.trabajo.gob.ar/) redirige a [www.argentina.gob.ar/capital-humano/trabajo](https://www.argentina.gob.ar/capital-humano/trabajo))
 
 * Los sitios web que sean la base del dominio deben usarse con www.
-Ejemplo [www.educacion.gob.ar](http://www.educacion.gob.ar). Si uno ingresa a [educacion.gob.ar](http://educacion.gob.ar) se deberá generar redirect 301 al dominio con las www.
+Ejemplo [www.mininterior.gob.ar](http://www.mininterior.gob.ar). Si uno ingresa a [mininterior.gob.ar](http://mininterior.gob.ar) se deberá generar redirect 301 al dominio con las www.
 
 * Todos los sitios web del Estado usarán la terminación .gob.ar. El registro de .gov.ar deberá generar un redirect 301 al dominio gob.ar.
 
 * Todos los sitios web que ofrezcan servicios de consulta online (mostrar ejemplos) deben tener una API disponible y/o planificada su implementación. (Ver estándares de APIs).
 
-* Todos los sitios con servicios para el ciudadano que tengan que tener registro de usuarios deben usar el sistema de login de Mi Argentina (ID).
+* Todos los sitios con servicios para el ciudadano que tengan que tener registro de usuarios deben usar el sistema de login de [Mi Argentina (ID)](https://argob.github.io/mi-argentina-docs/).
 
 * Los sitios deben ser responsive para poder adaptarse y poder ser navegables desde diversos dispositivos como por ejemplo celulares.
 
 * Todos los sitios y aplicaciones deberán contar con el mínimo de documentación necesaria para ser instalados en diferentes entornos.
 
-* Compatibilidad con los siguientes navegadores
+* En caso de desarrollar sistemas que requieran interacción con el usuario deberá tener con compatibilidad con los siguientes navegadores y versiones: 
 
-    * Internet Explorer 8 (NOTE:  Para versiones menores a IE8, debe aparecer una alerta avisando que el navegador está desactualizado, como esto: https://browser-update.org/)
+    * Firefox 125 - Firefox ESR 115.10.0 (en caso de contar con Windows 7)
+    
+    * Chrome 124 - Chrome 109 (en caso de contar con Windows 7)
 
-    * Chrome 19
-
-    * Firefox 3
-
-    * Safari 6
+    * Microsoft Edge 124
+      
+    Para versiones menores deberá mostrar una alerta indicando que el navegador está desactualizado. (Ej: https://browser-update.org/)
 
 * Control de versiones: deberán estar etiquetadas con correspondiente nombre con el formato "vx.x.x". 
 
@@ -96,62 +96,6 @@ El soporte mínimo que se debe dar es para las siguientes resoluciones:
   </tr>
 </table>
 
-### **Soporte mínimo de navegadores:**
-
-Todos los sitios web deben poder verse bien y con todas sus funcionalidades andando en las siguientes versiones mínimas:
-
-<table>
-  <tr>
-    <td></td>
-    <td>Soporte medio</td>
-    <td>Soporte completo</td>
-  </tr>
-  <tr>
-    <td>Internet Explorer</td>
-    <td>8 - 9</td>
-    <td>10+</td>
-  </tr>
-  <tr>
-    <td>Edge</td>
-    <td>-</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Firefox</td>
-    <td>-</td>
-    <td>3+</td>
-  </tr>
-  <tr>
-    <td>Chrome</td>
-    <td>-</td>
-    <td>19+</td>
-  </tr>
-  <tr>
-    <td>Safari</td>
-    <td>-</td>
-    <td>6+</td>
-  </tr>
-  <tr>
-    <td>Opera</td>
-    <td>-</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>iOS Safari</td>
-    <td>4 - 6</td>
-    <td>7+</td>
-  </tr>
-  <tr>
-    <td>Android Browser</td>
-    <td>2.0 - 2.6</td>
-    <td>4 +</td>
-  </tr>
-  <tr>
-    <td>Chrome para Android</td>
-    <td>-</td>
-    <td>19+</td>
-  </tr>
-</table>
 
 ## **Seguridad**
 
@@ -171,7 +115,7 @@ Se deben actualizar los frameworks de desarrollo para evitar vulnerabilidades de
 
 **Caso 1: El sitio web no cuenta con Google Analytics**
 
-Se deberá hacer la integración muy simple en su sitio web mediante la implementación de un pequeño código provisto por el Área de Servicios Digitales
+Se deberá hacer la integración muy simple en su sitio web mediante la implementación de un pequeño código provisto por la Dirección Nacional de Servicios Digitales.
 
 **Caso 2: El sitio web cuenta con Google Analytics**
 
