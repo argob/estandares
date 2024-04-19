@@ -1,7 +1,7 @@
 # Estándares de APIs
 
-**Secretaría de Innovación Tecnológica del Sector Público**
-- Subsecretaría de Servicios y País Digital  
+**Secretaría de Innovación, Ciencia y Tecnología**
+- Subsecretaría de Tecnologías de la Información  
   -   Dirección Nacional de Servicios Digitales
 
 Versión: 1.0

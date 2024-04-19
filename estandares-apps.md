@@ -1,7 +1,7 @@
 # Estándares de apps móviles
 
-**Secretaría de Innovación Tecnológica del Sector Público**
-- Subsecretaría de Servicios y País Digital  
+**Secretaría de Innovación, Ciencia y Tecnología**
+- Subsecretaría de Tecnologías de la Información  
   -   Dirección Nacional de Servicios Digitales
 
 ## Índice
@@ -30,7 +30,7 @@ Se debe tener en cuenta que una aplicación móvil es más costosa de desarrolla
 
 * No embeber imágenes y videos como contenido estático que hagan que los instaladores sean más pesados.
 
-* Las aplicaciones que no tengan backend propio pueden utilizar el portal de [argentina.gob.ar](http://www.argentina.gob.ar/) para consumir contenidos dinámicos, respetando los lineamientos del Estándar de API definida por la Coordinación de Desarrollo de Servicios Digitales.
+* Las aplicaciones que no tengan backend propio pueden utilizar el portal de [argentina.gob.ar](http://www.argentina.gob.ar/) para consumir contenidos dinámicos, respetando los lineamientos del [Estándar de API](https://github.com/argob/estandares/blob/master/estandares-apps.md) definida por la Dirección Nacional de Servicios Digitales.
 
 * La lista de aplicaciones de cada ministerio debe estar actualizada. Si la aplicación no está más en funcionamiento (o con soporte) hay que removerla de las tiendas.
 
@@ -46,9 +46,9 @@ Se debe tener en cuenta que una aplicación móvil es más costosa de desarrolla
 
     * **versión v.1.0.0**: Representan un cambio sustancial respecto de la funcionalidad o de la estética actual del sitio. 
 
-* Todas las aplicaciones con servicios para el ciudadano que tengan que tener registro de usuarios deben usar el sistema de login de Mi Argentina (ID).
+* Todas las aplicaciones con servicios para el ciudadano que tengan que tener registro de usuarios deben usar el sistema de login de [Mi Argentina (ID)](https://argob.github.io/mi-argentina-docs/).
 
-* Todo contenido que muestra la aplicación debe ser consumido mediante una API respetando los lineamientos del Estándar de API definida por la Coordinación de Desarrollo de Servicios Digitales y el Estándar de Contenido definida por la Coordinación de Contenidos de Servicios Digitales.
+* Todo contenido que muestra la aplicación debe ser consumido mediante una API respetando los lineamientos del [Estándar de API](https://github.com/argob/estandares/blob/master/estandares-apps.md) y el [Estándar de Contenido](https://github.com/argob/estandares/blob/master/contenido-web.md) definidos por la Dirección Nacional de Servicios Digitales.
 
 * La aplicación debe brindar la posibilidad de operar en forma total o parcial en modo offline (sin conexión). La sincronización y actualización de contenidos se llevarán a cabo una vez que el dispositivo se encuentre nuevamente en modo online.
 
@@ -70,7 +70,7 @@ Se debe tener en cuenta que una aplicación móvil es más costosa de desarrolla
 
 ## **Métricas**
 
-* Las aplicaciones que no cuentan con Google Analytics deben incorporar el ID y métricas provistos por la Coordinación de Análisis de Datos de Servicios Digitales. En caso de disponer, se deberá brindar permisos de administración a una cuenta proporcionada únicamente para el análisis de información.
+* Las aplicaciones que no cuentan con Google Analytics deben incorporar el ID y métricas provistos por la Dirección Nacional de Servicios Digitales. En caso de disponer, se deberá brindar permisos de administración a una cuenta proporcionada únicamente para el análisis de información.
 
 * Las aplicaciones deben incorporar registros de errores y fallas.
 
@@ -86,11 +86,9 @@ En caso de poseer código de seguimiento se deberá brindar permisos de administ
 
 ## **Publicación**
 
-* Las aplicaciones se subirán a las distintas tiendas de Servicios Digitales, excepto en caso de aplicaciones ya existentes.
+* Según lo dispuesto por la [Resolución 333-E/2017](https://www.argentina.gob.ar/normativa/nacional/resoluci%C3%B3n-333-2017-276568/texto), las aplicaciones que desarrollen los Ministerios, se deberán publicar en las tiendas oficiales establecidas en el Artículo 3.
 
 * Las aplicaciones las firmará Servicios Digitales con la firma y certificados propietaria. 
-
-* Los Ministerios deben entregar las cuentas de las distintas tiendas y/o repositorios donde estén alojadas las aplicaciones a Servicios Digitales y las firmas digitales (alias y contraseñas) y/o certificados para publicar aplicaciones.
 
 * Los ministerios que dispongan de sus propios proveedores deberán trabajar en un repositorio provisto por Servicios Digitales.
 
@@ -98,6 +96,6 @@ En caso de poseer código de seguimiento se deberá brindar permisos de administ
 
   ar.gob.nombre_aplicacion
 
-* Los datos y las capturas de pantallas de las aplicaciones a ser publicadas deben ser provistas por cada Ministerio/Secretaría, respetando las plantillas provistas por la Coordinación de Aplicaciones Móviles.
+* Los datos y las capturas de pantallas de las aplicaciones a ser publicadas deben ser provistas por cada Ministerio/Secretaría, respetando las plantillas provistas por la Dirección Nacional de Servicios Digitales.
 
 * Los datos de contactos/web/detalle de cada aplicación deben pertenecer a cada Ministerio/Secretaría y ser provistos para la carga en las tiendas.

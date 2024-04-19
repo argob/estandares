@@ -1,8 +1,8 @@
 # Estándares de Diseño de UX e Identidad Visual para sitios web y aplicaciones móviles
 
-**Secretaría de Innovación Tecnológica del Sector Público**
- - Subsecretaría de Servicios y País Digital 
-    - Dirección Nacional de Servicios Digitales
+**Secretaría de Innovación, Ciencia y Tecnología**
+- Subsecretaría de Tecnologías de la Información  
+  -   Dirección Nacional de Servicios Digitales
 
 ## Índice
 
@@ -31,19 +31,18 @@ http://argob.github.io/poncho/
 
 Poncho es la librería de estilos y componentes para diseñar y desarrollar sitios web del Estado Nacional. Contiene lineamientos y soluciones específicas para reutilizar:
 
-* **Identidad:** Usar los colores, íconos y tipografía (Roboto) de Poncho: http://argob.github.io/poncho/identidad/colores/
+* **Identidad:** Usar los colores, íconos y tipografía ([Lora](https://fonts.google.com/specimen/Lora) para titulares y [Montserrat](https://fonts.google.com/specimen/Montserrat) para cuerpos de texto) de Poncho: [Identidad](http://argob.github.io/poncho/identidad/colores/)
 
-* **Componentes:** Usar los componentes de Poncho https://argob.github.io/poncho/componentes/botones/ (en el caso de necesitar componentes nuevos se pueden hacer basandose en componentes de Bootstrap 3 y Material Design).
+* **Componentes:** Usar los [componentes](https://argob.github.io/poncho/componentes/botones/) de Poncho (en el caso de necesitar componentes nuevos se pueden hacer basandose en componentes de Bootstrap 3 y Material Design).
 
-* **Plantillas:** Las plantillas son páginas con componentes necesarios para que la misma cumpla alguna función. Su uso es opcional pero ayuda a entender cómo combinar los componentes.
+* **Plantillas:** Las plantillas son páginas con componentes necesarios para que la misma cumpla alguna función. Su uso es opcional pero ayuda a entender cómo combinar los componentes. [Plantillas](https://argob.github.io/poncho/plantillas/headers-y-footers/)
 
 * **Headers y footers:** Los headers de sitios externos a argentina.gob.ar deben tener el título del sitio en la esquina superior izquierda, como se muestra en esta plantilla: https://argob.github.io/poncho/plantillas/headers-y-footers/header-footer-v1.html
 
 ### **Uso de Poncho para aplicaciones móviles**
 
-
 Las aplicaciones móviles tanto para Android como para iOS usan la identidad de Poncho (colores e íconos) pero según el sistema operativo usan diferentes tipografías, componentes y patrones de uso:
 
-* **Android:** https://material.io/design/
+* **Android:** https://m3.material.io/
 
-* **iOS:** https://developer.apple.com/design/human-interface-guidelines/ios/
+* **iOS:** https://developer.apple.com/design/human-interface-guidelines/designing-for-ios
