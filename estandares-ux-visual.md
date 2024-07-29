@@ -1,7 +1,7 @@
 # Estándares de Diseño de UX e Identidad Visual para sitios web y aplicaciones móviles
 
 **Secretaría de Innovación, Ciencia y Tecnología**
-- Subsecretaría de Tecnologías de la Información  
+- Subsecretaría de Tecnologías de la Información y las Comunicaciones  
   -   Dirección Nacional de Servicios Digitales
 
 ## Índice

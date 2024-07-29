@@ -1,7 +1,7 @@
 # Estándares de Atención al Público
 
 **Secretaría de Innovación, Ciencia y Tecnología**
-- Subsecretaría de Tecnologías de la Información  
+- Subsecretaría de Tecnologías de la Información y las Comunicaciones  
   -   Dirección Nacional de Servicios Digitales
 
 Versión: 0.1 
