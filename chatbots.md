@@ -215,7 +215,7 @@ Sugerimos informarse sobre la misma y testear la accesibilidad de los productos.
 
 Aquí se puede bajar [información sobre la metodología del Lenguaje Claro](http://capacitacion.hcdn.gob.ar/wp-content/uploads/2018/08/Manual-SAIJ-de-lenguaje-claro.pdf). Incluimos también algunas recomendaciones para la redacción en “Redacción y estructuración de los mensajes”
 
-En Argentina la [Ley de Accesibilidad 26.653](http://servicios.infoleg.gob.ar/infolegInternet/anexos/175000-179999/175694/norma.htm) hace obligatoria la accesibilidad en desarrollos digitales para organismos y empresas del Estado; concesionarias y prestadoras; instituciones y organizaciones de la sociedad civil que sean beneficiarias, reciban subsidios, donaciones, condonaciones por parte del Estado o celebren contratos con el mismo.
+En Argentina la [Ley de Accesibilidad 26.653](https://www.argentina.gob.ar/normativa/nacional/ley-26653-175694/texto) hace obligatoria la accesibilidad en desarrollos digitales para organismos y empresas del Estado; concesionarias y prestadoras; instituciones y organizaciones de la sociedad civil que sean beneficiarias, reciban subsidios, donaciones, condonaciones por parte del Estado o celebren contratos con el mismo.
 
 ## Patrones de uso
 

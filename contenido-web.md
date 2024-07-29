@@ -214,7 +214,7 @@ Los párrafos largos, las perífrasis y las redundancias fatigan al lector.  Ant
 |El 15 de julio de 2010, la Argentina se| La Argentina fue el primer país | 
 |convertía en el primer país latinoamericano| latinoamericano en avalar el casamiento|
 |en avalar el casamiento entre personas del| entre personas del mismo sexo, por medio |
-|mismo sexo, reconociendo así a las| de la [Ley 26618]( http://www.infoleg.gob.ar/infolegInternet/anexos/165000-169999/169608/norma.htm) de 2010. 
+|mismo sexo, reconociendo así a las| de la [Ley 26618](https://www.argentina.gob.ar/normativa/nacional/ley-26618-169608/texto) de 2010. 
 |poblaciones de la diversidad sexual como|                                     |
 |sujetos de derechos. La sanción de la Ley| |
 |26.618, conocida como Ley de Matrimonio| |
