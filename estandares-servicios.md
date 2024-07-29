@@ -24,11 +24,11 @@ Con los siguientes estándares, se busca homogeneizar la experiencia entre los d
 
 Los ministerios deberán:
 
-* Realizar un relevamiento de los servicios y trámites que tienen a su cargo, con especial atención a los indicadores mencionados ut supra, y comunicarlo a la Secretaría de Innovación Tecnológica del Sector Público en tanto organismo responsable del mejoramiento de los procesos de la Administración Pública Nacional.
+* Realizar un relevamiento de los servicios y trámites que tienen a su cargo, con especial atención a los indicadores mencionados ut supra, y comunicarlo a la Secretaría de Innovación, Ciencia y Tecnología en tanto organismo responsable del mejoramiento de los procesos de la Administración Pública Nacional.
 
-* Designar un responsable por ministerio como referente para la Secretaría de Innovación Tecnológica del Sector Público en todos los asuntos relativos a servicios y trámites en tanto organismo responsable del mejoramiento de los procesos de la Administración Pública Nacional.
+* Designar un responsable por ministerio como referente para la Secretaría de Innovación, Ciencia y Tecnología en todos los asuntos relativos a servicios y trámites en tanto organismo responsable del mejoramiento de los procesos de la Administración Pública Nacional.
 
-* Informar a la Secretaría de Innovación Tecnológica del Sector Público cuáles son las prioridades de mejora en servicios y trámites en tanto organismo responsable del mejoramiento de los procesos de la Administración Pública Nacional.
+* Informar a la Secretaría de Innovación, Ciencia y Tecnología cuáles son las prioridades de mejora en servicios y trámites en tanto organismo responsable del mejoramiento de los procesos de la Administración Pública Nacional.
 
 * Relevar mensualmente la cantidad de beneficiarios de cada servicio en tanto esta información permite dimensionar el alcance que tiene.
 
@@ -38,7 +38,7 @@ Los ministerios deberán:
 
 * Relevar mensualmente el tiempo estimado necesario para realizar cada trámite, ya sea presencial o digital.
 
-* Informar a la Secretaría de Innovación Tecnológica del Sector Público todas las creaciones de nuevos servicios y trámites, y de modificaciones que se realicen a servicios y trámites ya existentes, en tanto este es el organismo a cargo de la simplificación de los procedimientos administrativos de la Administración Pública Nacional.
+* Informar a la Secretaría de Innovación, Ciencia y Tecnología todas las creaciones de nuevos servicios y trámites, y de modificaciones que se realicen a servicios y trámites ya existentes, en tanto este es el organismo a cargo de la simplificación de los procedimientos administrativos de la Administración Pública Nacional.
 
 ## Aclaraciones
 
