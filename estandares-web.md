@@ -27,20 +27,20 @@ El estilo de comunicación de los sitios debe ser cercano al ciudadano, con leng
 
 ## **Desarrollo**
 
-* Se pueden usar redirects desde dominios a otros dominios (ej: [www.trabajo.gob.ar](https://www.trabajo.gob.ar/) redirige a [www.argentina.gob.ar/capital-humano/trabajo](https://www.argentina.gob.ar/capital-humano/trabajo))
+* Si el organismo cuenta con un dominio diferente a argentina.gob.ar para sus correos (ej: correo @ trabajo.gob.ar), deberán crear redirects desde sus dominios hacia la página del organismo en Argentina.gob.ar (ej: [www.trabajo.gob.ar](https://www.trabajo.gob.ar/) redirige a [www.argentina.gob.ar/capital-humano/trabajo](https://www.argentina.gob.ar/capital-humano/trabajo)).
 
-* Los sitios web que sean la base del dominio deben usarse con www.
-Ejemplo [www.mininterior.gob.ar](http://www.mininterior.gob.ar). Si uno ingresa a [mininterior.gob.ar](http://mininterior.gob.ar) se deberá generar redirect 301 al dominio con las www.
+* Los dominios del ítem anterior deberán responder tanto con `www.` como sin el `www.`
+(Ej. [www.mininterior.gob.ar](http://www.mininterior.gob.ar) o [mininterior.gob.ar](http://mininterior.gob.ar))
 
 * Todos los sitios web del Estado usarán la terminación .gob.ar. El registro de .gov.ar deberá generar un redirect 301 al dominio gob.ar.
 
-* Todos los sitios web que ofrezcan servicios de consulta online (mostrar ejemplos) deben tener una API disponible y/o planificada su implementación. (Ver estándares de APIs).
+* Todos los sitios web que ofrezcan servicios de consulta online deberán contar con una API disponible y/o planificar su implementación. (Ver estándares de APIs).
 
-* Todos los sitios con servicios para el ciudadano que tengan que tener registro de usuarios deben usar el sistema de login de [Mi Argentina (ID)](https://argob.github.io/mi-argentina-docs/).
+* Todos los sitios con servicios para el ciudadano que cuenten con un registro de usuarios, deben usar el sistema de login de [Mi Argentina (ID)](https://argob.github.io/mi-argentina-docs/).
 
-* Los sitios deben ser responsive para poder adaptarse y poder ser navegables desde diversos dispositivos como por ejemplo celulares.
+* Los sitios deben ser responsive para poder adaptarse y poder ser navegables desde diversos dispositivos como por ejemplo celulares. 
 
-* Todos los sitios y aplicaciones deberán contar con el mínimo de documentación necesaria para ser instalados en diferentes entornos.
+* Todos los sitios y aplicaciones deberán contar con un mínimo de documentación necesaria para ser instalados en diferentes entornos.
 
 * En caso de desarrollar sistemas que requieran interacción con el usuario deberá tener con compatibilidad con los siguientes navegadores y versiones: 
 
