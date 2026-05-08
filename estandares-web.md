@@ -1,7 +1,7 @@
 # Estándares de sitios web
 
 **Secretaría de Innovación, Ciencia y Tecnología**
-- Subsecretaría de Tecnologías de la Información y las Comunicaciones  
+- Subsecretaría de Tecnologías de la Información y las Comunicaciones
   -   Dirección Nacional de Servicios Digitales
 
 ## Índice
@@ -13,9 +13,11 @@
 * [Seguridad](#seguridad)
 * [Métricas](#métricas)
 
-## Objetivo: 
+## Objetivo:
 
 Este documento define las pautas elementales a ser consideradas al momento de diseñar, desarrollar e implementar todo sitio web del Estado Nacional, ya sea realizado por empleados del Estado o personal tercerizado, con el fin de ser utilizados por ciudadanos.
+
+Estos lineamientos se enmarcan en los objetivos del [Decreto 87/2017](https://www.argentina.gob.ar/normativa/nacional/decreto-87-2017-271486/actualizacion), que aprueba la Plataforma Digital del Sector Público Nacional.
 
 ## **Diseño**
 
@@ -30,7 +32,7 @@ El estilo de comunicación de los sitios debe ser cercano al ciudadano, con leng
 * Si el organismo cuenta con un dominio diferente a argentina.gob.ar para sus correos (ej: correo @ trabajo.gob.ar), deberán crear redirects desde sus dominios hacia la página del organismo en Argentina.gob.ar (ej: [www.trabajo.gob.ar](https://www.trabajo.gob.ar/) redirige a [www.argentina.gob.ar/capital-humano/trabajo](https://www.argentina.gob.ar/capital-humano/trabajo)).
 
 * Los dominios del ítem anterior deberán responder tanto con `www.` como sin el `www.`
-(Ej. [www.mininterior.gob.ar](http://www.mininterior.gob.ar) o [mininterior.gob.ar](http://mininterior.gob.ar))
+(Ej. www.mininterior.gob.ar o mininterior.gob.ar)
 
 * Todos los sitios web del Estado usarán la terminación .gob.ar. El registro de .gov.ar deberá generar un redirect 301 al dominio gob.ar.
 
@@ -38,27 +40,25 @@ El estilo de comunicación de los sitios debe ser cercano al ciudadano, con leng
 
 * Todos los sitios con servicios para el ciudadano que cuenten con un registro de usuarios, deben usar el sistema de login de [Mi Argentina (ID)](https://argob.github.io/mi-argentina-docs/).
 
-* Los sitios deben ser responsive para poder adaptarse y poder ser navegables desde diversos dispositivos como por ejemplo celulares. 
+* Los sitios deben ser responsive para poder adaptarse y poder ser navegables desde diversos dispositivos como por ejemplo celulares.
 
 * Todos los sitios y aplicaciones deberán contar con un mínimo de documentación necesaria para ser instalados en diferentes entornos.
 
-* En caso de desarrollar sistemas que requieran interacción con el usuario deberá tener con compatibilidad con los siguientes navegadores y versiones: 
+* En caso de desarrollar sistemas que requieran interacción con el usuario deberá tener con compatibilidad con los siguientes navegadores y versiones:
 
     * Firefox 125 - Firefox ESR 115.10.0 (en caso de contar con Windows 7)
-    
+
     * Chrome 124 - Chrome 109 (en caso de contar con Windows 7)
 
     * Microsoft Edge 124
-      
-    Para versiones menores deberá mostrar una alerta indicando que el navegador está desactualizado. (Ej: https://browser-update.org/)
 
-* Control de versiones: deberán estar etiquetadas con correspondiente nombre con el formato "vx.x.x". 
+* Control de versiones: deberán estar etiquetadas con correspondiente nombre con el formato "vx.x.x".
 
 ### **Front-end:**
 
 Las tecnologías a utilizar para el desarrollo front-end de las aplicaciones son:
 
-* **HTML5**: Código semántico y organizado para asegurar la accesibilidad del contenido. 
+* **HTML5**: Código semántico y organizado para asegurar la accesibilidad del contenido.
 
 * **CSS3**: Uso de las últimas versiones, siempre teniendo en cuenta el soporte de los navegadores de las diferentes propiedades.
 
@@ -109,7 +109,7 @@ Los datos de los usuarios usados en la registración deben ser guardados con seg
 
 Limitar cantidad de intentos de logins.
 
-Se deben actualizar los frameworks de desarrollo para evitar vulnerabilidades de seguridad. 
+Se deben actualizar los frameworks de desarrollo para evitar vulnerabilidades de seguridad.
 
 ## **Métricas**
 

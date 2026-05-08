@@ -23,6 +23,16 @@
 * [Información de trámites provinciales](informacion-de-tramites.md)
 * [Implementación de Google Tag Manager](implementacion-gtm.md)
 
+## Marco Normativo
+
+* [Decreto 87/2017](https://www.argentina.gob.ar/normativa/nacional/decreto-87-2017-271486/actualizacion): Plataforma Digital del Sector Público Nacional.
+* [Ley 26.653](https://www.argentina.gob.ar/normativa/nacional/ley-26653-175694/texto): Accesibilidad de la Información en las Páginas Web.
+* [Decreto 656/2019](https://www.argentina.gob.ar/normativa/nacional/decreto-656-2019-328722/texto): Reglamentación de la Ley 26.653.
+* [Resolución 333/2017](https://www.argentina.gob.ar/normativa/nacional/resoluci%C3%B3n-333-2017-276568/texto): Estándares de sitios web y aplicaciones móviles.
+* [Decisión Administrativa 5/2021](https://www.argentina.gob.ar/normativa/nacional/decisi%C3%B3n_administrativa-5-2021-346414/texto): Inventario Nacional de Bienes Informáticos y Servicios Tecnológicos.
+
+Para el listado completo y criterios de uso por parte de herramientas de IA, podés consultar el [Marco normativo de referencia para IA](ia-lineamientos/marco-normativo.md).
+
 ---
 
 Nos inspiramos en [GOV.UK Design Principles](https://www.gov.uk/design-principles) y [U.S. Digital Services Playbook](https://playbook.cio.gov/).

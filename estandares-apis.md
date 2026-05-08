@@ -267,7 +267,7 @@ Una API que retorna JSON DEBE usar:
 
 * Nunca libere la versión de una API sin su número de versión.
 
-* Los números de version deben abarcar dos niveles de versión: x.x
+* Los números de versión deben abarcar dos niveles de versión: x.x
 
 * Las versiones DEBEN ser enteros, no decimales, con el prefijo ‘v’.
 
