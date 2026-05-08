@@ -78,7 +78,7 @@ Solo pueden usarse las que están definidas en esta documentación y no se permi
             "mbox": "email organismo provincial"
         },
 
-        // Version, fecha de creación, fecha ultima modificacion y versión del estandar implementado.
+        // Versión, fecha de creación, fecha última modificación y versión del estándar implementado.
         "version": 1.0,
         "issued": "2017-02-20",
         "modified": "2018-04-18",

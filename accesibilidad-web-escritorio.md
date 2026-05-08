@@ -1,6 +1,8 @@
 # Guía de revisión de accesibilidad de sitios webs en computadoras de escritorio
 
-El objetivo de este documento es explicar los aspectos que debe revisar un desarrollador front end o analista de accesibilidad para asegurar que un sitio web sea accesible (lo cual en parte hace que lo puedan usar personas con discapacidad, mediante el uso de lectores de pantalla).
+El objetivo de este documento es explicar los aspectos que debe revisar un desarrollador front end o analista de accesibilidad para asegurar que un sitio web sea accesible (lo cual, en parte, hace que lo puedan usar personas con discapacidad, mediante el uso de lectores de pantalla).
+
+Estas pautas de validación y control aseguran el cumplimiento de la [Ley 26.653 de Accesibilidad de la Información en las Páginas Web](https://www.argentina.gob.ar/normativa/nacional/ley-26653-175694/texto) y su decreto reglamentario.
 
 **Las formas de revisar la accesibilidad que proponemos es:**
 
@@ -10,7 +12,7 @@ El objetivo de este documento es explicar los aspectos que debe revisar un desar
 
 ## 1. Testear con herramientas automáticas
 
-Para una primera mirada está bueno testear con herramientas automáticas, si bien se debe complementar con revisiones manuales (los puntos 2, 3 y 4).
+Para una primera mirada, se recomienda testear con herramientas automáticas, si bien se debe complementar con revisiones manuales (los puntos 2, 3 y 4).
 
 ### Analizar con Tota11y
 
