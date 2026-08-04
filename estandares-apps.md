@@ -30,7 +30,7 @@ Se debe tener en cuenta que una aplicación móvil es más costosa de desarrolla
 
 * No embeber imágenes y videos como contenido estático que hagan que los instaladores sean más pesados.
 
-* Las aplicaciones que no tengan backend propio pueden utilizar el portal de [argentina.gob.ar](http://www.argentina.gob.ar/) para consumir contenidos dinámicos, respetando los lineamientos del [Estándar de API](https://github.com/argob/estandares/blob/master/estandares-apps.md) definida por la Dirección Nacional de Servicios Digitales.
+* Las aplicaciones que no tengan backend propio pueden utilizar el portal de [argentina.gob.ar](http://www.argentina.gob.ar/) para consumir contenidos dinámicos, respetando los lineamientos del [Estándar de API](https://github.com/argob/estandares/blob/master/estandares-apis.md) definida por la Dirección Nacional de Servicios Digitales.
 
 * La lista de aplicaciones de cada ministerio debe estar actualizada. Si la aplicación no está más en funcionamiento (o con soporte) hay que removerla de las tiendas.
 
@@ -40,15 +40,15 @@ Se debe tener en cuenta que una aplicación móvil es más costosa de desarrolla
 
 * Control de Versiones: 
 
-    * **versión v 0.0.1**: Resolución de bugs de versiones actuales.
+    * **versión v0.0.1**: Resolución de bugs de versiones actuales.
 
-    * **versión v.0.1.0**: Nueva funcionalidad dentro de la versión actual.
+    * **versión v0.1.0**: Nueva funcionalidad dentro de la versión actual.
 
-    * **versión v.1.0.0**: Representan un cambio sustancial respecto de la funcionalidad o de la estética actual del sitio. 
+    * **versión v1.0.0**: Representan un cambio sustancial respecto de la funcionalidad o de la estética actual del sitio. 
 
 * Todas las aplicaciones con servicios para el ciudadano que tengan que tener registro de usuarios deben usar el sistema de login de [Mi Argentina (ID)](https://argob.github.io/mi-argentina-docs/).
 
-* Todo contenido que muestra la aplicación debe ser consumido mediante una API respetando los lineamientos del [Estándar de API](https://github.com/argob/estandares/blob/master/estandares-apps.md) y el [Estándar de Contenido](https://github.com/argob/estandares/blob/master/contenido-web.md) definidos por la Dirección Nacional de Servicios Digitales.
+* Todo contenido que muestra la aplicación debe ser consumido mediante una API respetando los lineamientos del [Estándar de API](https://github.com/argob/estandares/blob/master/estandares-apis.md) y el [Estándar de Contenido](https://github.com/argob/estandares/blob/master/contenido-web.md) definidos por la Dirección Nacional de Servicios Digitales.
 
 * La aplicación debe brindar la posibilidad de operar en forma total o parcial en modo offline (sin conexión). La sincronización y actualización de contenidos se llevarán a cabo una vez que el dispositivo se encuentre nuevamente en modo online.
 
