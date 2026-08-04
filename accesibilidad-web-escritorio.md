@@ -2,7 +2,7 @@
 
 El objetivo de este documento es explicar los aspectos que debe revisar un desarrollador front end o analista de accesibilidad para asegurar que un sitio web sea accesible (lo cual, en parte, hace que lo puedan usar personas con discapacidad, mediante el uso de lectores de pantalla).
 
-Estas pautas de validación y control aseguran el cumplimiento de la [Ley 26.653 de Accesibilidad de la Información en las Páginas Web](https://www.argentina.gob.ar/normativa/nacional/ley-26653-175694/texto) y su decreto reglamentario.
+Estas pautas de validación y control aseguran el cumplimiento de la [Ley 26.653 de Accesibilidad de la Información en las Páginas Web](https://www.argentina.gob.ar/normativa/nacional/ley-26653-175694/texto), su decreto reglamentario y la [Disposición ONTI 6/2019](https://www.argentina.gob.ar/normativa/nacional/disposici%C3%B3n-6-2019-329284/texto) que aprueba las Pautas de Accesibilidad de Contenido Web 2.0.
 
 **Las formas de revisar la accesibilidad que proponemos es:**
 

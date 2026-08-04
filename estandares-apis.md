@@ -4,7 +4,7 @@
 - Subsecretaría de Tecnologías de la Información y las Comunicaciones
   -   Dirección Nacional de Servicios Digitales
 
-Versión: 1.0
+Versión: 1.1
 
 ## Índice
 
@@ -52,7 +52,7 @@ Las APIs deben cumplir con los estándares establecidos en este documento.
 
 Estos lineamientos tienen como objetivo apoyar una verdadera API RESTful. Excepciones a tener en cuenta:
 
-* Poner el número de versión de la API en la URL. No acepte ninguna petición que no especifique el número de versión ([más info](#versiones)).
+* Poner el número de versión mayor de la API en la URL (ej. `/v1/`, `/v2/`). No acepte ninguna petición que no especifique el número de versión mayor ([más info](#versiones)).
 
 * No traducir al español lo que DEBE estar en inglés.
 
@@ -71,11 +71,11 @@ De ninguna forma se debe traducir lo que DEBE estar en inglés. A continuación 
 
 ### **Ejemplo válido**
 
-* http://www.ejemplo.gob/api/v1.0/articulos?year=2016&sort=desc
+* http://www.ejemplo.gob/api/v1/articulos?year=2016&sort=desc
 
 ### **Ejemplo NO válido**
 
-* http://www.ejemplo.gob/api/v1.0/articulos?anio=2016&orden=desc
+* http://www.ejemplo.gob/api/v1/articulos?anio=2016&orden=desc
 
 ## RESTful URLs
 
@@ -91,7 +91,7 @@ De ninguna forma se debe traducir lo que DEBE estar en inglés. A continuación 
 
 * No necesita ir más allá de resource/identifier/resource
 
-* Ponga el número de versión en la URL, por ejemplo: http://ejemplo.gob.ar/v1.0/path/to/resource
+* Ponga el número de versión mayor en la URL, por ejemplo: http://ejemplo.gob.ar/v1/path/to/resource
 
 * Especificar campos opcionales como una lista separada por coma.
 
@@ -99,33 +99,33 @@ De ninguna forma se debe traducir lo que DEBE estar en inglés. A continuación 
 XML: Content-Type: application/xml
 JSON: Content-Type: application/json; charset=utf-8
 
-* El formato DEBE ser: api/v2.0/resource/{id}
+* El formato DEBE ser: api/v2/resource/{id}
 
 ### Ejemplos válidos de URLs
 
 * Lista de artículos:
 
-  * GET http://www.ejemplo.gob/api/v1.0/articulos
+  * GET http://www.ejemplo.gob/api/v1/articulos
 
 * Filtrando con query string:
 
-  * GET http://www.ejemplo.gob/api/v1.0/articulos?year=2016&sort=desc
+  * GET http://www.ejemplo.gob/api/v1/articulos?year=2016&sort=desc
 
 * Un artículo en formato JSON:
 
-  * GET http://www.ejemplo.gob/api/v1.0/articulos/1234
+  * GET http://www.ejemplo.gob/api/v1/articulos/1234
 
 * Todos los comentarios de un artículo en particular:
 
-  * GET http://www.ejemplo.gob/api/v1.0/articulos/1234/comentarios
+  * GET http://www.ejemplo.gob/api/v1/articulos/1234/comentarios
 
 * Especificar campos opcionales en una lista separada por coma:
 
-  * GET http://www.ejemplo.gob/api/v1.0/articulos/1234?fields=title,body
+  * GET http://www.ejemplo.gob/api/v1/articulos/1234?fields=title,body
 
 * Agregar un comentario a un artículo específico:
 
-  * POST http://ejemplo.gob/api/v1.0/articulos/1234/comentarios
+  * POST http://ejemplo.gob/api/v1/articulos/1234/comentarios
 
 ### Ejemplos NO válidos de URLs
 
@@ -185,7 +185,7 @@ Los verbos HTTP, o métodos, se deben utilizar en el cumplimiento de sus definic
 
 * No usar claves impredecibles. Realizar el *parsing* de una respuesta JSON donde las claves son impredecibles es difícil y genera malestar a los clientes.
 
-* Usa guión_bajo para las claves. Diferentes lenguajes usan diferentes convenciones. JSON usa guión_bajo, no camelCase.
+* Usa camelCase para las claves (por ejemplo, userId, developerMessage). Diferentes lenguajes usan diferentes convenciones. JSON usa camelCase.
 
 Más info en [json.org](http://www.json.org/json-es.html)
 
@@ -233,23 +233,43 @@ Más info en [The 5 laws of API dates and times](http://apiux.com/2013/03/20/5-l
 
 ## Manejo de errores
 
-Las respuestas de errores DEBEN incluir los códigos de estados HTTP, mensaje para el desarrollador, mensaje para el usuario final, código de error interno, enlaces con más información para los desarrolladores. Por ejemplo:
+Las respuestas de errores DEBEN utilizar los códigos de estado HTTP apropiados y devolver un cuerpo JSON estructurado con información clara tanto para el desarrollador como para el usuario final.
+
+### Códigos de estado HTTP recomendados
+
+Utilice los códigos estándar según corresponda a la situación:
+
+#### Éxito (2xx)
+* **200 OK**: La solicitud tuvo éxito.
+* **201 Created**: El recurso se creó exitosamente (respuesta a POST).
+* **204 No Content**: La solicitud se procesó con éxito pero no devuelve contenido (respuesta común en DELETE o PUT/PATCH sin retorno).
+
+#### Error del cliente (4xx)
+* **400 Bad Request**: La solicitud es inválida o los parámetros son incorrectos.
+* **401 Unauthorized**: La solicitud requiere autenticación previa o las credenciales no son válidas.
+* **403 Forbidden**: El cliente no tiene permisos suficientes para acceder al recurso solicitado.
+* **404 Not Found**: El recurso solicitado no existe.
+* **409 Conflict**: La solicitud entra en conflicto con el estado actual del recurso.
+* **422 Unprocessable Entity**: La sintaxis de la solicitud es correcta pero contiene errores semánticos o de validación de datos.
+* **429 Too Many Requests**: Se excedió el límite de peticiones permitido (*rate limiting*).
+
+#### Error del servidor (5xx)
+* **500 Internal Server Error**: Error no esperado en el servidor.
+* **502 Bad Gateway**: Error en la comunicación con un servicio upstream o backend.
+* **503 Service Unavailable**: El servicio no está disponible temporalmente (ej. en mantenimiento).
+
+> [!CAUTION]
+> **Seguridad en respuestas de error:** Por razones de seguridad, las respuestas de error en producción **NUNCA DEBEN exponer trazas de código (*stack traces*)**, consultas a bases de datos o detalles internos de la infraestructura backend.
+
+### Estructura de Respuesta de Error
 
     {
         "status" : 400,
         "developerMessage" : "Detallar una descripción clara del problema. Proveer a los desarrolladores sugerencias de cómo resolver sus problemas.",
         "userMessage" : "Este es el mensaje para el usuario final.",
         "errorCode" : "444444",
-        "moreInfo" : "http://www.ejemplo.gob.ar/developer/path/to/help/for/444444, http://drupal.org/node/444444",
+        "moreInfo" : "http://www.ejemplo.gob.ar/developer/path/to/help/for/444444"
     }
-
-Use estos 3 simples códigos de respuesta indicando (1) éxito, (2) fallo debido a un problema del cliente, (3) fallo debido a un problema del servidor:
-
-1. 200 - OK
-
-2. 400 - Bad Request
-
-3. 500 - Internal Server Error
 
 ## Usar UTF-8
 
@@ -265,17 +285,20 @@ Una API que retorna JSON DEBE usar:
 
 ## Versiones
 
-* Nunca libere la versión de una API sin su número de versión.
+* Toda API DEBE definir una estrategia de versionado clara para garantizar la estabilidad de los consumidores.
 
-* Los números de versión deben abarcar dos niveles de versión: x.x
+* **Versionado SemVer en Documentación**: Siga el esquema de Versionado Semántico (`vX.Y.Z`) para la gestión interna del código y el contrato expuesto en la documentación OpenAPI/Swagger o cabeceras HTTP (`X-API-Version`):
+  * **MAJOR (X)**: Cambios no retrocompatibles en la API.
+  * **MINOR (Y)**: Nueva funcionalidad retrocompatible.
+  * **PATCH (Z)**: Corrección de errores retrocompatible.
 
-* Las versiones DEBEN ser enteros, no decimales, con el prefijo ‘v’.
+* **Versión Mayor en la Ruta URL**: En la ruta de la URL de producción se DEBE incluir únicamente la versión mayor (ejemplo: `/v1/`, `/v2/`). Esto evita romper las URLs de integración ante parches o mejoras menores.
 
-* Dar soporte al menos una versión anterior a la actual.
+* Ejemplos de URLs de API:
+  * **Válido**: `http://ejemplo.gob.ar/api/v1/articulos`, `http://ejemplo.gob.ar/api/v2/articulos`
+  * **No válido** (no incluir versión minor/patch en la ruta URL): `http://ejemplo.gob.ar/api/v1.0.0/articulos`
 
-* Ejemplos:
-Válido: v1.0, v2.1, v3.5
-No válido: v-1.1, v1.2.5, 1.3.3
+* **Soporte de Versiones**: Se debe brindar soporte al menos a la versión mayor anterior previa a su depreciación.
 
 
 ## Límite de registros
@@ -313,7 +336,7 @@ La información sobre los límites de registros y totales disponibles DEBEN ser 
 
 ### GET /articulos
 
-Ejemplo: http://ejemplo.gob/api/v1.0/articulos
+Ejemplo: http://ejemplo.gob/api/v1/articulos
 
 Respuesta:
 
@@ -343,7 +366,7 @@ Respuesta:
 
 ### GET /articulos/[id]
 
-Ejemplo: http://ejemplo.gob/api/v1.0/articulos/[id]
+Ejemplo: http://ejemplo.gob/api/v1/articulos/[id]
 
 Respuesta:
 
@@ -356,7 +379,7 @@ Respuesta:
 
 ### POST /articulos/[id]/comentarios
 
-Ejemplo: Crear – POST http://ejemplo.gob/api/v1.0/articulos/[id]/comentarios
+Ejemplo: Crear – POST http://ejemplo.gob/api/v1/articulos/[id]/comentarios
 
 Cuerpo de la solicitud:
 
@@ -396,33 +419,95 @@ Para APIs existentes que corren sobre HTTP, el primer paso es agregar soporte HT
 
 Luego, evaluar la posibilidad de deshabilitar o redireccionar a peticiones HTTP.
 
-## Claves API
+## Autenticación y Claves API
 
-Es importante que las APIs tengan la forma de poder identificar qué aplicación quiere acceder a los recursos. Para esto se utiliza una clave que va junto con el *request*.
+Es fundamental que las APIs puedan identificar y autenticar a las aplicaciones y usuarios que acceden a los recursos.
 
-Ejemplo API’s de Google:
+> [!WARNING]
+> **Prohibición de Secretos en URL**: Queda estrictamente prohibido transmitir contraseñas, *API keys*, secretos o tokens de acceso a través de la URL o parámetros *query string* (ejemplo prohibido: `?key=YOUR_API_KEY`), ya que quedan expuestos en registros de proxy, servidores y navegadores.
 
-https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY
+### Mecanismos de Autenticación Permitidos
 
-### ¿Por qué es útil?
+Las claves o tokens DEBEN transmitirse únicamente a través de cabeceras HTTP seguras:
 
-* Previene peticiones de usuarios anónimos.
+1. **Cabecera Authorization (Recomendado)**:
+   * Tokens Bearer (OAuth 2.0 / JWT): `Authorization: Bearer <token>`
+   * Claves API en cabecera estándar: `Authorization: Api-Key <key>`
+2. **Cabeceras Personalizadas Seguras**:
+   * `X-API-Key: <key>`
 
-* Previene que datos sensibles sean expuestos.
+### Niveles de Seguridad según la Sensibilidad de la API
 
-* Se puede aplicar *rate limiting *dependiendo el cliente.
+* **Bajo Riesgo / Datos Abiertos Públicos (Nivel 1)**: Uso opcional de API Keys en cabecera HTTP para identificación y control de cuotas (*rate limiting*).
+* **Medio/Alto Riesgo o Datos Sensibles/Registrales (Niveles 2 y 3)**: Requiere autenticación obligatoria mediante OAuth 2.0 / OpenID Connect, mTLS (TLS Mutuo) y/o restricción por lista de IPs autorizadas.
 
-## CORS
+### Almacenamiento Seguro de Tokens
 
-Para que los clientes puedan usar una API desde el front de una aplicación, la API DEBE tener [habilitado CORS](http://enable-cors.org/).
+Un token **NUNCA DEBE guardarse en texto plano** en la base de datos como fuente de verdad.
+* **Hashing Obligatorio (SHA-256)**: Se debe almacenar únicamente el hash **SHA-256** indexado del token (`token_hash`).
+* **Comparación en Tiempo Constante**: Para prevenir ataques de sincronización (*timing attacks*), la verificación del hash en el servidor DEBE realizarse mediante funciones de comparación de tiempo constante (`hash_equals`).
+* **Visualización Única**: El token en claro se DEBE mostrar **una sola vez**, al momento de su generación.
 
-Para el más simple y común caso de uso, donde toda la API entera deba ser accesible desde el navegador, habilitar CORS es tan simple como incluir esta cabecera HTTP en todas las respuestas:
+### Entropía y Prefijos para Secret-Scanning
 
-    Access-Control-Allow-Origin: *
+* **Generación Segura**: Los tokens DEBEN generarse utilizando generadores de números aleatorios criptográficamente seguros (CSPRNG) con al menos **256 bits de entropía** (mínimo 43 caracteres aleatorios base62).
+* **Prefijos de Sistema**: El token DEBE incluir un **prefijo público por sistema** (ejemplo: `mun_` para sistema Mundial, `arg_` para Argentina.gob.ar). Esto permite activar herramientas de escaneo automático de secretos (*secret-scanning*) en repositorios Git y pipelines de CI/CD para revocar tokens expuestos accidentalmente.
 
-Esto tiene soporte por todos los [navegadores modernos](http://enable-cors.org/client.html) y simplemente funciona en todos los clientes JavaScript, como jQuery.
+### Prevención de Enumeración de Credenciales
 
-Para una configuración más avanzada, ver la [especificación de W3C](https://www.w3.org/TR/cors/) o la [guía de Mozilla](https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS).
+Las respuestas `401 Unauthorized` DEBEN ser genéricas y no deben especificar si el problema fue "token inexistente", "token vencido" o "cliente inactivo", evitando que atacantes enumeren identificadores válidos.
+
+## Permisos Granulares (Abilities / Scopes)
+
+Para garantizar el principio de mínimo privilegio en APIs autenticadas:
+
+* **Formato Estándar**: Los permisos DEBEN definirse con la sintaxis **`recurso:accion`** en minúsculas (ejemplos: `articulos:read`, `tramites:write`, `usuarios:delete`).
+* **Acciones Estándar**: Las acciones permitidas son: `read`, `write`, `delete`, `admin`.
+* **Regla por Endpoint**: Cada endpoint DEBE requerir **exactamente una *ability***.
+* **Respuesta 403 con Detalle de Permiso**: Si un token no posee la *ability* requerida para el endpoint, la API DEBE responder **HTTP 403 Forbidden** e incluir en el JSON de error el permiso faltante:
+
+```json
+{
+    "message": "El token no posee la habilidad requerida para realizar esta acción",
+    "required": "articulos:write"
+}
+```
+
+## Identificación del Cliente (Cabecera X-Client-Agent)
+
+Para evitar la falta de información de los `User-Agent` genéricos de clientes HTTP en aplicaciones móviles o de escritorio, los consumidores DEBERÍAN enviar la cabecera personalizada **`X-Client-Agent`** con el siguiente formato:
+
+```http
+X-Client-Agent: <NombreApp>/<version> <SO>/<versionSO> <dispositivo>
+```
+*Ejemplo:* `MiArgentina/2.4.1 iOS/17.5 iPhone14,3`
+
+Esto permite a los sistemas receptores clasificar el tráfico por plataforma (`ios`, `android`, `web`, `desktop`, `bot`) y versión en sus registros de auditoría.
+
+## Trazabilidad y Logging de Llamadas
+
+* **Logging Pre-Autenticación**: El registro de auditoría de llamadas (*api_call_logs*) DEBE capturar **toda** petición entrante **antes** de la evaluación del middleware de autenticación, asegurando que las llamadas rechazadas (401, 403, 429) también queden registradas.
+* **Minimización de Datos y Secretos**: **NUNCA** se deben guardar en los registros de auditoría el token, la cabecera `Authorization` completa ni cuerpos JSON con datos personales sensibles o contraseñas.
+* **Inmutabilidad y Retención**: Los registros de llamadas DEBEN ser inmutables (sin modificación posterior) y DEBEN contar con un proceso de retención automatizado (diario) con un plazo recomendado de **90 días**, luego del cual los registros antiguos se depuran.
+
+## CORS (Cross-Origin Resource Sharing)
+
+Para permitir el consumo de APIs desde aplicaciones web en el navegador, se deben definir políticas CORS acordes a la sensibilidad de la API.
+
+### Políticas CORS por Nivel de Seguridad
+
+1. **APIs Públicas de Datos Abiertos (Nivel 1)**:
+   Para APIs de consulta pública no autenticadas (ej. catálogos públicos, datos abiertos), se permite y recomienda habilitar origen universal:
+   ```http
+   Access-Control-Allow-Origin: *
+   ```
+
+2. **APIs con Datos Personales, Registrales o Sensibles (Niveles 2 y 3)**:
+   Queda estrictamente prohibido utilizar `Access-Control-Allow-Origin: *`. Se debe:
+   * Restringir el origen mediante una lista blanca (*whitelist*) explícita de dominios autorizados de la APN (ej. `Access-Control-Allow-Origin: https://tramites.gob.ar`).
+   * Para integraciones exclusivamente servidor a servidor (*backend-to-backend*), se deben deshabilitar las cabeceras CORS para evitar consumo directo desde navegadores cliente.
+
+Para más detalles de configuración, consultar la [especificación de W3C](https://www.w3.org/TR/cors/) o la [guía de Mozilla sobre CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS).
 
 ## Documentación
 
@@ -439,3 +524,4 @@ Estas son algunas de las herramientas que recomendamos usar:
 * [White House Web API Standards](https://github.com/WhiteHouse/api-standards)
 * [18F API Standards](https://github.com/18F/api-standards)
 * [Best Practices for Designing a Pragmatic RESTful API](http://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api)
+
