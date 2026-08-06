@@ -40,6 +40,8 @@ El estilo de comunicación de los sitios debe ser cercano al ciudadano, con leng
 
 * Todos los sitios con servicios para el ciudadano que cuenten con un registro de usuarios, deben usar el sistema de login de [Mi Argentina (ID)](https://argob.github.io/mi-argentina-docs/).
 
+* En caso de requerir la publicación o inclusión de un mapa de la República Argentina en el sitio web institucional, se deben utilizar obligatoriamente los mapas base del servicio **ARGENMAP**, desarrollado por el Instituto Geográfico Nacional (IGN), de conformidad con la [Decisión Administrativa 797/2022](https://www.argentina.gob.ar/normativa/nacional/decisi%C3%B3n_administrativa-797-2022-369686/texto).
+
 * Los sitios deben ser responsive para poder adaptarse y poder ser navegables desde diversos dispositivos como por ejemplo celulares.
 
 * Todos los sitios y aplicaciones deberán contar con un mínimo de documentación necesaria para ser instalados en diferentes entornos.

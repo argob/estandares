@@ -192,6 +192,9 @@ La **Infraestructura de Datos Espaciales de la República Argentina** (IDERA) es
 | **Interoperabilidad** | Estándares abiertos, metadatos según perfil IDERA |
 | **Propiedad** | Del organismo que produce la información |
 
+### Mapas base obligatorios: ARGENMAP (IGN)
+De conformidad con la **Decisión Administrativa 797/2022**, todas las jurisdicciones, entidades y organismos del Sector Público Nacional (art. 8 incisos a y b de la Ley 24.156) que requieran publicar un mapa de la República Argentina en sus sitios web institucionales deben utilizar **obligatoriamente** los mapas base del servicio **ARGENMAP**, desarrollado por el **Instituto Geográfico Nacional (IGN)**.
+
 ### Formatos recomendados para publicación
 - Información vectorial: **WFS (Web Feature Service)**
 - Información raster: **WCS (Web Coverage Service)**
@@ -294,7 +297,8 @@ Si Q(%) < umbral definido en el diseño → se supera el ciclo de testing.
 ---
 
 
-complementarias
+## Normativa y referencias complementarias
+- Decisión Administrativa 797/2022 — Uso obligatorio de mapas base del servicio ARGENMAP (IGN) para publicación de mapas web.
 - Disposición ONTI 1/2021 — Guía para la incorporación de nuevas tecnologías en el SPN.
 - Ley 26.653 — Accesibilidad de la información en las páginas web.
 - NIST SP 800-145 — Definición de Cloud Computing.
