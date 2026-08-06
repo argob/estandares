@@ -116,6 +116,18 @@ Uso recomendado:
 
 Referencia: <https://www.argentina.gob.ar/normativa/nacional/disposici%C3%B3n-1-2022-374615/texto>
 
+### Decisión Administrativa 797/2022
+
+Establece la obligatoriedad para las jurisdicciones, entidades y organismos del Sector Público Nacional (comprendidos en los incisos a y b del artículo 8° de la Ley N° 24.156) de utilizar los mapas base del servicio ARGENMAP, desarrollado por el Instituto Geográfico Nacional (IGN), cuando requieran publicar mapas de la República Argentina en sus sitios web institucionales.
+
+Uso recomendado:
+
+- Publicación de mapas web institucionales y componentes cartográficos en sitios oficiales.
+- Geolocalización de dependencias, servicios y trámites en territorio nacional.
+- Estandarización de representación territorial oficial de la República Argentina (continental, insular y antártico).
+
+Referencia: <https://www.argentina.gob.ar/normativa/nacional/decisi%C3%B3n_administrativa-797-2022-369686/texto>
+
 ### Decreto 269/2026
 
 Actualiza competencias institucionales vinculadas con innovación, ciencia y tecnología. Es una referencia de contexto para marcos regulatorios asociados a inteligencia artificial, gobernanza de datos, tecnologías emergentes y software abierto.

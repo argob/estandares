@@ -39,6 +39,8 @@ Poncho es la librería de estilos y componentes para diseñar y desarrollar siti
 
 * **Headers y footers:** Los headers de sitios externos a argentina.gob.ar deben tener el título del sitio en la esquina superior izquierda, como se muestra en esta plantilla: https://argob.github.io/poncho/plantillas/headers-y-footers/header-footer-v1.html
 
+* **Mapas e Información Geográfica:** Para la inclusión y representación cartográfica de mapas de la República Argentina, se deben utilizar obligatoriamente los mapas base oficiales del servicio **ARGENMAP**, desarrollado por el Instituto Geográfico Nacional (IGN), asegurando coherencia visual e identidad oficial ([Decisión Administrativa 797/2022](https://www.argentina.gob.ar/normativa/nacional/decisi%C3%B3n_administrativa-797-2022-369686/texto)).
+
 ### **Uso de Poncho para aplicaciones móviles**
 
 Las aplicaciones móviles tanto para Android como para iOS usan la identidad de Poncho (colores e íconos) pero según el sistema operativo usan diferentes tipografías, componentes y patrones de uso:

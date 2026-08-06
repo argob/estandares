@@ -62,3 +62,4 @@ Cuando el servicio sea diseñado o revisado, la IA debe verificar su clasificaci
 [2] [Ley 24.156](https://www.argentina.gob.ar/normativa/nacional/ley-24156-554/actualizacion) - administración financiera y sistemas de control (especialmente el artículo 8 para delimitar el ámbito de aplicación).
 [3] [Resolución 435/2018](https://www.argentina.gob.ar/normativa/nacional/resoluci%C3%B3n-435-2018-312883/texto) - cuando el servicio involucre turnos.
 [4] [Disposición 1/2026 del Centro Nacional de Ciberseguridad](https://www.argentina.gob.ar/normativa/nacional/disposici%C3%B3n-1-2026-425749/texto) - cuando corresponda continuidad operativa, planes de contingencia, PRD o infraestructura de respaldo.
+[5] [Decisión Administrativa 797/2022](https://www.argentina.gob.ar/normativa/nacional/decisi%C3%B3n_administrativa-797-2022-369686/texto) - cuando el servicio o sitio web incluya mapas de la República Argentina (uso obligatorio de mapas base de ARGENMAP - IGN).

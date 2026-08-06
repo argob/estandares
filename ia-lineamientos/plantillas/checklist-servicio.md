@@ -40,6 +40,7 @@ type: Plantilla
 - [ ] Los formularios tienen labels.
 - [ ] Los errores son accesibles.
 - [ ] Imágenes, mapas o gráficos tienen alternativa.
+- [ ] Si se incluye un mapa de la República Argentina, se utilizan los mapas base obligatorios del servicio ARGENMAP (IGN) (DA 797/2022).
 
 ## Seguridad y privacidad
 

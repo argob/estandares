@@ -31,6 +31,7 @@
 * [Disposición ONTI 6/2019](https://www.argentina.gob.ar/normativa/nacional/disposici%C3%B3n-6-2019-329284/texto): Pautas de Accesibilidad de Contenido Web 2.0.
 * [Resolución 333/2017](https://www.argentina.gob.ar/normativa/nacional/resoluci%C3%B3n-333-2017-276568/texto): Estándares de sitios web y aplicaciones móviles.
 * [Decisión Administrativa 5/2021](https://www.argentina.gob.ar/normativa/nacional/decisi%C3%B3n_administrativa-5-2021-346414/texto): Inventario Nacional de Bienes Informáticos y Servicios Tecnológicos.
+* [Decisión Administrativa 797/2022](https://www.argentina.gob.ar/normativa/nacional/decisi%C3%B3n_administrativa-797-2022-369686/texto): Uso obligatorio de mapas base de ARGENMAP (IGN) para publicación de mapas de la República Argentina.
 
 Para el listado completo y criterios de uso por parte de herramientas de IA, podés consultar el [Marco normativo de referencia para IA](ia-lineamientos/marco-normativo.md).
 
