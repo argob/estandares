@@ -41,6 +41,20 @@ Uso recomendado:
 
 Referencia: <https://www.argentina.gob.ar/normativa/nacional/ley-24156-554/actualizacion>
 
+### Ley 25.506
+
+Establece el régimen legal de la Firma Digital, la Firma Electrónica y el Documento Digital en la República Argentina, reconociendo su eficacia jurídica, equivalencia funcional con la firma manuscrita y valor probatorio como originales.
+
+Uso recomendado:
+
+- Desmaterialización de trámites y validez legal de documentos digitales.
+- Firma de certificados, constancias y documentos generados automáticamente por sistemas y APIs (certificados de aplicación).
+- Diferenciación técnica y legal entre firma electrónica y firma digital.
+- Conservación, integridad y no repudio de registros digitales.
+
+Referencia: <https://www.argentina.gob.ar/normativa/nacional/norma-70749/actualizacion>
+
+
 ### Resolución 333/2017
 
 Aprueba estándares de sitios web y aplicaciones móviles para organismos del Sector Público Nacional. Es antecedente directo de varios documentos originales del repositorio.
