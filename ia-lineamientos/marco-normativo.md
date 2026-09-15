@@ -164,6 +164,19 @@ Relacionada con el Sistema Nacional de Turnos. Es útil para servicios que combi
 
 Referencia: <https://www.argentina.gob.ar/normativa/nacional/resoluci%C3%B3n-435-2018-312883/texto>
 
+### Decreto 996/2018
+
+Aprueba las bases para la "Agenda Digital Argentina" y define los ejes estratégicos nacionales de transformación digital, gobierno digital e interoperabilidad.
+
+Uso recomendado:
+
+- Sustento estratégico de la gobernanza digital y el modelo de "Gobierno como Plataforma".
+- Respaldo del principio de simplificación y de solicitar la información una sola vez (*once-only*).
+- Principios de interoperabilidad y plataformas unificadas para el Sector Público Nacional.
+
+Referencia: <https://www.argentina.gob.ar/normativa/nacional/norma-316036/texto>
+
+
 ### Disposición 24/2019
 
 Relacionada con repositorios de código abierto. Es útil para reutilización, colaboración y transparencia técnica.
