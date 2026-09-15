@@ -26,6 +26,7 @@
 ## Marco Normativo
 
 * [Decreto 87/2017](https://www.argentina.gob.ar/normativa/nacional/decreto-87-2017-271486/actualizacion): Plataforma Digital del Sector Público Nacional.
+* [Ley 25.506](https://www.argentina.gob.ar/normativa/nacional/norma-70749/actualizacion): Régimen legal de Firma Digital, Firma Electrónica y Documento Digital.
 * [Ley 26.653](https://www.argentina.gob.ar/normativa/nacional/ley-26653-175694/texto): Accesibilidad de la Información en las Páginas Web.
 * [Decreto 656/2019](https://www.argentina.gob.ar/normativa/nacional/decreto-656-2019-328722/texto): Reglamentación de la Ley 26.653.
 * [Disposición ONTI 6/2019](https://www.argentina.gob.ar/normativa/nacional/disposici%C3%B3n-6-2019-329284/texto): Pautas de Accesibilidad de Contenido Web 2.0.

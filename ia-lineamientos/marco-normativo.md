@@ -41,6 +41,20 @@ Uso recomendado:
 
 Referencia: <https://www.argentina.gob.ar/normativa/nacional/ley-24156-554/actualizacion>
 
+### Ley 25.506
+
+Establece el régimen legal de la Firma Digital, la Firma Electrónica y el Documento Digital en la República Argentina, reconociendo su eficacia jurídica, equivalencia funcional con la firma manuscrita y valor probatorio como originales.
+
+Uso recomendado:
+
+- Desmaterialización de trámites y validez legal de documentos digitales.
+- Firma de certificados, constancias y documentos generados automáticamente por sistemas y APIs (certificados de aplicación).
+- Diferenciación técnica y legal entre firma electrónica y firma digital.
+- Conservación, integridad y no repudio de registros digitales.
+
+Referencia: <https://www.argentina.gob.ar/normativa/nacional/norma-70749/actualizacion>
+
+
 ### Resolución 333/2017
 
 Aprueba estándares de sitios web y aplicaciones móviles para organismos del Sector Público Nacional. Es antecedente directo de varios documentos originales del repositorio.
@@ -163,6 +177,19 @@ Referencia: <https://www.argentina.gob.ar/normativa/nacional/disposici%C3%B3n-1-
 Relacionada con el Sistema Nacional de Turnos. Es útil para servicios que combinan canales digitales y atención presencial.
 
 Referencia: <https://www.argentina.gob.ar/normativa/nacional/resoluci%C3%B3n-435-2018-312883/texto>
+
+### Decreto 996/2018
+
+Aprueba las bases para la "Agenda Digital Argentina" y define los ejes estratégicos nacionales de transformación digital, gobierno digital e interoperabilidad.
+
+Uso recomendado:
+
+- Sustento estratégico de la gobernanza digital y el modelo de "Gobierno como Plataforma".
+- Respaldo del principio de simplificación y de solicitar la información una sola vez (*once-only*).
+- Principios de interoperabilidad y plataformas unificadas para el Sector Público Nacional.
+
+Referencia: <https://www.argentina.gob.ar/normativa/nacional/norma-316036/texto>
+
 
 ### Disposición 24/2019
 
